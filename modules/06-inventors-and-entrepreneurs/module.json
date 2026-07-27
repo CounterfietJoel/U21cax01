@@ -1,0 +1,49 @@
+{
+  "number": 6,
+  "section": "I.6",
+  "title": "Inventors and Entrepreneurs",
+  "learning_outcome": "Differentiate between inventors and entrepreneurs.",
+  "alignment": {
+    "course_outcome": "CO1 - Discuss the fundamentals of entrepreneurship",
+    "rbt_level": "K2 - Understand"
+  },
+  "estimated_time": "4–6 minutes",
+  "template": "simple_accordion",
+  "template_credit": "Simple Accordion interaction template by Montse Anderson, elearningdesigner.com",
+  "palette": {
+    "name": "Invention Bridge",
+    "background": "F3F7FA",
+    "ink": "253238",
+    "primary": "2D6CDF",
+    "secondary": "3EC6E0",
+    "accent": "FFD166",
+    "support": "E85D75",
+    "muted": "DDE6F3"
+  },
+  "illustration": {
+    "file": "m06-invention-bridge.png",
+    "subject": "A split scene with an inventor refining a carbon-conversion prototype in a laboratory and an entrepreneur connecting it to industrial customers, operations and delivery across a bridge",
+    "composition": "Two contrasting halves joined by a bright validation bridge",
+    "style": "Blueprint-meets-editorial illustration with precise equipment and energetic market-side motion"
+  },
+  "case": "Case connection: Breathe Applied Sciences demonstrates that technical novelty must be joined to cost, industrial-process, customer and regulatory clarity.",
+  "misconception": "Common mistake: Assuming every inventor is an entrepreneur, every entrepreneur must invent, or a patent proves market value.",
+  "application": "For a patented engineering device, list one technical, customer, economic and delivery question that must be validated.",
+  "sources": [
+    {
+      "source": "U21CAX01_EDS_Study_Material_Textbook_Edition_Concept_Expanded.docx",
+      "locator": "Unit I, I.6 Inventors and entrepreneurs",
+      "use": "Role distinction, validation bridge and Breathe Applied Sciences case"
+    },
+    {
+      "source": "Startup and New Venture Management, Aurangabadkar and Singh",
+      "locator": "Chapter 1",
+      "use": "Entrepreneur and enterprise functions"
+    },
+    {
+      "source": "Launching New Ventures: An Entrepreneurial Approach, Kathleen R. Allen",
+      "locator": "Opportunity and new-venture organisation",
+      "use": "Commercialisation-system framing"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "course": {
+    "code": "U21CAX01",
+    "title": "Entrepreneurship Development and Startup",
+    "unit": "Unit I - Entrepreneurship",
+    "institution": "KPR Institute of Engineering and Technology",
+    "audience": "Fifth-semester B.E. open-elective students",
+    "course_outcome": "CO1 - Discuss the fundamentals of entrepreneurship",
+    "rbt_level": "K2 - Understand",
+    "site_title": "Venture Lab: Idea to Impact",
+    "site_subtitle": "Nine interactive explorations of entrepreneurship fundamentals"
+  },
+  "module_count": 9,
+  "modules": [
+    {
+      "number": 1,
+      "slug": "01-concept-of-entrepreneurship",
+      "index": "modules/01-concept-of-entrepreneurship/index.html",
+      "storyline_launch": "modules/01-concept-of-entrepreneurship/story.html",
+      "storyline_published": true,
+      "palette": "Opportunity Sunrise",
+      "illustration": "m01-opportunity-engine.png",
+      "illustration_sha256": "6a60ec52ba11b150b5473ea982a3eb9d58dcb20b4e7fe1de158d6406d8717241"
+    },
+    {
+      "number": 2,
+      "slug": "02-characteristics-of-entrepreneurship",
+      "index": "modules/02-characteristics-of-entrepreneurship/index.html",
+      "storyline_launch": "modules/02-characteristics-of-entrepreneurship/story.html",
+      "storyline_published": true,
+      "palette": "Founder Energy",
+      "illustration": "m02-founder-capabilities.png",
+      "illustration_sha256": "a08df4b8a9e2c215a042419454490039868ef06c2b268f4c66503b545ffbe22e"
+    },
+    {
+      "number": 3,
+      "slug": "03-types-of-entrepreneurship",
+      "index": "modules/03-types-of-entrepreneurship/index.html",
+      "storyline_launch": "modules/03-types-of-entrepreneurship/story.html",
+      "storyline_published": true,
+      "palette": "Entrepreneur Spectrum",
+      "illustration": "m03-entrepreneur-spectrum.png",
+      "illustration_sha256": "f86220a73c9cf782146b574c20dc120d5100a7f2a84bad7c0f55ef00ebdd0279"
+    },
+    {
+      "number": 4,
+      "slug": "04-factors-affecting-entrepreneurs",
+      "index": "modules/04-factors-affecting-entrepreneurs/index.html",
+      "storyline_launch": "modules/04-factors-affecting-entrepreneurs/story.html",
+      "storyline_published": true,
+      "palette": "Ecosystem Forces",
+      "illustration": "m04-ecosystem-forces.png",
+      "illustration_sha256": "1feffcd8bceb240607f4de2ffd08a381b7dd54172d31e07607ca7cf2abc1f85f"
+    },
+    {
+      "number": 5,
+      "slug": "05-entrepreneurship-mindset",
+      "index": "modules/05-entrepreneurship-mindset/index.html",
+      "storyline_launch": "modules/05-entrepreneurship-mindset/story.html",
+      "storyline_published": true,
+      "palette": "Mindset Lab",
+      "illustration": "m05-mindset-lab.png",
+      "illustration_sha256": "79ab741b35a9abab0092bc523e6863a4716ccf1c8c0e9c0c4fc3c3b97ca7d831"
+    },
+    {
+      "number": 6,
+      "slug": "06-inventors-and-entrepreneurs",
+      "index": "modules/06-inventors-and-entrepreneurs/index.html",
+      "storyline_launch": "modules/06-inventors-and-entrepreneurs/story.html",
+      "storyline_published": true,
+      "palette": "Invention Bridge",
+      "illustration": "m06-invention-bridge.png",
+      "illustration_sha256": "cae21b4a1e4d758d163ca753611f698dcce6537ba86aeb248de6049e7a69e3a4"
+    },
+    {
+      "number": 7,
+      "slug": "07-companies-and-startups",
+      "index": "modules/07-companies-and-startups/index.html",
+      "storyline_launch": "modules/07-companies-and-startups/story.html",
+      "storyline_published": true,
+      "palette": "Scale and Structure",
+      "illustration": "m07-company-startup.png",
+      "illustration_sha256": "5428b0fd3ec707f45f0c49ae04a27152d444b3f3d13ddde85795a5d6d14443e7"
+    },
+    {
+      "number": 8,
+      "slug": "08-entrepreneurial-environment-and-growth",
+      "index": "modules/08-entrepreneurial-environment-and-growth/index.html",
+      "storyline_launch": "modules/08-entrepreneurial-environment-and-growth/story.html",
+      "storyline_published": true,
+      "palette": "Growth Network",
+      "illustration": "m08-growth-network.png",
+      "illustration_sha256": "2c997b112412b26ab1b3006bc8e75c9b66096c26bddafdfdc428921cc4414090"
+    },
+    {
+      "number": 9,
+      "slug": "09-entrepreneurship-economic-development",
+      "index": "modules/09-entrepreneurship-economic-development/index.html",
+      "storyline_launch": "modules/09-entrepreneurship-economic-development/story.html",
+      "storyline_published": true,
+      "palette": "Impact Economy",
+      "illustration": "m09-economic-ripples.png",
+      "illustration_sha256": "8b502955ded3150e0523b48aaf0bf77325fd20c29ff63cd23e13d5c90202c663"
+    }
+  ],
+  "tracking": false,
+  "analytics": false,
+  "authentication": false
+}

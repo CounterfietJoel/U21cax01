@@ -1,0 +1,49 @@
+{
+  "number": 7,
+  "section": "I.7",
+  "title": "Companies and Startups",
+  "learning_outcome": "Differentiate established companies and startups.",
+  "alignment": {
+    "course_outcome": "CO1 - Discuss the fundamentals of entrepreneurship",
+    "rbt_level": "K2 - Understand"
+  },
+  "estimated_time": "4–6 minutes",
+  "template": "number_tabs",
+  "template_credit": "Numbered tabs interaction template by Angelica Serratos Moreno",
+  "palette": {
+    "name": "Scale and Structure",
+    "background": "FAF1E6",
+    "ink": "3C2831",
+    "primary": "5A2333",
+    "secondary": "C65D7B",
+    "accent": "D88742",
+    "support": "3E5366",
+    "muted": "E8D9D2"
+  },
+  "illustration": {
+    "file": "m07-company-startup.png",
+    "subject": "A stable established company operating a calibrated production system contrasted with a startup running rapid prototype and customer experiments",
+    "composition": "Architectural split-screen with ordered grid on one side and iterative path on the other",
+    "style": "Sophisticated editorial cutaway illustration using copper, burgundy and slate"
+  },
+  "case": "Case connection: Quixy from Vividminds is useful for contrasting a repeatable, scalable platform search with a conventional service firm's operating model.",
+  "misconception": "Common mistake: Defining a startup as any recently registered, technology-using or small company.",
+  "application": "Classify one local organisation as an established company, startup or small business and support the decision using uncertainty and scalability.",
+  "sources": [
+    {
+      "source": "U21CAX01_EDS_Study_Material_Textbook_Edition_Concept_Expanded.docx",
+      "locator": "Unit I, I.7 Companies and startups",
+      "use": "Execution-versus-search distinction, small-business clarification and case"
+    },
+    {
+      "source": "Launching New Ventures: An Entrepreneurial Approach, Kathleen R. Allen",
+      "locator": "New-venture process and organisation",
+      "use": "Venture uncertainty and organisational development"
+    },
+    {
+      "source": "Startup and New Venture Management, Aurangabadkar and Singh",
+      "locator": "Chapter 1",
+      "use": "New-venture and enterprise framing"
+    }
+  ]
+}

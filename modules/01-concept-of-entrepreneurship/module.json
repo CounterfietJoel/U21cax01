@@ -1,0 +1,49 @@
+{
+  "number": 1,
+  "section": "I.1",
+  "title": "Concept of Entrepreneurship",
+  "learning_outcome": "Explain the concept and scope of entrepreneurship.",
+  "alignment": {
+    "course_outcome": "CO1 - Discuss the fundamentals of entrepreneurship",
+    "rbt_level": "K2 - Understand"
+  },
+  "estimated_time": "4–6 minutes",
+  "template": "tabcordion",
+  "template_credit": "Tabcordion interaction template by Montse Anderson, elearningdesigner.com",
+  "palette": {
+    "name": "Opportunity Sunrise",
+    "background": "FFF7E8",
+    "ink": "102A43",
+    "primary": "0B6E75",
+    "secondary": "F4B942",
+    "accent": "F26B5E",
+    "support": "2A9D8F",
+    "muted": "DCE8E5"
+  },
+  "illustration": {
+    "file": "m01-opportunity-engine.png",
+    "subject": "An engineering student moving an idea through a prototype, customer conversation, resource assembly and value-delivery pathway",
+    "composition": "A rising left-to-right journey with a warm sunrise focal point and generous negative space",
+    "style": "Editorial flat illustration with subtle paper texture and crisp geometric forms"
+  },
+  "case": "Case connection: The Indian startup ecosystem shows that founders operate through customers, mentors, institutions, finance, policy and supply networks—not as isolated individuals.",
+  "misconception": "Common mistake: Treating every invention, project or newly registered firm as entrepreneurship without evidence of opportunity and value creation.",
+  "application": "Choose a student engineering project and identify its user, problem evidence, riskiest assumption and intended value.",
+  "sources": [
+    {
+      "source": "U21CAX01_EDS_Study_Material_Textbook_Edition_Concept_Expanded.docx",
+      "locator": "Unit I, I.1 Concept of entrepreneurship and Entrepreneurial judgement under uncertainty",
+      "use": "Core definition, engineering framing and evidence-led action"
+    },
+    {
+      "source": "Startup and New Venture Management, Aurangabadkar and Singh",
+      "locator": "Chapter 1",
+      "use": "Entrepreneur, entrepreneurship and entrepreneurial-process framing"
+    },
+    {
+      "source": "Launching New Ventures: An Entrepreneurial Approach, Kathleen R. Allen",
+      "locator": "New-venture system and opportunity-process discussion",
+      "use": "Opportunity, resources, environment and venture-organisation system"
+    }
+  ]
+}

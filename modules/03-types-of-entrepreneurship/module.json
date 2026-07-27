@@ -1,0 +1,49 @@
+{
+  "number": 3,
+  "section": "I.3",
+  "title": "Types of Entrepreneurship",
+  "learning_outcome": "Classify entrepreneurship types with examples.",
+  "alignment": {
+    "course_outcome": "CO1 - Discuss the fundamentals of entrepreneurship",
+    "rbt_level": "K2 - Understand"
+  },
+  "estimated_time": "4–6 minutes",
+  "template": "sidebar_tabs",
+  "template_credit": "Sidebar tabs interaction template by David",
+  "palette": {
+    "name": "Entrepreneur Spectrum",
+    "background": "F6F7FB",
+    "ink": "17245A",
+    "primary": "243B80",
+    "secondary": "2AB7CA",
+    "accent": "A7C957",
+    "support": "F4C95D",
+    "muted": "DCE5F4"
+  },
+  "illustration": {
+    "file": "m03-entrepreneur-spectrum.png",
+    "subject": "Five distinct entrepreneur archetypes positioned along a spectrum from pioneering change to resisting change, with a modern social-technology venture at the end",
+    "composition": "Horizontal character and venture spectrum with varied postures and tools, no written labels",
+    "style": "Colour-block editorial character illustration with clean silhouettes and technical details"
+  },
+  "case": "Case connection: Greenviro Global can be discussed as innovative, environmentally oriented and locally grounded; one venture may fit more than one defensible classification.",
+  "misconception": "Common mistake: Treating entrepreneur types as permanent personality labels or assuming imitative entrepreneurship has no innovation.",
+  "application": "Classify a local service or manufacturing venture using both a functional type and a modern form.",
+  "sources": [
+    {
+      "source": "U21CAX01_EDS_Study_Material_Textbook_Edition_Concept_Expanded.docx",
+      "locator": "Unit I, I.3 Types of entrepreneurship",
+      "use": "Functional and modern classifications, case and cautions"
+    },
+    {
+      "source": "Startup and New Venture Management, Aurangabadkar and Singh",
+      "locator": "Chapter 1",
+      "use": "Innovative, imitative, Fabian and drone classifications"
+    },
+    {
+      "source": "Entrepreneurship Development and Small Business Enterprises, Poornima M. Charantimath",
+      "locator": "Entrepreneur types and small-enterprise context",
+      "use": "Activity- and ownership-based classifications"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "number": 8,
+  "section": "I.8",
+  "title": "Entrepreneurial Environment and Growth",
+  "learning_outcome": "Describe entrepreneurial environment and growth factors.",
+  "alignment": {
+    "course_outcome": "CO1 - Discuss the fundamentals of entrepreneurship",
+    "rbt_level": "K2 - Understand"
+  },
+  "estimated_time": "4–6 minutes",
+  "template": "sidebar_tabs",
+  "template_credit": "Sidebar tabs interaction template by David",
+  "palette": {
+    "name": "Growth Network",
+    "background": "F4F1DE",
+    "ink": "153E3A",
+    "primary": "1D5B55",
+    "secondary": "2A9D8F",
+    "accent": "457B9D",
+    "support": "E76F51",
+    "muted": "DDE8DF"
+  },
+  "illustration": {
+    "file": "m08-growth-network.png",
+    "subject": "A venture ecosystem map connecting a startup with customers, university laboratory, incubator, bank, investor, supplier, public agency and talent network",
+    "composition": "Radial network map with a strong central venture and visibly different node types",
+    "style": "Layered systems-map illustration with hand-drawn connectors and subtle landscape context"
+  },
+  "case": "Case connection: The National Startup Awards 2023 resource-pack snapshot can be used qualitatively to discuss district diffusion, women-led ventures, policy simplification and sectoral innovation without relying on undated statistics.",
+  "misconception": "Common mistake: Treating growth as revenue increase alone or assuming that more ecosystem organisations automatically remove venture bottlenecks.",
+  "application": "Draw a five-node ecosystem for a campus venture and identify the relationship that needs evidence before growth.",
+  "sources": [
+    {
+      "source": "U21CAX01_EDS_Study_Material_Textbook_Edition_Concept_Expanded.docx",
+      "locator": "Unit I, I.8 Entrepreneurial environment and growth and Venture as an operating system",
+      "use": "Environment levels, ecosystem, growth engine and four-flow bottleneck view"
+    },
+    {
+      "source": "Launching New Ventures: An Entrepreneurial Approach, Kathleen R. Allen",
+      "locator": "New-venture system",
+      "use": "Environment, founding team, venture concept and organisation"
+    },
+    {
+      "source": "Startup and New Venture Management, Aurangabadkar and Singh",
+      "locator": "Chapter 1",
+      "use": "Entrepreneurial growth and environment"
+    }
+  ]
+}

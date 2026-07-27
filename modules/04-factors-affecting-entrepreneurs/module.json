@@ -1,0 +1,49 @@
+{
+  "number": 4,
+  "section": "I.4",
+  "title": "Factors Affecting Entrepreneurs",
+  "learning_outcome": "Identify factors influencing entrepreneurial success.",
+  "alignment": {
+    "course_outcome": "CO1 - Discuss the fundamentals of entrepreneurship",
+    "rbt_level": "K2 - Understand"
+  },
+  "estimated_time": "4–6 minutes",
+  "template": "number_tabs",
+  "template_credit": "Numbered tabs interaction template by Angelica Serratos Moreno",
+  "palette": {
+    "name": "Ecosystem Forces",
+    "background": "F7F3E8",
+    "ink": "173B32",
+    "primary": "174C3C",
+    "secondary": "6A994E",
+    "accent": "E9C46A",
+    "support": "D96C4A",
+    "muted": "DDE8D8"
+  },
+  "illustration": {
+    "file": "m04-ecosystem-forces.png",
+    "subject": "A founder at the centre of four interconnected forces: capital and market, family and community, confidence and learning, policy and institutional support",
+    "composition": "Circular ecosystem wheel with four visually distinct quadrants",
+    "style": "Organic systems illustration with botanical geometry and warm material textures"
+  },
+  "case": "Case connection: A technically sound campus product may still stall when testing facilities, early customers, working capital or regulatory guidance are unavailable.",
+  "misconception": "Common mistake: Blaming failure on personality alone or assuming a government scheme automatically creates entrepreneurial capability.",
+  "application": "Map one proposed venture against the four factor groups and identify the single most limiting constraint.",
+  "sources": [
+    {
+      "source": "U21CAX01_EDS_Study_Material_Textbook_Edition_Concept_Expanded.docx",
+      "locator": "Unit I, I.4 Factors affecting entrepreneurs",
+      "use": "Four-factor framework and government-action examples"
+    },
+    {
+      "source": "Startup and New Venture Management, Aurangabadkar and Singh",
+      "locator": "Chapter 1",
+      "use": "Entrepreneurial growth factors"
+    },
+    {
+      "source": "Entrepreneurship Development and Small Business Enterprises, Poornima M. Charantimath",
+      "locator": "Entrepreneurial environment and motivation",
+      "use": "Small-enterprise and institutional context"
+    }
+  ]
+}

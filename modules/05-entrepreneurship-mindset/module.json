@@ -1,0 +1,49 @@
+{
+  "number": 5,
+  "section": "I.5",
+  "title": "Entrepreneurship Mindset",
+  "learning_outcome": "Explain the mindset required for opportunity creation.",
+  "alignment": {
+    "course_outcome": "CO1 - Discuss the fundamentals of entrepreneurship",
+    "rbt_level": "K2 - Understand"
+  },
+  "estimated_time": "4–6 minutes",
+  "template": "tabcordion",
+  "template_credit": "Tabcordion interaction template by Montse Anderson, elearningdesigner.com",
+  "palette": {
+    "name": "Mindset Lab",
+    "background": "F3F7FA",
+    "ink": "182848",
+    "primary": "1D4E89",
+    "secondary": "20B8CD",
+    "accent": "7E57C2",
+    "support": "FF6B6B",
+    "muted": "DDEBF3"
+  },
+  "illustration": {
+    "file": "m05-mindset-lab.png",
+    "subject": "An engineering team cycling through customer observation, sticky-note assumptions, a small prototype experiment, feedback and an ethical decision gate",
+    "composition": "A looping laboratory pathway distinct from the rising journey used in Module 1",
+    "style": "Clean experimental-workbench illustration with luminous accents and blueprint details"
+  },
+  "case": "Case connection: Greenviro Global illustrates opportunity recognition, experimentation and value creation within a local environmental constraint.",
+  "misconception": "Common mistake: Equating mindset with positive thinking, motivational confidence or an unwillingness to abandon a weak idea.",
+  "application": "Turn one statement beginning with 'This is impossible' into a small, ethical test that could produce decision-relevant evidence.",
+  "sources": [
+    {
+      "source": "U21CAX01_EDS_Study_Material_Textbook_Edition_Concept_Expanded.docx",
+      "locator": "Unit I, I.5 Entrepreneurship mindset and Entrepreneurial experimentation",
+      "use": "Five mindset elements and experiment discipline"
+    },
+    {
+      "source": "Launching New Ventures: An Entrepreneurial Approach, Kathleen R. Allen",
+      "locator": "Opportunity recognition and venture learning",
+      "use": "Customer evidence and opportunity development"
+    },
+    {
+      "source": "EntreComp_Entrepreneurship_Mindset_Lecture.pptx",
+      "locator": "EntreComp mindset lecture",
+      "use": "Mindset language and learner-facing framing"
+    }
+  ]
+}

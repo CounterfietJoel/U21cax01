@@ -1,0 +1,3 @@
+qa/*.log
+qa/chrome-profile/
+node_modules/
