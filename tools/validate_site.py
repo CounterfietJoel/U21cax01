@@ -21,6 +21,7 @@ EXPECTED_MODULES = (
     "09-entrepreneurship-economic-development",
 )
 REQUIRED_STORYLINE_PATHS = ("story.html", "html5", "mobile", "story_content")
+ANALYTICS_ID = "G-VDJBZBB0MK"
 FORBIDDEN_TEXT = (
     "lorem ipsum",
     "insert title",
@@ -106,6 +107,8 @@ def validate(root: Path) -> list[str]:
             modules = manifest.get("modules", [])
             if manifest.get("module_count") != 9 or len(modules) != 9:
                 errors.append("Manifest must declare exactly nine modules")
+            if manifest.get("analytics") is not True:
+                errors.append("Manifest must declare Google Analytics as enabled")
             for module in modules:
                 if not module.get("storyline_published"):
                     errors.append(
@@ -125,6 +128,15 @@ def validate(root: Path) -> list[str]:
             continue
         text = document.read_text(encoding="utf-8")
         lower_text = text.lower()
+        script_url = (
+            "https://www.googletagmanager.com/gtag/js"
+            f"?id={ANALYTICS_ID}"
+        )
+        config_call = f"gtag('config', '{ANALYTICS_ID}')"
+        if script_url not in text or config_call not in text:
+            errors.append(
+                f"{document.relative_to(root)} is missing Google tag {ANALYTICS_ID}"
+            )
         for forbidden in FORBIDDEN_TEXT:
             if forbidden in lower_text:
                 errors.append(f"{document.relative_to(root)} contains '{forbidden}'")

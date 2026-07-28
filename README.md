@@ -8,7 +8,8 @@ Responsive GitHub Pages course home for the open elective **U21CAX01**.
 - All nine Unit I topics are live as 4-6 minute microlearning modules.
 - Every Unit I folder contains its complete Articulate Storyline Web output.
 - Units II-V and the MCQ/flashcard area are visibly marked as planned.
-- The site uses no analytics, authentication, score storage, or learner tracking.
+- Google Analytics measurement ID `G-VDJBZBB0MK` records course-site traffic.
+- The site uses no authentication, score storage, or learner-level tracking.
 
 ## Open the course
 

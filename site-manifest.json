@@ -104,6 +104,6 @@
     }
   ],
   "tracking": false,
-  "analytics": false,
+  "analytics": true,
   "authentication": false
 }
