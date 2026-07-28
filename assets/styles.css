@@ -538,7 +538,7 @@ h1 { margin: 0; font-size: clamp(3rem, 8vw, 6.8rem); line-height: .95; letter-sp
 .unit-card-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1.25rem;
+  gap: 1rem;
 }
 .unit-overview-card {
   position: relative;
@@ -551,12 +551,12 @@ h1 { margin: 0; font-size: clamp(3rem, 8vw, 6.8rem); line-height: .95; letter-sp
 }
 .unit-overview-card img {
   width: 100%;
-  aspect-ratio: 16 / 8.5;
+  aspect-ratio: 16 / 6.5;
   object-fit: cover;
   filter: saturate(.68);
 }
 .unit-overview-card.is-live img { filter: none; }
-.unit-overview-card > div { padding: 1.2rem; }
+.unit-overview-card > div { padding: 1rem 1.1rem 1.1rem; }
 .unit-overview-card .unit-index {
   display: inline-grid;
   min-width: 2.8rem;
@@ -569,18 +569,18 @@ h1 { margin: 0; font-size: clamp(3rem, 8vw, 6.8rem); line-height: .95; letter-sp
   font-weight: 900;
 }
 .unit-overview-card h3 {
-  margin: 1rem 0 .4rem;
+  margin: .75rem 0 .35rem;
   color: #173650;
   font-size: 1.25rem;
   line-height: 1.08;
 }
-.unit-overview-card p { margin: 0 0 1rem; color: #566d7e; font-size: .9rem; }
+.unit-overview-card p { margin: 0 0 .75rem; color: #566d7e; font-size: .9rem; }
 .unit-overview-card a { color: #08777b; font-weight: 900; text-decoration: none; }
 .mcq-card img { object-position: center 43%; }
 .home-module-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1.35rem;
+  gap: 1rem;
 }
 .home-module-card {
   display: flex;
@@ -599,7 +599,7 @@ h1 { margin: 0; font-size: clamp(3rem, 8vw, 6.8rem); line-height: .95; letter-sp
 }
 .home-module-image img {
   width: 100%;
-  aspect-ratio: 16 / 10;
+  aspect-ratio: 16 / 8;
   object-fit: cover;
   transition: transform .25s ease;
 }
@@ -623,7 +623,7 @@ h1 { margin: 0; font-size: clamp(3rem, 8vw, 6.8rem); line-height: .95; letter-sp
   display: flex;
   flex: 1;
   flex-direction: column;
-  padding: 1.25rem;
+  padding: 1rem 1.1rem 1.1rem;
 }
 .module-time {
   margin: 0 0 .4rem !important;
@@ -633,9 +633,9 @@ h1 { margin: 0; font-size: clamp(3rem, 8vw, 6.8rem); line-height: .95; letter-sp
   letter-spacing: .06em;
   text-transform: uppercase;
 }
-.home-module-card h3 { margin: 0; font-size: 1.22rem; line-height: 1.1; }
+.home-module-card h3 { margin: 0; font-size: 1.18rem; line-height: 1.1; }
 .home-module-card h3 a { color: #173650; text-decoration: none; }
-.home-module-card p { color: #566d7e; font-size: .9rem; }
+.home-module-card p { margin: .65rem 0 .8rem; color: #566d7e; font-size: .9rem; }
 .text-action {
   margin-top: auto;
   padding-top: .9rem;
