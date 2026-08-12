@@ -521,6 +521,7 @@ h1 { margin: 0; font-size: clamp(3rem, 8vw, 6.8rem); line-height: .95; letter-sp
 }
 .course-facts dd { margin: .2rem 0 0; color: #102f4a; font-weight: 750; }
 .course-map,
+.unit-summary-video,
 .unit-one-section { padding: clamp(4rem, 8vw, 7rem) 0; }
 .course-map { border-bottom: 2px solid rgba(16, 47, 74, .16); }
 .section-title-row {
@@ -644,6 +645,50 @@ h1 { margin: 0; font-size: clamp(3rem, 8vw, 6.8rem); line-height: .95; letter-sp
   font-weight: 900;
   text-decoration: none;
 }
+.unit-summary-video {
+  display: grid;
+  grid-template-columns: minmax(17rem, .72fr) minmax(0, 1.28fr);
+  gap: clamp(1.25rem, 4vw, 3.5rem);
+  align-items: center;
+  width: min(74rem, calc(100% - clamp(2rem, 7vw, 7rem)));
+  margin-inline: auto;
+  margin-bottom: 0;
+  padding: clamp(1.25rem, 3vw, 2.25rem);
+  border-radius: 1.35rem;
+  color: #fff;
+  background: #0b496d;
+  box-shadow: 0 20px 50px rgba(16, 47, 74, .14);
+}
+.unit-summary-copy .eyebrow { color: #88ded6; }
+.unit-summary-copy h2 {
+  margin: .3rem 0 .8rem;
+  font-size: clamp(1.65rem, 3vw, 2.5rem);
+  line-height: 1.05;
+  letter-spacing: -.035em;
+}
+.unit-summary-copy > p:not(.eyebrow) {
+  margin: 0 0 1rem;
+  color: #dceaf1;
+}
+.unit-summary-copy .text-action {
+  display: inline-flex;
+  padding-top: .75rem;
+  border-top-color: rgba(255, 255, 255, .24);
+  color: #ffd17f;
+}
+.unit-summary-player {
+  overflow: hidden;
+  border: .35rem solid rgba(255, 255, 255, .96);
+  border-radius: 1rem;
+  background: #061d2d;
+  box-shadow: 0 14px 32px rgba(0, 0, 0, .22);
+}
+.unit-summary-player iframe {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 0;
+}
 .home-footer {
   display: flex;
   justify-content: space-between;
@@ -712,6 +757,7 @@ h1 { margin: 0; font-size: clamp(3rem, 8vw, 6.8rem); line-height: .95; letter-sp
   .course-content { margin-left: 0; }
   .welcome-section { grid-template-columns: 1fr; }
   .section-title-row { display: grid; gap: 1rem; }
+  .unit-summary-video { grid-template-columns: 1fr; }
   .home-footer { display: grid; gap: .35rem; }
   .home-footer p { margin: 0; }
 }
@@ -723,12 +769,13 @@ h1 { margin: 0; font-size: clamp(3rem, 8vw, 6.8rem); line-height: .95; letter-sp
   .course-map,
   .unit-one-section,
   .home-footer { width: min(100% - 1.25rem, 74rem); }
-  .home-heading h1 { font-size: clamp(2.3rem, 13vw, 3.7rem); }
+  .home-heading h1 { font-size: clamp(2.25rem, 11.8vw, 3.7rem); }
   .home-hero { border-width: .35rem; border-radius: 1rem; }
   .home-hero img { aspect-ratio: 1.55 / 1; }
   .unit-card-grid,
   .home-module-grid { grid-template-columns: 1fr; }
   .welcome-section,
   .course-map,
+  .unit-summary-video,
   .unit-one-section { padding-block: 3.5rem; }
 }
