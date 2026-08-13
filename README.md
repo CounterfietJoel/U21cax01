@@ -1,44 +1,37 @@
-# U21CAX01 - Entrepreneurship Development and Startup
+# U21CAX01 Entrepreneurship Learning Studio
 
-Responsive GitHub Pages course home for the open elective **U21CAX01**.
+Responsive GitHub Pages learning hub for **U21CAX01 - Entrepreneurship Development and Startup**.
 
 ## Current release
 
-- Five syllabus units are mapped in the vertical course menu.
-- All nine Unit I topics are live as 4-6 minute microlearning modules.
-- Every Unit I folder contains its complete Articulate Storyline Web output.
-- All 15 Unit II lessons are live as self-contained Lumi H5P interactions.
-- Three syllabus-aligned videos and two full-size visual guides supplement the lessons.
-- Units III-V and the MCQ/flashcard area remain mapped for future releases.
-- Google Analytics measurement ID `G-VDJBZBB0MK` records course-site traffic.
-- The site uses no authentication, score storage, or learner-level tracking.
+- Unit I: 9 interactive entrepreneurship topics.
+- Unit II: 15 native-web venture-creation labs.
+- Unit III: 9 business-plan and investment-pitch studios.
+- One accessible course home with unit tabs and 33 direct topic links.
+- No authentication, learner-level analytics, stored scores or submitted learner text.
+- Complete legacy Storyline packages remain in their Unit I folders for archival compatibility, but the student pages present one interaction per topic.
 
-## Open the course
+## Live course
 
-[Launch the published course](https://counterfietjoel.github.io/U21cax01/)
-
-For a local preview, serve the repository through HTTP:
-
-```powershell
-python -m http.server 8000
-```
-
-Then open `http://localhost:8000/`.
+[Open the published course](https://counterfietjoel.github.io/U21cax01/)
 
 ## Structure
 
 ```text
-index.html                 Course home and unit-wise navigation
-assets/                    Shared styling, scripts and original course visuals
-modules/01-.../            Topic wrapper plus complete Storyline Web output
-...
-modules/09-.../
-modules/unit-2/01-.../     Self-contained Lumi H5P interactive HTML
-...
-modules/unit-2/15-.../
-site-manifest.json         Machine-readable Unit I and Unit II manifest
-.nojekyll                  Preserves Storyline asset paths on GitHub Pages
+index.html                    Three-unit course home
+assets/home.css               Home-page visual system
+assets/home.js                Accessible unit tabs
+modules/01-.../               Unit I native-web topic plus archived Storyline package
+modules/unit-2/               Fifteen Unit II venture labs and shared runtime
+modules/unit-3/               Nine Unit III evidence studios
+site-manifest.json            Machine-readable three-unit topic map
+tools/validate_site.py        Structural and reference validation
+tools/smoke_test.js           Desktop/mobile browser QA
+.nojekyll                     Preserves all static asset paths on GitHub Pages
 ```
 
-The supplied Storyline templates and editable source files are intentionally
-not distributed in this public repository.
+For local preview, serve the repository through HTTP rather than opening it directly:
+
+```powershell
+python -m http.server 8765
+```

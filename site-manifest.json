@@ -2,130 +2,70 @@
   "course": {
     "code": "U21CAX01",
     "title": "Entrepreneurship Development and Startup",
-    "units_live": "Units I and II",
     "institution": "KPR Institute of Engineering and Technology",
     "audience": "Fifth-semester B.E. open-elective students",
-    "course_outcomes": ["CO1 - Discuss the fundamentals of entrepreneurship", "CO2 - Explain the creation of an entrepreneurial venture"],
     "rbt_level": "K2 - Understand",
-    "site_title": "U21CAX01 Course Hub",
-    "site_subtitle": "Twenty-four interactive explorations across entrepreneurship fundamentals and venture creation"
+    "live_units": 3,
+    "live_topics": 33,
+    "privacy": "No authentication, learner-level analytics, score storage or submitted text"
   },
-  "module_count": 9,
-  "modules": [
+  "units": [
     {
       "number": 1,
-      "slug": "01-concept-of-entrepreneurship",
-      "index": "modules/01-concept-of-entrepreneurship/index.html",
-      "storyline_launch": "modules/01-concept-of-entrepreneurship/story.html",
-      "storyline_published": true,
-      "palette": "Opportunity Sunrise",
-      "illustration": "m01-opportunity-engine.png",
-      "illustration_sha256": "6a60ec52ba11b150b5473ea982a3eb9d58dcb20b4e7fe1de158d6406d8717241"
+      "title": "Entrepreneurship",
+      "course_outcome": "CO1 - Discuss the fundamentals of entrepreneurship",
+      "format": "Accessible native-web interactions",
+      "topics": [
+        ["Concept of Entrepreneurship", "modules/01-concept-of-entrepreneurship/index.html"],
+        ["Characteristics of Entrepreneurship", "modules/02-characteristics-of-entrepreneurship/index.html"],
+        ["Types of Entrepreneurship", "modules/03-types-of-entrepreneurship/index.html"],
+        ["Factors Affecting Entrepreneurs", "modules/04-factors-affecting-entrepreneurs/index.html"],
+        ["Entrepreneurship Mindset", "modules/05-entrepreneurship-mindset/index.html"],
+        ["Inventors and Entrepreneurs", "modules/06-inventors-and-entrepreneurs/index.html"],
+        ["Companies and Startups", "modules/07-companies-and-startups/index.html"],
+        ["Entrepreneurial Environment and Growth", "modules/08-entrepreneurial-environment-and-growth/index.html"],
+        ["Entrepreneurship in Economic Development", "modules/09-entrepreneurship-economic-development/index.html"]
+      ]
     },
     {
       "number": 2,
-      "slug": "02-characteristics-of-entrepreneurship",
-      "index": "modules/02-characteristics-of-entrepreneurship/index.html",
-      "storyline_launch": "modules/02-characteristics-of-entrepreneurship/story.html",
-      "storyline_published": true,
-      "palette": "Founder Energy",
-      "illustration": "m02-founder-capabilities.png",
-      "illustration_sha256": "a08df4b8a9e2c215a042419454490039868ef06c2b268f4c66503b545ffbe22e"
+      "title": "Creating Entrepreneurial Venture",
+      "course_outcome": "CO2 - Suggest different forms of new venture development",
+      "format": "Native-web venture labs",
+      "topics": [
+        ["Opportunity Radar", "modules/unit-2/01-opportunity-radar/index.html"],
+        ["Idea Generation Studio", "modules/unit-2/02-idea-generation-studio/index.html"],
+        ["SCAMPER Makeover Lab", "modules/unit-2/03-scamper-makeover-lab/index.html"],
+        ["Idea Funnel Challenge", "modules/unit-2/04-idea-funnel-challenge/index.html"],
+        ["Customer Interview Simulator", "modules/unit-2/05-customer-interview-simulator/index.html"],
+        ["Creative Problem-Solving Sprint", "modules/unit-2/06-creative-problem-solving-sprint/index.html"],
+        ["Root-Cause Investigation", "modules/unit-2/07-root-cause-investigation/index.html"],
+        ["Product Development Roadmap", "modules/unit-2/08-product-development-roadmap/index.html"],
+        ["Product Trade-off Simulator", "modules/unit-2/09-product-trade-off-simulator/index.html"],
+        ["Business Forms Decision Matrix", "modules/unit-2/10-business-forms-decision-matrix/index.html"],
+        ["Sole Proprietor Decision Desk", "modules/unit-2/11-sole-proprietor-decision-desk/index.html"],
+        ["Partnership vs LLP", "modules/unit-2/12-partnership-vs-llp/index.html"],
+        ["Corporation or Franchise?", "modules/unit-2/13-corporation-or-franchise/index.html"],
+        ["Small Enterprise Launch Mission", "modules/unit-2/14-small-enterprise-launch-mission/index.html"],
+        ["MSME Registration & Venture Architect", "modules/unit-2/15-msme-registration-venture-architect/index.html"]
+      ]
     },
     {
       "number": 3,
-      "slug": "03-types-of-entrepreneurship",
-      "index": "modules/03-types-of-entrepreneurship/index.html",
-      "storyline_launch": "modules/03-types-of-entrepreneurship/story.html",
-      "storyline_published": true,
-      "palette": "Entrepreneur Spectrum",
-      "illustration": "m03-entrepreneur-spectrum.png",
-      "illustration_sha256": "f86220a73c9cf782146b574c20dc120d5100a7f2a84bad7c0f55ef00ebdd0279"
-    },
-    {
-      "number": 4,
-      "slug": "04-factors-affecting-entrepreneurs",
-      "index": "modules/04-factors-affecting-entrepreneurs/index.html",
-      "storyline_launch": "modules/04-factors-affecting-entrepreneurs/story.html",
-      "storyline_published": true,
-      "palette": "Ecosystem Forces",
-      "illustration": "m04-ecosystem-forces.png",
-      "illustration_sha256": "1feffcd8bceb240607f4de2ffd08a381b7dd54172d31e07607ca7cf2abc1f85f"
-    },
-    {
-      "number": 5,
-      "slug": "05-entrepreneurship-mindset",
-      "index": "modules/05-entrepreneurship-mindset/index.html",
-      "storyline_launch": "modules/05-entrepreneurship-mindset/story.html",
-      "storyline_published": true,
-      "palette": "Mindset Lab",
-      "illustration": "m05-mindset-lab.png",
-      "illustration_sha256": "79ab741b35a9abab0092bc523e6863a4716ccf1c8c0e9c0c4fc3c3b97ca7d831"
-    },
-    {
-      "number": 6,
-      "slug": "06-inventors-and-entrepreneurs",
-      "index": "modules/06-inventors-and-entrepreneurs/index.html",
-      "storyline_launch": "modules/06-inventors-and-entrepreneurs/story.html",
-      "storyline_published": true,
-      "palette": "Invention Bridge",
-      "illustration": "m06-invention-bridge.png",
-      "illustration_sha256": "cae21b4a1e4d758d163ca753611f698dcce6537ba86aeb248de6049e7a69e3a4"
-    },
-    {
-      "number": 7,
-      "slug": "07-companies-and-startups",
-      "index": "modules/07-companies-and-startups/index.html",
-      "storyline_launch": "modules/07-companies-and-startups/story.html",
-      "storyline_published": true,
-      "palette": "Scale and Structure",
-      "illustration": "m07-company-startup.png",
-      "illustration_sha256": "5428b0fd3ec707f45f0c49ae04a27152d444b3f3d13ddde85795a5d6d14443e7"
-    },
-    {
-      "number": 8,
-      "slug": "08-entrepreneurial-environment-and-growth",
-      "index": "modules/08-entrepreneurial-environment-and-growth/index.html",
-      "storyline_launch": "modules/08-entrepreneurial-environment-and-growth/story.html",
-      "storyline_published": true,
-      "palette": "Growth Network",
-      "illustration": "m08-growth-network.png",
-      "illustration_sha256": "2c997b112412b26ab1b3006bc8e75c9b66096c26bddafdfdc428921cc4414090"
-    },
-    {
-      "number": 9,
-      "slug": "09-entrepreneurship-economic-development",
-      "index": "modules/09-entrepreneurship-economic-development/index.html",
-      "storyline_launch": "modules/09-entrepreneurship-economic-development/story.html",
-      "storyline_published": true,
-      "palette": "Impact Economy",
-      "illustration": "m09-economic-ripples.png",
-      "illustration_sha256": "8b502955ded3150e0523b48aaf0bf77325fd20c29ff63cd23e13d5c90202c663"
+      "title": "Business Plan and Pitch",
+      "course_outcome": "CO3 - Assess business plan and business pitch as entrepreneurial tools",
+      "format": "Interactive evidence studios",
+      "topics": [
+        ["Business Plan Map", "modules/unit-3/lesson-01.html"],
+        ["Plan Builder Desk", "modules/unit-3/lesson-02.html"],
+        ["Venture Evaluation Board", "modules/unit-3/lesson-03.html"],
+        ["Market Signal Studio", "modules/unit-3/lesson-04.html"],
+        ["Runway & Break-even Lab", "modules/unit-3/lesson-05.html"],
+        ["Founder Team Architect", "modules/unit-3/lesson-06.html"],
+        ["Pitch Storyboard", "modules/unit-3/lesson-07.html"],
+        ["Deck Doctor", "modules/unit-3/lesson-08.html"],
+        ["Investor Panel Simulation", "modules/unit-3/lesson-09.html"]
+      ]
     }
-  ],
-  "unit_2": {
-    "title": "Creating Entrepreneurial Venture",
-    "format": "Self-contained Lumi H5P HTML",
-    "interactive_count": 15,
-    "interactives": [
-      {"number": 1, "title": "Opportunity Radar", "index": "modules/unit-2/01-opportunity-radar/index.html"},
-      {"number": 2, "title": "Idea Generation Methods", "index": "modules/unit-2/02-idea-generation-methods/index.html"},
-      {"number": 3, "title": "SCAMPER Design Challenge", "index": "modules/unit-2/03-scamper-design-challenge/index.html"},
-      {"number": 4, "title": "Idea Funnel Challenge", "index": "modules/unit-2/04-idea-funnel-challenge/index.html"},
-      {"number": 5, "title": "Customer Interview Lab", "index": "modules/unit-2/05-customer-interview-lab/index.html"},
-      {"number": 6, "title": "Creative Problem-Solving Sprint", "index": "modules/unit-2/06-creative-problem-solving-sprint/index.html"},
-      {"number": 7, "title": "Root Cause Clinic", "index": "modules/unit-2/07-root-cause-clinic/index.html"},
-      {"number": 8, "title": "Product Development Roadmap", "index": "modules/unit-2/08-product-development-roadmap/index.html"},
-      {"number": 9, "title": "Product Planning Trade-offs", "index": "modules/unit-2/09-product-planning-tradeoffs/index.html"},
-      {"number": 10, "title": "Business Forms Comparison", "index": "modules/unit-2/10-business-forms-comparison/index.html"},
-      {"number": 11, "title": "Founder Structure Decisions", "index": "modules/unit-2/11-founder-structure-decisions/index.html"},
-      {"number": 12, "title": "Company vs Franchise", "index": "modules/unit-2/12-company-vs-franchise/index.html"},
-      {"number": 13, "title": "Venture Form Selector", "index": "modules/unit-2/13-venture-form-selector/index.html"},
-      {"number": 14, "title": "Small Enterprise Setup", "index": "modules/unit-2/14-small-enterprise-setup/index.html"},
-      {"number": 15, "title": "MSME Registration Checklist", "index": "modules/unit-2/15-msme-registration-checklist/index.html"}
-    ]
-  },
-  "tracking": false,
-  "analytics": true,
-  "authentication": false
+  ]
 }

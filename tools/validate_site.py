@@ -1,4 +1,4 @@
-"""Validate the deployable U21CAX01 GitHub Pages bundle."""
+"""Validate the complete U21CAX01 three-unit GitHub Pages bundle."""
 
 from __future__ import annotations
 
@@ -8,139 +8,100 @@ from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
-
-EXPECTED_MODULES = (
-    "01-concept-of-entrepreneurship",
-    "02-characteristics-of-entrepreneurship",
-    "03-types-of-entrepreneurship",
-    "04-factors-affecting-entrepreneurs",
-    "05-entrepreneurship-mindset",
-    "06-inventors-and-entrepreneurs",
-    "07-companies-and-startups",
-    "08-entrepreneurial-environment-and-growth",
+UNIT_ONE = (
+    "01-concept-of-entrepreneurship", "02-characteristics-of-entrepreneurship",
+    "03-types-of-entrepreneurship", "04-factors-affecting-entrepreneurs",
+    "05-entrepreneurship-mindset", "06-inventors-and-entrepreneurs",
+    "07-companies-and-startups", "08-entrepreneurial-environment-and-growth",
     "09-entrepreneurship-economic-development",
 )
-REQUIRED_STORYLINE_PATHS = ("story.html", "html5", "mobile", "story_content")
-ANALYTICS_ID = "G-VDJBZBB0MK"
-FORBIDDEN_TEXT = (
-    "lorem ipsum",
-    "insert title",
-    "placeholder text",
-    "replace this text",
+UNIT_COUNTS = (9, 15, 9)
+FORBIDDEN = (
+    "googletagmanager.com", "gtag(", "lorem ipsum", "placeholder text",
+    "units iii-v and the mcq", "lumi h5p",
 )
 
 
 class ReferenceParser(HTMLParser):
-    """Collect local href and src references from an HTML document."""
+    """Collect local href and src references."""
 
     def __init__(self) -> None:
         super().__init__()
         self.references: list[str] = []
 
-    def handle_starttag(
-        self, tag: str, attrs: list[tuple[str, str | None]]
-    ) -> None:
+    def handle_starttag(self, _tag: str, attrs: list[tuple[str, str | None]]) -> None:
         for name, value in attrs:
             if name in {"href", "src"} and value:
                 self.references.append(value)
 
 
 def local_target(document: Path, reference: str) -> Path | None:
-    """Resolve a local document reference, ignoring remote and fragment URLs."""
+    """Resolve a local reference and ignore fragments, data and remote URLs."""
 
     parsed = urlsplit(reference)
     if parsed.scheme or parsed.netloc or reference.startswith(("#", "data:")):
         return None
-    path_text = unquote(parsed.path)
-    if not path_text:
+    if not parsed.path:
         return None
-    return (document.parent / path_text).resolve()
+    return (document.parent / unquote(parsed.path)).resolve()
 
 
 def validate(root: Path) -> list[str]:
-    """Return validation errors for the site rooted at *root*."""
+    """Return all structural, content and reference errors."""
 
     errors: list[str] = []
-    required_root_files = (
-        "index.html",
-        "README.md",
-        ".nojekyll",
-        "assets/styles.css",
-        "assets/app.js",
+    for relative in (
+        "index.html", ".nojekyll", "README.md", "site-manifest.json",
+        "assets/home.css", "assets/home.js", "assets/favicon.svg",
         "assets/images/hero-venture-lab.png",
-        "assets/images/mcq-flashcards.png",
-        "site-manifest.json",
-    )
-    for relative_path in required_root_files:
-        if not (root / relative_path).exists():
-            errors.append(f"Missing required site path: {relative_path}")
+        "modules/unit-2/shared/unit2.css",
+        "modules/unit-2/shared/unit2-data.js",
+        "modules/unit-2/shared/unit2-runtime.js",
+        "modules/unit-3/assets/unit3.css",
+        "modules/unit-3/assets/unit3.js",
+    ):
+        if not (root / relative).exists():
+            errors.append(f"Missing required path: {relative}")
 
-    modules_root = root / "modules"
-    actual_modules = (
-        sorted(path.name for path in modules_root.iterdir() if path.is_dir())
-        if modules_root.exists()
-        else []
-    )
-    if actual_modules != list(EXPECTED_MODULES):
-        errors.append(
-            "Module folders do not match the expected nine: "
-            f"{', '.join(actual_modules)}"
-        )
+    try:
+        manifest = json.loads((root / "site-manifest.json").read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        return [f"Invalid site-manifest.json: {exc}"]
 
-    for module_name in EXPECTED_MODULES:
-        module_root = modules_root / module_name
-        for required_path in ("index.html", "module.json", *REQUIRED_STORYLINE_PATHS):
-            if not (module_root / required_path).exists():
-                errors.append(f"{module_name}: missing {required_path}")
+    units = manifest.get("units", [])
+    if len(units) != 3:
+        errors.append("Manifest must contain exactly three live units")
+    counts = tuple(len(unit.get("topics", [])) for unit in units)
+    if counts != UNIT_COUNTS:
+        errors.append(f"Topic counts must be {UNIT_COUNTS}; found {counts}")
 
-        if module_root.exists():
-            file_count = sum(1 for path in module_root.rglob("*") if path.is_file())
-            if file_count < 20:
-                errors.append(
-                    f"{module_name}: only {file_count} files; published output appears incomplete"
-                )
+    topic_paths: list[str] = []
+    for unit in units:
+        for topic in unit.get("topics", []):
+            if not isinstance(topic, list) or len(topic) != 2:
+                errors.append(f"Invalid topic entry: {topic!r}")
+                continue
+            topic_paths.append(topic[1])
+    if len(topic_paths) != len(set(topic_paths)):
+        errors.append("Manifest contains duplicate topic paths")
 
-    manifest_path = root / "site-manifest.json"
-    if manifest_path.exists():
-        try:
-            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
-            modules = manifest.get("modules", [])
-            if manifest.get("module_count") != 9 or len(modules) != 9:
-                errors.append("Manifest must declare exactly nine modules")
-            if manifest.get("analytics") is not True:
-                errors.append("Manifest must declare Google Analytics as enabled")
-            for module in modules:
-                if not module.get("storyline_published"):
-                    errors.append(
-                        f"Manifest marks {module.get('slug', 'unknown')} as unpublished"
-                    )
-        except (OSError, json.JSONDecodeError) as exc:
-            errors.append(f"Invalid site-manifest.json: {exc}")
+    for slug in UNIT_ONE:
+        module = root / "modules" / slug
+        for relative in ("index.html", "story.html", "html5", "mobile", "story_content"):
+            if not (module / relative).exists():
+                errors.append(f"Unit I {slug}: missing {relative}")
 
-    html_documents = [root / "index.html"]
-    html_documents.extend(
-        modules_root / module_name / "index.html"
-        for module_name in EXPECTED_MODULES
-    )
+    documents = [root / "index.html", *(root / path for path in topic_paths)]
     resolved_root = root.resolve()
-    for document in html_documents:
+    for document in documents:
         if not document.exists():
+            errors.append(f"Missing topic document: {document.relative_to(root)}")
             continue
         text = document.read_text(encoding="utf-8")
-        lower_text = text.lower()
-        script_url = (
-            "https://www.googletagmanager.com/gtag/js"
-            f"?id={ANALYTICS_ID}"
-        )
-        config_call = f"gtag('config', '{ANALYTICS_ID}')"
-        if script_url not in text or config_call not in text:
-            errors.append(
-                f"{document.relative_to(root)} is missing Google tag {ANALYTICS_ID}"
-            )
-        for forbidden in FORBIDDEN_TEXT:
-            if forbidden in lower_text:
-                errors.append(f"{document.relative_to(root)} contains '{forbidden}'")
-
+        lower = text.lower()
+        for phrase in FORBIDDEN:
+            if phrase in lower:
+                errors.append(f"{document.relative_to(root)} contains forbidden text: {phrase}")
         parser = ReferenceParser()
         parser.feed(text)
         for reference in parser.references:
@@ -150,53 +111,32 @@ def validate(root: Path) -> list[str]:
             try:
                 target.relative_to(resolved_root)
             except ValueError:
-                errors.append(
-                    f"{document.relative_to(root)} references outside site: {reference}"
-                )
+                errors.append(f"{document.relative_to(root)} escapes site: {reference}")
                 continue
             if not target.exists():
-                errors.append(
-                    f"{document.relative_to(root)} has missing reference: {reference}"
-                )
-
+                errors.append(f"{document.relative_to(root)} missing reference: {reference}")
     return errors
-
-
-def deployable_files(root: Path):
-    """Yield files that belong to the Pages artifact, excluding Git internals."""
-
-    for path in root.rglob("*"):
-        if not path.is_file():
-            continue
-        relative_parts = path.relative_to(root).parts
-        if ".git" in relative_parts:
-            continue
-        if len(relative_parts) == 2 and relative_parts[0] == "qa":
-            if relative_parts[1].endswith(".log"):
-                continue
-        yield path
 
 
 def main() -> int:
     """Run validation and print a concise report."""
 
-    site_root = Path(__file__).resolve().parent.parent
-    errors = validate(site_root)
+    root = Path(__file__).resolve().parent.parent
+    errors = validate(root)
     if errors:
         print(f"VALIDATION FAILED ({len(errors)} error(s))")
         for error in errors:
             print(f"- {error}")
         return 1
-
-    files = list(deployable_files(site_root))
-    total_files = len(files)
-    total_bytes = sum(path.stat().st_size for path in files)
+    file_count = sum(1 for path in root.rglob("*") if path.is_file() and ".git" not in path.parts)
+    bundle_bytes = sum(path.stat().st_size for path in root.rglob("*") if path.is_file() and ".git" not in path.parts)
     print("VALIDATION PASSED")
-    print(f"- Modules: {len(EXPECTED_MODULES)}")
-    print(f"- Files: {total_files}")
-    print(f"- Bundle size: {total_bytes / (1024 * 1024):.1f} MB")
-    print("- Complete Storyline paths: story.html, html5, mobile, story_content")
-    print("- Homepage and module wrapper references: resolved")
+    print("- Live units: 3")
+    print("- Live topics: 33")
+    print(f"- Bundle files: {file_count}")
+    print(f"- Bundle size: {bundle_bytes / (1024 * 1024):.1f} MB")
+    print("- Topic references and required assets: resolved")
+    print("- Learner-level analytics: absent")
     return 0
 
 
