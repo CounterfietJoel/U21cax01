@@ -7,7 +7,7 @@
     "rbt_level": "K2 - Understand",
     "live_units": 3,
     "live_topics": 33,
-    "privacy": "No authentication, learner-level analytics, score storage or submitted text"
+    "privacy": "Anonymous aggregate usage analytics via Google Analytics; no authentication, learner identity, score storage or submitted text"
   },
   "units": [
     {

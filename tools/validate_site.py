@@ -16,8 +16,9 @@ UNIT_ONE = (
     "09-entrepreneurship-economic-development",
 )
 UNIT_COUNTS = (9, 15, 9)
+ANALYTICS_ID = "G-VDJBZBB0MK"
 FORBIDDEN = (
-    "googletagmanager.com", "gtag(", "lorem ipsum", "placeholder text",
+    "lorem ipsum", "placeholder text",
     "units iii-v and the mcq", "lumi h5p",
 )
 
@@ -91,7 +92,11 @@ def validate(root: Path) -> list[str]:
             if not (module / relative).exists():
                 errors.append(f"Unit I {slug}: missing {relative}")
 
-    documents = [root / "index.html", *(root / path for path in topic_paths)]
+    documents = [
+        root / "index.html",
+        root / "modules" / "unit-3" / "index.html",
+        *(root / path for path in topic_paths),
+    ]
     resolved_root = root.resolve()
     for document in documents:
         if not document.exists():
@@ -99,6 +104,14 @@ def validate(root: Path) -> list[str]:
             continue
         text = document.read_text(encoding="utf-8")
         lower = text.lower()
+        if text.count(ANALYTICS_ID) != 2:
+            errors.append(
+                f"{document.relative_to(root)} must contain one Google Analytics loader and config"
+            )
+        if text.count("googletagmanager.com/gtag/js") != 1:
+            errors.append(
+                f"{document.relative_to(root)} must contain exactly one Google tag loader"
+            )
         for phrase in FORBIDDEN:
             if phrase in lower:
                 errors.append(f"{document.relative_to(root)} contains forbidden text: {phrase}")
@@ -136,7 +149,7 @@ def main() -> int:
     print(f"- Bundle files: {file_count}")
     print(f"- Bundle size: {bundle_bytes / (1024 * 1024):.1f} MB")
     print("- Topic references and required assets: resolved")
-    print("- Learner-level analytics: absent")
+    print(f"- Anonymous aggregate analytics: enabled ({ANALYTICS_ID})")
     return 0
 
 

@@ -8,7 +8,7 @@ Responsive GitHub Pages learning hub for **U21CAX01 - Entrepreneurship Developme
 - Unit II: 15 native-web venture-creation labs.
 - Unit III: 9 business-plan and investment-pitch studios.
 - One accessible course home with unit tabs and 33 direct topic links.
-- No authentication, learner-level analytics, stored scores or submitted learner text.
+- Anonymous aggregate usage is measured with Google Analytics (`G-VDJBZBB0MK`); the site has no authentication, stored scores or submitted learner text.
 - Complete legacy Storyline packages remain in their Unit I folders for archival compatibility, but the student pages present one interaction per topic.
 
 ## Live course
