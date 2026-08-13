@@ -7,7 +7,9 @@ Responsive GitHub Pages course home for the open elective **U21CAX01**.
 - Five syllabus units are mapped in the vertical course menu.
 - All nine Unit I topics are live as 4-6 minute microlearning modules.
 - Every Unit I folder contains its complete Articulate Storyline Web output.
-- Units II-V and the MCQ/flashcard area are visibly marked as planned.
+- All 15 Unit II lessons are live as self-contained Lumi H5P interactions.
+- Three syllabus-aligned videos and two full-size visual guides supplement the lessons.
+- Units III-V and the MCQ/flashcard area remain mapped for future releases.
 - Google Analytics measurement ID `G-VDJBZBB0MK` records course-site traffic.
 - The site uses no authentication, score storage, or learner-level tracking.
 
@@ -31,7 +33,10 @@ assets/                    Shared styling, scripts and original course visuals
 modules/01-.../            Topic wrapper plus complete Storyline Web output
 ...
 modules/09-.../
-site-manifest.json         Machine-readable Unit I module manifest
+modules/unit-2/01-.../     Self-contained Lumi H5P interactive HTML
+...
+modules/unit-2/15-.../
+site-manifest.json         Machine-readable Unit I and Unit II manifest
 .nojekyll                  Preserves Storyline asset paths on GitHub Pages
 ```
 
