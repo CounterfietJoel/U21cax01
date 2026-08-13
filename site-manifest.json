@@ -2,13 +2,13 @@
   "course": {
     "code": "U21CAX01",
     "title": "Entrepreneurship Development and Startup",
-    "unit": "Unit I - Entrepreneurship",
+    "units_live": "Units I and II",
     "institution": "KPR Institute of Engineering and Technology",
     "audience": "Fifth-semester B.E. open-elective students",
-    "course_outcome": "CO1 - Discuss the fundamentals of entrepreneurship",
+    "course_outcomes": ["CO1 - Discuss the fundamentals of entrepreneurship", "CO2 - Explain the creation of an entrepreneurial venture"],
     "rbt_level": "K2 - Understand",
     "site_title": "U21CAX01 Course Hub",
-    "site_subtitle": "Nine interactive explorations of entrepreneurship fundamentals"
+    "site_subtitle": "Twenty-four interactive explorations across entrepreneurship fundamentals and venture creation"
   },
   "module_count": 9,
   "modules": [
@@ -103,6 +103,28 @@
       "illustration_sha256": "8b502955ded3150e0523b48aaf0bf77325fd20c29ff63cd23e13d5c90202c663"
     }
   ],
+  "unit_2": {
+    "title": "Creating Entrepreneurial Venture",
+    "format": "Self-contained Lumi H5P HTML",
+    "interactive_count": 15,
+    "interactives": [
+      {"number": 1, "title": "Opportunity Radar", "index": "modules/unit-2/01-opportunity-radar/index.html"},
+      {"number": 2, "title": "Idea Generation Methods", "index": "modules/unit-2/02-idea-generation-methods/index.html"},
+      {"number": 3, "title": "SCAMPER Design Challenge", "index": "modules/unit-2/03-scamper-design-challenge/index.html"},
+      {"number": 4, "title": "Idea Funnel Challenge", "index": "modules/unit-2/04-idea-funnel-challenge/index.html"},
+      {"number": 5, "title": "Customer Interview Lab", "index": "modules/unit-2/05-customer-interview-lab/index.html"},
+      {"number": 6, "title": "Creative Problem-Solving Sprint", "index": "modules/unit-2/06-creative-problem-solving-sprint/index.html"},
+      {"number": 7, "title": "Root Cause Clinic", "index": "modules/unit-2/07-root-cause-clinic/index.html"},
+      {"number": 8, "title": "Product Development Roadmap", "index": "modules/unit-2/08-product-development-roadmap/index.html"},
+      {"number": 9, "title": "Product Planning Trade-offs", "index": "modules/unit-2/09-product-planning-tradeoffs/index.html"},
+      {"number": 10, "title": "Business Forms Comparison", "index": "modules/unit-2/10-business-forms-comparison/index.html"},
+      {"number": 11, "title": "Founder Structure Decisions", "index": "modules/unit-2/11-founder-structure-decisions/index.html"},
+      {"number": 12, "title": "Company vs Franchise", "index": "modules/unit-2/12-company-vs-franchise/index.html"},
+      {"number": 13, "title": "Venture Form Selector", "index": "modules/unit-2/13-venture-form-selector/index.html"},
+      {"number": 14, "title": "Small Enterprise Setup", "index": "modules/unit-2/14-small-enterprise-setup/index.html"},
+      {"number": 15, "title": "MSME Registration Checklist", "index": "modules/unit-2/15-msme-registration-checklist/index.html"}
+    ]
+  },
   "tracking": false,
   "analytics": true,
   "authentication": false
