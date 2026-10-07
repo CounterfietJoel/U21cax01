@@ -139,6 +139,10 @@ topics:
         - Personnel | Are qualified people available to produce and sell it?
         - Government policy | Do incentives or rules favour or block it?
     example: To save energy in hostels, students brainstorm motion sensors, dashboards, gamified savings, auto-cutoff systems and awareness campaigns, then choose one feasible approach.
+    case:
+      name: CaneBOT
+      text: Applying SCAMPER to a sugarcane-juice kiosk gives Combine (juice extraction with automated hygiene), Modify (vending-machine format) and Eliminate (manual handling). Screening then tests which option is feasible and viable.
+      prompt: Which SCAMPER prompt best describes the move from kiosk to robotic vending machine?
     mistakes:
       - Starting criticism too early in a brainstorm.
       - Generating ideas only within the team and never with users.
@@ -250,7 +254,11 @@ topics:
         options: Divergent | Convergent | Explore | Neither
         answer: 1
         why: Convergent thinking narrows options using evidence and criteria.
-    short_answers: []
+    short_answers:
+    - q: State the meaning of creative problem solving.
+      a: Creative problem solving is a disciplined process of defining the real problem, gathering information, finding root causes, generating alternatives, selecting a solution and testing it, alternating between divergent and convergent thinking.
+    - q: Distinguish a symptom from a root cause.
+      a: A symptom is the visible effect of a problem, such as low sales. A root cause is the underlying reason it occurs, such as distrust, poor fit or high price. Fixing the root cause removes the symptom, while fixing a symptom does not.
 
   - id: II.4
     slug: product-planning-and-development
@@ -376,6 +384,10 @@ topics:
         - Governance and control | How many owners, and how will decisions be made?
         - Compliance and continuity | What filings can we manage, and must the business outlive any one founder?
     example: A student offering CAD drafting services to local workshops can begin as a sole proprietor after checking the local registration and tax requirements that apply.
+    case:
+      name: Autocracy Machinery
+      text: A machinery maker that buys tooling, holds inventory and signs dealer contracts carries real liability. That pushes it away from a sole proprietorship, where the owner is personally liable, towards a limited-liability form.
+      prompt: Name two factors from the decision table that rule out a proprietorship for Autocracy.
     mistakes:
       - Underestimating the danger of unlimited liability.
       - Expecting to raise equity investment easily.
@@ -445,6 +457,10 @@ topics:
         - Registration | Optional (but advisable) | Compulsory, with MCA
         - Compliance | Low | Higher, with annual returns and accounts
     example: An ECE student and a mechanical student forming a small automation consultancy may prefer an LLP once client contracts and liability are involved.
+    case:
+      name: Krishigati
+      text: Founders who combine farm-machinery design, field sales and manufacturing need written terms on roles, equity, vesting, IP and exit before scaling, whatever legal form they choose.
+      prompt: Which founder-agreement clause matters most if one co-founder leaves after the prototype is built?
     mistakes:
       - Relying on friendship instead of a written agreement.
       - Leaving ownership and decision rights unclear, which can destroy the venture.
@@ -518,6 +534,10 @@ topics:
         - Joint venture | Defined by agreement | Parties contribute complementary assets
         - Spin-off | Licensed or assigned to a new entity | A dedicated team and investment are needed
     example: A robotics training academy may franchise a proven curriculum model, while a deep-tech product startup chooses a private limited company to be investment-ready.
+    case:
+      name: Eeki Automation and Quixy
+      text: Venture-funded startups such as Eeki and Quixy operate as private limited companies, because a company can issue shares to investors and has the governance they expect. A franchise suits a proven, replicable format, not an early technology venture.
+      prompt: Why would an angel investor hesitate to invest in a partnership firm?
     mistakes:
       - Signing a franchise without studying fees, royalties, territory and exit terms.
       - Ignoring company compliance such as annual filings.

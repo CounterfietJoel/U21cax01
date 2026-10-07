@@ -44,6 +44,14 @@
         update();
       }));
     });
+    // Show the last saved attempt so progress survives a reload.
+    const saved = set.closest('.topic') ? load()[setId] : load()[`quiz:${setId}`];
+    if (result && saved) {
+      const when = new Date(saved.at || saved).toLocaleDateString();
+      result.textContent = saved.total
+        ? `Last attempt on ${when}: ${saved.right} of ${saved.total} correct. Answer again to update it.`
+        : `You completed this quick check on ${when}. Answer again to refresh it.`;
+    }
     const reset = set.parentElement.querySelector('.reset');
     if (reset) reset.addEventListener('click', () => {
       items.forEach(item => {

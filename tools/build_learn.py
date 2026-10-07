@@ -22,7 +22,7 @@ ROOT = Path(__file__).resolve().parents[1]
 CONTENT = ROOT / "content"
 OUT = ROOT / "learn"
 ANALYTICS_ID = "G-VDJBZBB0MK"
-CSS_VERSION = "1"
+CSS_VERSION = "2"
 STUDY_MATERIAL = "U21CAX01 Study Material"
 
 GTAG = f"""  <!-- Google tag (gtag.js) -->
@@ -483,7 +483,7 @@ def load_units() -> list[dict]:
 
 def check(units: list[dict]) -> list[str]:
     errors = []
-    required = ("id", "slug", "title", "outcome", "page", "summary", "key_points", "example", "mistakes", "terms", "check")
+    required = ("id", "slug", "title", "outcome", "page", "summary", "key_points", "example", "case", "mistakes", "terms", "check", "short_answers")
     for unit in units:
         for key in ("number", "title", "co", "co_short", "tagline", "overview", "pages", "quiz", "topics"):
             if key not in unit:

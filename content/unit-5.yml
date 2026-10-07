@@ -88,7 +88,11 @@ topics:
         options: Infrastructure | Market access | A grant | Equity
         answer: 1
         why: It connects ventures to government buyers.
-    short_answers: []
+    short_answers:
+    - q: List any four forms of government support for entrepreneurship.
+      a: (1) Policy and recognition, (2) infrastructure such as industrial estates, (3) finance such as loans, subsidies, guarantees and grants, and (4) capacity building through EDPs, training and mentoring. Market access through public procurement and GeM is also valid.
+    - q: State the role of a District Industries Centre.
+      a: A District Industries Centre is the district-level government office that guides entrepreneurs, processes selected enterprise schemes and facilitates setup. Its mandate and scheme coverage must be checked locally.
 
   - id: V.2
     slug: incentives-subsidies-grants
@@ -442,7 +446,11 @@ topics:
         options: Venture capital | NEEDS | Equity crowdfunding | Section 80-IAC
         answer: 1
         why: NEEDS targets first-generation entrepreneurs, subject to its current conditions.
-    short_answers: []
+    short_answers:
+    - q: Name any two Tamil Nadu support channels for entrepreneurs.
+      a: (1) StartupTN and its TANSEED and ecosystem programmes for innovative early-stage startups, and (2) NEEDS for eligible first-generation entrepreneurs. TWEES and UYEGP are also valid. Current conditions must be verified on official portals.
+    - q: State why scheme details must be reverified before applying.
+      a: Scheme names, amounts, eligibility, windows and obligations change between cohorts and policy revisions, so only the current official portal is a reliable basis for an application.
 
   - id: V.7
     slug: finance-and-banks

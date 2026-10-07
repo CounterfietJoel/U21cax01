@@ -304,6 +304,10 @@ topics:
         - Internal (founder and team) | Skills, motivation, confidence, risk attitude, team capability, execution discipline
         - External (environment) | Finance access, market demand, infrastructure, regulation, social attitudes, government support
     example: A drone service startup for agriculture needs skilled pilots and working capital (economic), farmer trust (social), confidence to handle seasonal demand (psychological) and DGCA awareness (government).
+    case:
+      name: Greenviro Global, Coimbatore
+      text: Greenviro depends on economic factors (a steady coconut-waste supply and working capital), social factors (local acceptance of briquettes as a fuel), psychological factors (the founder persisting with an unfamiliar product) and government factors (environmental rules and any available support for waste-to-energy units).
+      prompt: Which one factor would most limit Greenviro if it expanded to another district?
     mistakes:
       - Assuming a good idea succeeds even when finance, market or regulation is ignored.
       - Forgetting that family and social pressure can either support or discourage entrepreneurship.
@@ -484,6 +488,11 @@ topics:
           - the team has raised funding
         answer: 1
         why: Proof of concept shows it works. Proof of value shows that customers benefit enough to adopt and pay.
+    short_answers:
+    - q: Distinguish an inventor from an entrepreneur.
+      a: An inventor creates a new product, process or technical solution. An entrepreneur recognises an opportunity and organises resources (customers, finance, production, team) to turn an idea or invention into a venture that creates and captures value. One person can be both.
+    - q: State the meaning of commercialisation.
+      a: Commercialisation is the process of turning an invention or idea into a product or service that customers buy, through validation, design for manufacture, pricing, distribution, support and protection of the IP.
 
   - id: I.7
     slug: companies-and-startups
