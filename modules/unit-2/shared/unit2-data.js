@@ -3,7 +3,7 @@
   const lastPart=(pathParts.pop()||'').toLowerCase();
   const folder=(lastPart==='index.html' ? (pathParts.pop()||'') : lastPart).toLowerCase();
   const n=parseInt(folder.slice(0,2),10);
-  const img={idea:'../shared/assets/ideation-world.png',product:'../shared/assets/product-development-world.png',forms:'../shared/assets/business-forms-world.png',launch:'../shared/assets/enterprise-launch-world.png'};
+  const img={idea:'../shared/assets/ideation-world.webp',product:'../shared/assets/product-development-world.webp',forms:'../shared/assets/business-forms-world.webp',launch:'../shared/assets/enterprise-launch-world.webp'};
   const common={
     kicker:'Unit II · Creating Entrepreneurial Venture',
     imageAlt:'Illustrated Indian entrepreneurship learning environment',

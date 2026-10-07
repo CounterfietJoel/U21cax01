@@ -1,4 +1,4 @@
-"""Validate the complete U21CAX01 three-unit GitHub Pages bundle."""
+"""Validate the complete U21CAX01 five-unit GitHub Pages bundle."""
 
 from __future__ import annotations
 
@@ -15,7 +15,8 @@ UNIT_ONE = (
     "07-companies-and-startups", "08-entrepreneurial-environment-and-growth",
     "09-entrepreneurship-economic-development",
 )
-UNIT_COUNTS = (9, 15, 9)
+UNIT_COUNTS = (9, 9, 9, 9, 9)
+LAB_COUNTS = (9, 15, 9)
 ANALYTICS_ID = "G-VDJBZBB0MK"
 FORBIDDEN = (
     "lorem ipsum", "placeholder text",
@@ -54,7 +55,9 @@ def validate(root: Path) -> list[str]:
     for relative in (
         "index.html", ".nojekyll", "README.md", "site-manifest.json",
         "assets/home.css", "assets/home.js", "assets/favicon.svg",
-        "assets/images/hero-venture-lab.png",
+        "assets/images/hero-venture-lab.webp",
+        "assets/learn.css", "assets/learn.js",
+        "tools/build_learn.py", "content/question-bank.json",
         "modules/unit-2/shared/unit2.css",
         "modules/unit-2/shared/unit2-data.js",
         "modules/unit-2/shared/unit2-runtime.js",
@@ -70,19 +73,27 @@ def validate(root: Path) -> list[str]:
         return [f"Invalid site-manifest.json: {exc}"]
 
     units = manifest.get("units", [])
-    if len(units) != 3:
-        errors.append("Manifest must contain exactly three live units")
+    if len(units) != 5:
+        errors.append("Manifest must contain exactly five live units")
     counts = tuple(len(unit.get("topics", [])) for unit in units)
     if counts != UNIT_COUNTS:
         errors.append(f"Topic counts must be {UNIT_COUNTS}; found {counts}")
 
+    lab_counts = tuple(len(unit.get("labs", [])) for unit in units[:3])
+    if lab_counts != LAB_COUNTS:
+        errors.append(f"Lab counts for Units I-III must be {LAB_COUNTS}; found {lab_counts}")
+
     topic_paths: list[str] = []
+    hub_paths: list[str] = []
+    lab_paths: list[str] = []
     for unit in units:
+        hub_paths.append(unit.get("hub", ""))
+        lab_paths.extend(unit.get("labs", []))
         for topic in unit.get("topics", []):
-            if not isinstance(topic, list) or len(topic) != 2:
+            if not isinstance(topic, list) or len(topic) != 3:
                 errors.append(f"Invalid topic entry: {topic!r}")
                 continue
-            topic_paths.append(topic[1])
+            topic_paths.append(topic[2])
     if len(topic_paths) != len(set(topic_paths)):
         errors.append("Manifest contains duplicate topic paths")
 
@@ -95,7 +106,9 @@ def validate(root: Path) -> list[str]:
     documents = [
         root / "index.html",
         root / "modules" / "unit-3" / "index.html",
+        *(root / path for path in hub_paths),
         *(root / path for path in topic_paths),
+        *(root / path for path in dict.fromkeys(lab_paths)),
     ]
     resolved_root = root.resolve()
     for document in documents:
@@ -144,8 +157,8 @@ def main() -> int:
     file_count = sum(1 for path in root.rglob("*") if path.is_file() and ".git" not in path.parts)
     bundle_bytes = sum(path.stat().st_size for path in root.rglob("*") if path.is_file() and ".git" not in path.parts)
     print("VALIDATION PASSED")
-    print("- Live units: 3")
-    print("- Live topics: 33")
+    print("- Live units: 5")
+    print("- Revision topics: 45 (plus 33 interactive labs in Units I-III)")
     print(f"- Bundle files: {file_count}")
     print(f"- Bundle size: {bundle_bytes / (1024 * 1024):.1f} MB")
     print("- Topic references and required assets: resolved")

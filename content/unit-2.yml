@@ -1,0 +1,870 @@
+number: 2
+title: Creating an Entrepreneurial Venture
+tagline: Create the venture
+co: CO2 · Suggest different forms of new venture development
+co_short: CO2 · K2
+pages: 17–28
+overview:
+  - Strong ventures start from a recurring problem, not a fashionable technology. This unit takes you from where ideas come from, through generating, screening and developing them into products, to choosing a legal form and setting up and registering a small enterprise.
+  - Remember two separations. Idea generation (divergent) is different from idea selection (convergent). A prototype, an MVP and a market-ready product serve different purposes.
+cases:
+  - name: Krishigati Pvt. Ltd.
+    what: Builds self-propelled electric agricultural tool bars for marginal farmers that cover sowing, weeding, spraying and soil work.
+    use: Creative problem solving. The venture tackles farm operations, labour shortage, affordability and usability together (II.3).
+  - name: Canectar Foods Pvt. Ltd. (CaneBOT)
+    what: Moved from sugarcane juice kiosks to an automated, hygienic robotic vending machine.
+    use: Product planning as learning. It shows a pivot, an MVP and patent thinking, with hygiene and automation added after market learning (II.4).
+  - name: Eeki Automation Pvt. Ltd.
+    what: Uses under-utilised land and service and farm alliances for pesticide-free vegetable production.
+    use: Sources of ideas such as local resources, sustainability and new technology, and also alliances (II.1, II.7).
+  - name: Autocracy Machinery Pvt. Ltd.
+    what: Builds specialised attachments such as trenchers, pole diggers, ditchers and multi-utility power packs using a Made-in-India supply chain.
+    use: Small-enterprise setup and registration. Machinery, supply chain, field service and registration discipline all matter (II.8, II.9).
+
+topics:
+  - id: II.1
+    slug: sources-of-new-ideas
+    title: Sources of new ideas
+    outcome: Identify sources of new business ideas.
+    page: 17
+    labs:
+      - title: Opportunity Radar
+        href: modules/unit-2/01-opportunity-radar/index.html
+        note: Investigate six sources of opportunity
+    summary:
+      - Business ideas come from problems, technological change, customer complaints, market gaps, process inefficiencies, hobbies, research, policy change, demographic change and local resource advantages. The best starting point is usually a **real, recurring problem**, not a technology looking for a use.
+    key_points:
+      - "Ask what wastes time, money, energy, material or effort, and what users put up with because nothing better exists."
+      - "**Observation** shows what people actually do. **Interviews** reveal motives, workarounds and priorities. **Operational data** shows frequency, delay, cost and defects. Use all three together (triangulation)."
+      - Ideas can also come from adapting a successful model to a new geography, customer group or engineering domain.
+      - An **idea** is a possible solution. A **business opportunity** is an idea backed by evidence of need, a payer and a feasible way to create value.
+      - "A good opportunity is attractive, durable, timely and anchored in something that creates value for the buyer (Aurangabadkar and Singh)."
+    framework:
+      title: Where ideas come from
+      items:
+        - term: Personal experience
+          text: Pain points you have faced yourself.
+        - term: Customers
+          text: Complaints, unmet needs and workarounds.
+        - term: Research and technology
+          text: Labs, patents, standards and technical papers.
+        - term: Industry exposure
+          text: Industrial visits, internships and field observation.
+        - term: Trends and policy
+          text: Sustainability, digital transformation, Industry 4.0 and new regulations.
+        - term: Local advantages
+          text: Raw materials, skills or clusters available nearby.
+    example: A civil engineering student notices that concrete curing checks on sites are often delayed and develops low-cost IoT monitoring for contractors.
+    case:
+      name: Eeki Automation
+      text: Eeki saw under-utilised land and demand for pesticide-free vegetables, two idea sources (local resources and a sustainability trend), and combined them into one venture.
+      prompt: Which two sources from the framework does Eeki's idea draw on?
+    mistakes:
+      - Choosing ideas only because they sound fashionable.
+      - Pursuing ideas that have no clear user or payer.
+      - Not checking whether the problem is frequent and painful enough.
+    terms:
+      - term: Business idea
+        def: A possible product, service or venture concept that responds to a problem or need.
+      - term: Business opportunity
+        def: A favourable, evidence-backed situation in which a defined customer has a meaningful need and a venture can create and capture value.
+      - term: Triangulation
+        def: Confirming a finding using several independent sources such as observation, interviews and data.
+    check:
+      - q: Which is the most dependable basis for a durable business idea?
+        options: A trending slogan | A customer pain observed repeatedly | An untested feature list | A competitor's colour scheme
+        answer: 1
+        why: A recurring, observed customer pain gives the idea a real problem to solve.
+      - q: Why should observation, interviews and data be used together?
+        options: To make the report longer | Because each reveals something different, and together they are more dependable | Because interviews are always wrong | Because data replaces customers
+        answer: 1
+        why: Observation shows behaviour, interviews show motives and data shows frequency and cost. Triangulating them reduces bias.
+      - q: A student adapts a successful Bengaluru tiffin-subscription model for hostel students in Coimbatore. The idea source is
+        options: Research papers | Adapting a proven model to a new customer group or geography | Government policy | A patent
+        answer: 1
+        why: Adapting a working model to a new geography or customer group is a recognised source of ideas.
+    short_answers:
+      - q: Define a business idea.
+        a: A business idea is a possible product, service or venture concept that responds to a customer problem or need. It is a starting point that still has to be tested for need, feasibility and value.
+      - q: State the meaning of a business opportunity.
+        a: A business opportunity is a favourable, evidence-backed situation in which a defined customer has a meaningful need, and a venture can feasibly create and capture value by meeting it. It is an idea plus evidence of need, a payer and feasibility.
+      - q: List any two sources of business ideas.
+        a: (1) Customer complaints and unmet needs, and (2) research outcomes, patents and technical papers. Personal experience, industrial visits and internships, policy and sustainability trends, and local resources are also valid.
+
+  - id: II.2
+    slug: methods-of-generating-ideas
+    title: Methods of generating ideas
+    outcome: Explain methods used for idea generation.
+    page: 18
+    labs:
+      - title: Idea Generation Studio
+        href: modules/unit-2/02-idea-generation-studio/index.html
+        note: Choose and apply ideation methods
+      - title: SCAMPER Makeover Lab
+        href: modules/unit-2/03-scamper-makeover-lab/index.html
+        note: Transform an existing product with seven prompts
+      - title: Idea Funnel Challenge
+        href: modules/unit-2/04-idea-funnel-challenge/index.html
+        note: Screen ideas for desirability, feasibility and viability
+    summary:
+      - Idea generation can be systematic. The common methods are brainstorming, mind mapping, SCAMPER, customer interviews, observation studies, problem trees, design thinking, competitor analysis and technology transfer. Generating ideas and selecting them are **two separate stages**.
+    key_points:
+      - "**Brainstorming** asks for quantity before judgement. Criticism is postponed until later."
+      - "**SCAMPER** asks whether you can **S**ubstitute, **C**ombine, **A**dapt, **M**odify, **P**ut to another use, **E**liminate or **R**earrange (reverse) part of an existing product."
+      - "**Mind mapping** visually connects problems, users, causes and possible solutions."
+      - Divergent methods produce alternatives. Convergent screening then compares value, evidence, feasibility, cost, risk, compliance and team fit.
+      - "Product selection has three steps (Aurangabadkar and Singh, Fig. 2.3): **idea generation → evaluation → choice**."
+    framework:
+      title: From many ideas to one
+      items:
+        - term: Diverge
+          text: Generate many possible ideas.
+        - term: Cluster
+          text: Group them by user, technology, cost and impact.
+        - term: Screen
+          text: Remove ideas with weak need or poor feasibility.
+        - term: Validate
+          text: Test assumptions with users and small prototypes.
+        - term: Refine
+          text: Improve the idea using the evidence.
+    table:
+      caption: Product or venture selection criteria (Aurangabadkar and Singh)
+      head: Criterion | What to ask
+      rows:
+        - Market | Is there enough demand, and who will buy?
+        - Funds | Can the money needed to develop, produce and sell be raised?
+        - Raw materials | Are inputs available in quantity, quality and at a reachable location?
+        - Technical implications | Can it be produced with available technology, machines and skills?
+        - Profitability | Will it earn a margin and is it marketable?
+        - Personnel | Are qualified people available to produce and sell it?
+        - Government policy | Do incentives or rules favour or block it?
+    example: To save energy in hostels, students brainstorm motion sensors, dashboards, gamified savings, auto-cutoff systems and awareness campaigns, then choose one feasible approach.
+    mistakes:
+      - Starting criticism too early in a brainstorm.
+      - Generating ideas only within the team and never with users.
+      - Assuming a technically exciting idea is commercially strong.
+    terms:
+      - term: Brainstorming
+        def: A group method for generating many ideas quickly by postponing criticism and building on each other's suggestions.
+      - term: SCAMPER
+        def: Seven prompts for transforming an existing product, which are Substitute, Combine, Adapt, Modify, Put to another use, Eliminate and Reverse or Rearrange.
+      - term: Divergent thinking
+        def: Generating many varied alternatives before applying judgement.
+      - term: Convergent thinking
+        def: Narrowing alternatives by comparing them against evidence and decision criteria.
+    check:
+      - q: Which rule applies during the divergent phase of brainstorming?
+        options: Approve only low-cost ideas | Rank ideas as they are spoken | Defend the first concept | Defer judgement while generating alternatives
+        answer: 3
+        why: Divergence needs quantity and variety. Judging too early kills ideas.
+      - q: Adding a phone stand to a lunch box is which SCAMPER move?
+        options: Substitute | Combine | Eliminate | Reverse
+        answer: 1
+        why: Joining two functions into one product is Combine.
+      - q: What are the three steps of product selection in the textbook figure?
+        options: Design, build, sell | Idea generation, evaluation, choice | Survey, patent, launch | Brainstorm, finance, register
+        answer: 1
+        why: Aurangabadkar and Singh show product selection as idea generation, then evaluation (screening and pre-feasibility), then choice.
+    short_answers:
+      - q: Name any two methods of generating business ideas.
+        a: (1) Brainstorming and (2) SCAMPER. Mind mapping, customer interviews, observation studies, problem trees, design thinking and competitor analysis are also valid.
+      - q: Define brainstorming.
+        a: Brainstorming is a group idea-generation method in which participants produce as many ideas as possible on a clearly stated problem, postpone criticism and build on each other's suggestions. Screening happens in a separate later stage.
+      - q: Name the three product-selection stages shown in the textbook figure.
+        a: "Aurangabadkar and Singh (Fig. 2.3): (1) idea generation, (2) evaluation (screening and pre-feasibility study) and (3) choice."
+      - q: List any two criteria used to select a product or venture.
+        a: (1) Market demand and marketability, and (2) technical feasibility with available technology and skills. Availability of funds, raw materials, qualified personnel, profitability and government policy are also valid.
+
+  - id: II.3
+    slug: creative-problem-solving
+    title: Creative problem solving
+    outcome: Apply basic creative problem-solving approaches.
+    page: 18
+    labs:
+      - title: Customer Interview Simulator
+        href: modules/unit-2/05-customer-interview-simulator/index.html
+        note: Collect behaviour instead of praise
+      - title: Creative Problem-Solving Sprint
+        href: modules/unit-2/06-creative-problem-solving-sprint/index.html
+        note: Clarify, ideate, develop and implement
+      - title: Root-Cause Investigation
+        href: modules/unit-2/07-root-cause-investigation/index.html
+        note: Separate symptoms from actionable causes
+    summary:
+      - Creative problem solving is a disciplined process. You define the real problem, gather information, reframe the challenge, generate alternatives, select a solution, test it and learn from the results. Many startups fail because they solve a **symptom** instead of the **root cause**.
+    key_points:
+      - Low sales may not be a marketing problem. The cause could be pricing, trust, product fit or distribution.
+      - A good **problem statement** names the user, the context and the unmet need, with evidence, and does not jump to a solution.
+      - Engineering solutions must fit the human context. A design can work in the lab and still fail in the field because of maintenance, training, environment or user behaviour.
+      - "The process alternates between **divergent thinking** (widening the options) and **convergent thinking** (narrowing with criteria)."
+      - Tools include observation, interviews, journey maps and **five whys** (exploring) and brainstorming, SCAMPER and analogy (diverging). A must-have screen and weighted criteria help when converging, and prototypes and pilots are used to test.
+    framework:
+      title: Six steps
+      items:
+        - term: Define
+          text: State the problem clearly.
+        - term: Gather
+          text: Collect information from users and data.
+        - term: Find root causes
+          text: Separate symptoms from causes, for example with five whys.
+        - term: Generate
+          text: Create several solution paths.
+        - term: Evaluate
+          text: Compare cost, feasibility, value and risk.
+        - term: Test and revise
+          text: Prototype, test and improve.
+    table:
+      caption: Explore, diverge, converge and test
+      head: Stage | Emphasis | Useful methods | Output
+      rows:
+        - Explore | Observe the user and challenge the first problem statement | Observation, interview, journey map, five whys | Alternative problem frames
+        - Diverge | Generate breadth before judging | Brainstorming, SCAMPER, analogy, mind map | A large set of options
+        - Converge | Select using criteria, not favourites | Must-have screen, weighted criteria, assumption ranking | A shortlist with reasons
+        - Test | Use behaviour and performance evidence | Prototype, experiment, pilot, cost test | Continue, change, pause or stop
+    example: If farmers reject a soil sensor, the cause may not be accuracy. It could be battery life, the lack of a local-language display, seasonal cash flow or distrust of the recommendations.
+    case:
+      name: Krishigati
+      text: Designing for marginal farmers meant solving labour shortage, affordability and ease of use together, not just building a capable machine.
+      prompt: Write a one-line problem statement for Krishigati that names the user, context and need.
+    mistakes:
+      - Jumping to solutions before defining the problem.
+      - Relying only on assumptions.
+      - Ignoring field conditions.
+    terms:
+      - term: Root cause
+        def: The underlying reason a problem occurs. Fixing it removes the symptom.
+      - term: Problem statement
+        def: An evidence-based description of a target user, the situation, the unmet need and its consequence, written without assuming a solution.
+      - term: Five whys
+        def: Asking "why?" repeatedly, about five times, to move from a symptom to its root cause.
+    check:
+      - q: Which statement includes the required elements of a problem statement?
+        options: Specifies the final product architecture | Promises a financial return | Describes the user, context and unmet need | Excludes contradicting evidence
+        answer: 2
+        why: A problem statement frames user, context and need, leaving room for different solutions.
+      - q: A team's app has low sales and it plans a bigger ad campaign. What should creative problem solving do first?
+        options: Double the ad budget | Check whether the root cause is price, trust, fit or distribution | Add more features | Change the logo
+        answer: 1
+        why: Low sales is a symptom. Find the cause before choosing a fix.
+      - q: Using weighted criteria to pick between options belongs to which mode?
+        options: Divergent | Convergent | Explore | Neither
+        answer: 1
+        why: Convergent thinking narrows options using evidence and criteria.
+    short_answers: []
+
+  - id: II.4
+    slug: product-planning-and-development
+    title: Product planning and development process
+    outcome: Describe stages of product planning and development.
+    page: 19
+    labs:
+      - title: Product Development Roadmap
+        href: modules/unit-2/08-product-development-roadmap/index.html
+        note: Use evidence at each stage gate
+      - title: Product Trade-off Simulator
+        href: modules/unit-2/09-product-trade-off-simulator/index.html
+        note: Balance cost, quality, time and features
+    summary:
+      - Product planning turns an opportunity into a product concept, specifications, a prototype, a test plan, a launch plan and an improvement cycle. Development is **iterative and stage-gated**. Each stage produces evidence and a decision before more money is committed.
+    key_points:
+      - "A good plan balances **desirability** (users want it), **feasibility** (it can be built), **viability** (it makes financial sense) and **responsibility** (it avoids harm)."
+      - "Sequence: define the problem and user → value proposition → assumptions and requirements → concepts → architecture → prototype → test → cost and capacity → MVP → controlled pilot → market-ready release."
+      - "A **prototype** answers a learning question. An **MVP** is the smallest coherent offering that lets a real customer experience the core value. A **pilot** tests it in a controlled real setting. A **market-ready** product adds reliability, quality, support, compliance, supply and cost control."
+      - A **product roadmap** links outcome, assumption, capability, release and review. Commitment rises as uncertainty falls.
+      - Feature priority depends on customer value, safety and compliance, testing the riskiest assumption, dependencies and delivery cost. It should not be decided by what the team likes.
+    framework:
+      title: Product planning stages
+      items:
+        - term: Need identification
+          text: Customer analysis and the problem to solve.
+        - term: Concept
+          text: Generate and screen concepts.
+        - term: Specification and design
+          text: Technical targets, design, prototype and validation.
+        - term: Costing and sourcing
+          text: Cost, materials, suppliers and manufacturability.
+        - term: Launch and improve
+          text: Release, collect feedback and improve.
+    table:
+      caption: Prototype, MVP, pilot and market-ready product
+      head: Stage | Purpose | What it proves
+      rows:
+        - Prototype | Learn about form, function, usability or performance | Something can work
+        - MVP | Deliver core value to an early customer with the least effort | Customers adopt and value it
+        - Pilot | Test in a controlled real context with metrics and a decision date | It works for real users at small scale
+        - Market-ready | Deliver reliably with quality, service, compliance and supply | The venture can deliver repeatedly and responsibly
+    example: A wearable posture monitor must be planned for sensor accuracy, battery life, comfort, app interface, price, data privacy and after-sales support, not just the sensing circuit.
+    case:
+      name: Canectar (CaneBOT)
+      text: Canectar began with juice kiosks. Market learning about hygiene and convenience led to an automated robotic vending machine, and IP became part of the product logic.
+      prompt: Which stage-gate evidence would justify moving from kiosks to building CaneBOT?
+    mistakes:
+      - Freezing the design before user testing.
+      - Ignoring serviceability and spare parts.
+      - Deciding cost targets too late.
+    terms:
+      - term: Product planning
+        def: Converting an opportunity into a concept, specifications, prototype, test plan, launch plan and improvement cycle.
+      - term: Prototype
+        def: An early representation built to answer a defined learning question.
+      - term: Minimum viable product (MVP)
+        def: The smallest coherent offering that delivers core value to a target customer and produces market learning.
+      - term: Product roadmap
+        def: A time-phased plan linking customer outcomes, assumptions, capabilities, releases and review points.
+      - term: Stage gate
+        def: A decision point where evidence decides whether development continues, changes, pauses or stops.
+    check:
+      - q: What is the purpose of a minimum viable product?
+        options: Match every competitor feature | Avoid contact with early users | Finalise the production system | Test a critical assumption with limited effort
+        answer: 3
+        why: An MVP is the smallest coherent offering that lets you learn from real customers.
+      - q: What distinguishes a prototype from a finished product?
+        options: A product need not work reliably | A prototype must be ready for mass production | A prototype enables learning; a product delivers reliably | A product cannot change after launch
+        answer: 2
+        why: Prototypes exist to learn. Products must perform reliably, be supported and meet compliance requirements.
+      - q: Which set of criteria should sequence a product roadmap?
+        options: Founder preference and visual appeal | Competitor count and press coverage | Alphabetical order | Customer value, evidence and dependency
+        answer: 3
+        why: Priority follows customer value, risk, evidence and dependencies, not taste.
+    short_answers:
+      - q: State the meaning of product planning.
+        a: Product planning is the process of converting a selected opportunity into a product concept, technical specifications, prototype, test plan, launch plan and improvement cycle, balancing what users want with what can be built profitably and responsibly.
+      - q: State the meaning of a minimum viable product.
+        a: A minimum viable product (MVP) is the smallest coherent version of an offering that lets a target customer experience the core value and gives the venture real market learning with limited effort.
+      - q: Define a prototype.
+        a: A prototype is an early, often incomplete representation of a product built to answer a specific learning question about form, function, usability or performance.
+
+  - id: II.5
+    slug: sole-proprietorship
+    title: Sole proprietorship
+    outcome: Explain sole proprietorship as a business form.
+    page: 21
+    labs:
+      - title: Business Forms Decision Matrix
+        href: modules/unit-2/10-business-forms-decision-matrix/index.html
+        note: Compare control, liability and continuity across forms
+      - title: Sole Proprietor Decision Desk
+        href: modules/unit-2/11-sole-proprietor-decision-desk/index.html
+        note: Judge fit, risk and when to review the form
+    summary:
+      - A **sole proprietorship** is a business owned and controlled by one person. It is the simplest form to start and manage and suits small trading, services, consulting and early experiments. The owner takes all the profit but also bears **unlimited liability**, because the business has no legal identity separate from the owner.
+    key_points:
+      - There is no separate legal entity. Business debts can be recovered from the owner's personal assets.
+      - No special Act governs its formation. The business only needs the registrations its activity requires (for example GST, shop and establishment or local licences).
+      - Decisions are fast and control is direct, but capital and skills are limited to one person.
+      - Continuity depends on the owner, so the business ends or is disrupted if the owner exits.
+      - Raising equity investment is difficult. Review the form when the business grows, takes on co-founders or carries higher liability.
+    framework:
+      title: Features at a glance
+      items:
+        - term: Ownership
+          text: One person.
+        - term: Control
+          text: Direct and simple.
+        - term: Compliance
+          text: Relatively low.
+        - term: Liability
+          text: Generally unlimited.
+        - term: Best suited for
+          text: Small, low-risk, owner-managed businesses.
+    table:
+      caption: Choosing a legal form, four factors to compare
+      head: Factor | Question to ask
+      rows:
+        - Capital | How much money is needed, and will outside investors buy a stake?
+        - Liability | How much personal risk can the founders accept?
+        - Governance and control | How many owners, and how will decisions be made?
+        - Compliance and continuity | What filings can we manage, and must the business outlive any one founder?
+    example: A student offering CAD drafting services to local workshops can begin as a sole proprietor after checking the local registration and tax requirements that apply.
+    mistakes:
+      - Underestimating the danger of unlimited liability.
+      - Expecting to raise equity investment easily.
+      - Forgetting that continuity depends heavily on the owner.
+    terms:
+      - term: Sole proprietorship
+        def: A business owned, controlled and managed by one person who receives all profits and bears unlimited liability.
+      - term: Unlimited liability
+        def: The owner's personal assets can be used to pay business debts.
+      - term: Separate legal entity
+        def: A business recognised in law as distinct from its owners, able to own property, contract and sue in its own name.
+    check:
+      - q: What condition describes a sole proprietorship?
+        options: One owner accepts direct control and liability | Several investors need transferable shares | It needs a board immediately | It has perpetual succession by default
+        answer: 0
+        why: One owner, direct control and unlimited liability define a sole proprietorship.
+      - q: Which factors are used when selecting a legal form?
+        options: Capital, liability, governance and compliance | Logo, office, dress and slogan | Age, grades, hobbies and travel | Packaging, colour and font
+        answer: 0
+        why: The legal form decides ownership, liability, control, capital entry and compliance, so those are the criteria.
+      - q: Why is a proprietorship unsuitable for a deep-tech startup seeking investors?
+        options: It is illegal for technology | It has no shares to offer investors and exposes the owner to unlimited liability | It must have 50 members | It cannot open a bank account
+        answer: 1
+        why: Investors buy shares in a company. A proprietorship has none, and the founder's personal assets are exposed.
+    short_answers:
+      - q: Define sole proprietorship.
+        a: A sole proprietorship is a business owned, controlled and managed by a single person who receives all profits and bears all risks with unlimited liability. The business has no legal identity separate from its owner.
+      - q: List four factors used to choose a legal form for a venture.
+        a: (1) Capital needs and plans for outside investment, (2) liability exposure, (3) governance, control and number of owners, and (4) compliance burden and continuity. Tax treatment and growth plans are also valid.
+
+  - id: II.6
+    slug: partnership-and-llp
+    title: Partnership and Limited Liability Partnership
+    outcome: Compare partnership and LLP forms.
+    page: 22
+    labs:
+      - title: Partnership vs LLP
+        href: modules/unit-2/12-partnership-vs-llp/index.html
+        note: Compare shared-ownership consequences
+    summary:
+      - A **partnership** is owned by two or more persons who agree to share profits, responsibilities and risks. It suits founders with complementary skills, but partners usually have **unlimited liability**. A **Limited Liability Partnership (LLP)** is a separate legal entity with limited liability and partnership-style flexibility.
+    key_points:
+      - "**Partnership** is governed by the Indian Partnership Act, 1932. It is based on an agreement, usually written as a **partnership deed**. Partners are jointly and severally liable for the firm's debts, and registering the firm is optional but advisable."
+      - "**LLP** is governed by the LLP Act, 2008 and registered with the Ministry of Corporate Affairs. It has a separate legal identity and perpetual succession, each partner's liability is limited to the agreed contribution, and it must make annual filings."
+      - An LLP needs at least two partners, including at least two designated partners. A partnership needs at least two partners.
+      - A **founder agreement** or partnership deed should cover ownership, roles, decision rights, capital, profit sharing, vesting, IP ownership, confidentiality, exit and dispute resolution.
+      - Friendship is not a substitute for a written agreement.
+    framework:
+      title: Partnership versus LLP
+      items:
+        - term: Partnership
+          text: Simple and flexible, but liability may be high.
+        - term: LLP
+          text: Limited liability with partnership-style management.
+        - term: Good for
+          text: Professional services, consulting, design firms and early ventures with several founders.
+        - term: Needs
+          text: A written agreement and clear responsibilities.
+    table:
+      caption: Partnership versus LLP (check current rules on official portals)
+      head: Basis | Partnership | LLP
+      rows:
+        - Law | Indian Partnership Act, 1932 | LLP Act, 2008
+        - Legal status | Not separate from partners | Separate legal entity
+        - Liability | Unlimited, joint and several | Limited to agreed contribution
+        - Continuity | Affected when partners change | Perpetual succession
+        - Registration | Optional (but advisable) | Compulsory, with MCA
+        - Compliance | Low | Higher, with annual returns and accounts
+    example: An ECE student and a mechanical student forming a small automation consultancy may prefer an LLP once client contracts and liability are involved.
+    mistakes:
+      - Relying on friendship instead of a written agreement.
+      - Leaving ownership and decision rights unclear, which can destroy the venture.
+      - Ignoring the liability and tax implications of the chosen form.
+    terms:
+      - term: Partnership
+        def: A relationship between two or more persons who agree to share the profits of a business carried on by all of them or any of them acting for all.
+      - term: Limited Liability Partnership (LLP)
+        def: A separate legal entity in which partners manage the business and each partner's liability is limited to the agreed contribution.
+      - term: Partnership deed
+        def: The written agreement setting out capital, profit sharing, roles, decision rights, admission, retirement and dispute resolution.
+      - term: Founder agreement
+        def: A written agreement among co-founders covering equity, roles, decision rights, vesting, IP, confidentiality, exit and disputes.
+    check:
+      - q: What is a central feature of an LLP?
+        options: Freedom from every statutory filing | Automatic access to public equity | Limited liability with partnership-style flexibility | No separate legal structure
+        answer: 2
+        why: An LLP combines limited liability and a separate identity with flexible, partner-based management.
+      - q: Which issue is a recognised source of avoidable partnership risk?
+        options: Complementary skills | Shared customer access | Unclear ownership and decision rights | Profit sharing in writing
+        answer: 2
+        why: Unclear ownership and decision rights cause disputes. A written deed prevents them.
+      - q: Which belongs in a founder agreement?
+        options: Only the business name | Only academic records | Only the first product specification | Equity, roles, IP, exit and disputes
+        answer: 3
+        why: The agreement must cover ownership, roles, IP, exit and how disputes are settled.
+    short_answers:
+      - q: Define partnership.
+        a: A partnership is a business owned by two or more persons who agree to share profits, responsibilities and risks under an agreement (the partnership deed). It is governed by the Indian Partnership Act, 1932, and partners usually have unlimited liability.
+      - q: State the meaning of a Limited Liability Partnership.
+        a: A Limited Liability Partnership (LLP) is a business form under the LLP Act, 2008 that is a separate legal entity with perpetual succession, where partners manage the business and each partner's liability is limited to the agreed contribution.
+      - q: List four matters normally covered by a founder agreement.
+        a: (1) Equity ownership and vesting, (2) roles and decision rights, (3) intellectual-property ownership, and (4) exit, deadlock and dispute resolution. Capital contribution, salary and confidentiality are also valid.
+
+  - id: II.7
+    slug: corporation-and-franchising
+    title: Corporation and franchising
+    outcome: Explain corporation and franchising models.
+    page: 22
+    labs:
+      - title: Corporation or Franchise?
+        href: modules/unit-2/13-corporation-or-franchise/index.html
+        note: Match a growth route to the venture's priorities
+    summary:
+      - A **company (corporation)** is a legal entity separate from its owners. It offers limited liability, perpetual succession and a share structure that suits outside investment and scaling, at the cost of more formal compliance. **Franchising** lets a franchisee operate under a franchisor's brand, system and standards in return for fees and royalties.
+    key_points:
+      - Companies in India are governed by the **Companies Act, 2013** and incorporated with the Registrar of Companies (MCA).
+      - "A **private limited company** is the common form for scalable startups. It restricts share transfer, needs at least two members and two directors, and can have at most 200 members. A **One Person Company (OPC)** allows a single member."
+      - Shares make it easy to bring in investors and employee stock options, which is why investors prefer companies.
+      - In **franchising**, the franchisor provides brand, system, training and standards, and the franchisee invests, runs the local operation and pays fees and royalties.
+      - The trade-off in franchising is lower entry uncertainty in exchange for fees, restrictions and dependence on the brand.
+      - "IP can move to a venture by **assignment** (ownership transfers), **licence** (exclusive or non-exclusive), **joint venture** or **spin-off**."
+    framework:
+      title: Company and franchise essentials
+      items:
+        - term: Company
+          text: Separate legal identity, limited liability and formal compliance.
+        - term: Private limited company
+          text: The common form for scalable, investment-ready startups.
+        - term: Franchise
+          text: Operate under an established brand and system.
+        - term: Franchisee duties
+          text: Investment, local operations, quality standards and royalties.
+    table:
+      caption: IP transfer routes to a venture
+      head: Route | Ownership after transfer | Best fit
+      rows:
+        - Assignment | Moves to the assignee | Creator exits or the venture needs clear ownership
+        - Exclusive licence | Stays with the owner | Licensee must invest heavily in one field or territory
+        - Non-exclusive licence | Stays with the owner | Technology can serve several users
+        - Joint venture | Defined by agreement | Parties contribute complementary assets
+        - Spin-off | Licensed or assigned to a new entity | A dedicated team and investment are needed
+    example: A robotics training academy may franchise a proven curriculum model, while a deep-tech product startup chooses a private limited company to be investment-ready.
+    mistakes:
+      - Signing a franchise without studying fees, royalties, territory and exit terms.
+      - Ignoring company compliance such as annual filings.
+      - Underestimating brand dependency risk in franchising.
+    terms:
+      - term: Private limited company
+        def: A company under the Companies Act, 2013 with limited liability, restricted share transfer and at most 200 members, commonly used for scalable startups.
+      - term: Incorporation
+        def: The legal formation of a company as a separate legal entity.
+      - term: Franchising
+        def: A contractual model in which a franchisee operates using the franchisor's brand, system and standards in return for fees and royalties.
+      - term: Licence (IP)
+        def: Permission to use IP the owner keeps, on defined terms of field, territory, duration and fee.
+    check:
+      - q: Which requirement most favours a private limited company?
+        options: External equity and formal governance | No growth beyond one owner | Zero compliance | Informal profit sharing
+        answer: 0
+        why: Shares and formal governance let investors come in, which suits scalable ventures.
+      - q: What is the main trade-off in franchising?
+        options: More invention with no support | Full autonomy | Public ownership with limited liability | Lower entry uncertainty in exchange for fees and restrictions
+        answer: 3
+        why: The franchisee gets a proven brand and system but pays fees and royalties and follows the franchisor's rules.
+      - q: A university licenses a validated sensor patent to a startup for market use. This is
+        options: Copying | Commercial technology transfer | A franchise | A sole proprietorship
+        answer: 1
+        why: Licensing validated knowledge or IP for market use is commercial technology transfer.
+    short_answers:
+      - q: State the meaning of a private limited company.
+        a: A private limited company is a company incorporated under the Companies Act, 2013 that is a separate legal entity with limited liability and perpetual succession. It restricts the transfer of shares and has at most 200 members, and it is the common form for investment-ready startups.
+      - q: Define franchising.
+        a: Franchising is a business arrangement in which a franchisor grants a franchisee the right to operate using its brand, products, systems and support, in return for fees and royalties and compliance with set standards.
+      - q: Name any two routes for transferring intellectual property to a startup.
+        a: (1) Assignment, which transfers ownership, and (2) licensing (exclusive or non-exclusive), which permits use while the owner keeps ownership. A joint venture and a spin-off are also valid.
+
+  - id: II.8
+    slug: setup-of-small-scale-enterprise
+    title: Setup process of small scale enterprise
+    outcome: Describe the steps for setting up a small-scale enterprise.
+    page: 24
+    labs:
+      - title: Small Enterprise Launch Mission
+        href: modules/unit-2/14-small-enterprise-launch-mission/index.html
+        note: Sequence the setup dependencies
+    summary:
+      - Setting up a small enterprise moves from opportunity and product selection through feasibility, legal form, the project report and finance to location, machinery, staffing, registration, approvals, production and marketing. The **project report** is the central planning document.
+    key_points:
+      - "Classic sequence (Charantimath, Fig. 5.1): select the project (product, location, feasibility, business plan and project profile) → decide the constitution (legal form) → register → obtain clearances → arrange land or shed → prepare the project report → arrange finance → arrange plant, machinery, power, water and people → implement."
+      - The project report explains the product, market, technical process, investment, working capital, profitability, risks and implementation schedule.
+      - Start at a realistic scale. Buying fixed assets before market validation creates financial pressure.
+      - "**Working capital** (inventory, wages, utilities and receivables) is often underestimated."
+      - Check licences and local approvals early, because they can delay everything else.
+    framework:
+      title: Five-step summary
+      items:
+        - term: Select and validate
+          text: Choose the project and confirm demand.
+        - term: Form and locate
+          text: Choose the legal form and location.
+        - term: Plan
+          text: Prepare the project report and financial estimates.
+        - term: Resource
+          text: Arrange finance, infrastructure, machinery, materials and people.
+        - term: Launch and monitor
+          text: Register, obtain approvals, start operations and track performance.
+    example: Before buying several printers, a small 3D printing service centre must estimate machine utilisation, filament inventory, maintenance cost, design labour, customer acquisition cost and local competition.
+    case:
+      name: Autocracy Machinery
+      text: An engineering product range of trenchers, pole diggers and power packs needs supply-chain planning, field service and registration discipline, not just good machines.
+      prompt: Which setup step would you check first before buying fabrication machinery?
+    mistakes:
+      - Buying machinery before confirming demand.
+      - Underestimating working capital.
+      - Checking licences and local approvals too late.
+    terms:
+      - term: Project report
+        def: The central planning document that explains product, market, process, investment, working capital, profitability, risk and schedule.
+      - term: Working capital
+        def: Funds tied up in short-cycle operating needs such as inventory, receivables and wages.
+      - term: Feasibility study
+        def: An assessment of whether the market, technical, financial, operational and legal conditions support the project.
+    check:
+      - q: Which checks should come before a small enterprise buys equipment?
+        options: Select the largest machine | Confirm demand, process, capacity and cash flow | Apply for every subsidy | Lease a showroom
+        answer: 1
+        why: Demand, process, capacity and cash flow decide what equipment is needed and whether it can be paid for.
+      - q: What is the central planning document for a small enterprise?
+        options: The logo guide | The project report | The trade licence | The visiting card
+        answer: 1
+        why: The project report brings product, market, process, investment, profitability and schedule together, and banks use it too.
+      - q: Which cost do new enterprises most often underestimate?
+        options: Logo design | Working capital | Domain name | Stationery
+        answer: 1
+        why: Inventory, wages, utilities and money owed by customers all lock up cash before sales are collected.
+    short_answers:
+      - q: List any two steps in setting up a small enterprise.
+        a: (1) Select the project and confirm demand through a feasibility study, and (2) prepare the project report and arrange finance. Choosing the legal form and location, registering and obtaining approvals, and arranging machinery and staff are also valid.
+
+  - id: II.9
+    slug: registration-of-small-scale-industry
+    title: Registration of small scale industry
+    outcome: Explain registration procedures for small-scale industries.
+    page: 24
+    labs:
+      - title: MSME Registration & Venture Architect
+        href: modules/unit-2/15-msme-registration-venture-architect/index.html
+        note: Use official Udyam facts and integrate Unit II
+    summary:
+      - Registration gives a small enterprise a formal identity and opens access to schemes, bank support and procurement. Today MSMEs register through **Udyam Registration** on the official Government of India portal. It is **free, online and based on self-declaration**.
+    key_points:
+      - MSMEs are classified on **composite criteria**, meaning investment in plant, machinery or equipment **and** annual turnover. The class depends on both limits.
+      - "Limits shown on the Udyam portal (effective 1 April 2025): **Micro** up to ₹2.5 crore investment and ₹10 crore turnover. **Small** up to ₹25 crore and ₹100 crore. **Medium** up to ₹125 crore and ₹500 crore."
+      - Use only the official portal (udyamregistration.gov.in). No agent or private site is authorised, and there is no fee.
+      - Registration is a category, not a single event. Depending on activity, a venture may also need GST, local body permission, pollution control consent, labour registrations, a factory licence, a trademark, an import-export code or sector approvals.
+      - MSME status does not remove any other legal obligation. Verify current limits and procedures before applying.
+    framework:
+      title: Registration checklist
+      items:
+        - term: Activity and form
+          text: Identify the business activity and legal form.
+        - term: Details ready
+          text: Keep PAN, Aadhaar, bank and business details ready as applicable.
+        - term: Udyam
+          text: Register on the official Udyam portal only.
+        - term: Other approvals
+          text: Check GST, local body, pollution, labour and sector approvals.
+        - term: Records
+          text: Maintain records for finance, tax and audit.
+    table:
+      caption: MSME classification on the Udyam portal (from 1 April 2025; recheck before use)
+      head: Class | Investment not exceeding | Turnover not exceeding
+      rows:
+        - Micro | ₹2.5 crore | ₹10 crore
+        - Small | ₹25 crore | ₹100 crore
+        - Medium | ₹125 crore | ₹500 crore
+    example: A small electronics assembly unit may need Udyam registration, GST, local permission, e-waste (EPR) awareness and quality and safety compliance, depending on the product.
+    case:
+      name: Autocracy Machinery
+      text: A machinery maker gains bank linkage and procurement access from MSME identity, but still needs factory, safety and product compliance.
+    mistakes:
+      - Using unofficial or fee-charging registration sites.
+      - Thinking MSME status removes other legal obligations.
+      - Using old limits without checking the current portal.
+    terms:
+      - term: Udyam Registration
+        def: The official, free, online Government of India registration that gives an eligible enterprise its MSME identity and classification.
+      - term: MSME
+        def: A micro, small or medium enterprise, classified by composite limits on investment and turnover.
+      - term: Composite criteria
+        def: Classification that requires both the investment and the turnover condition to be met.
+    check:
+      - q: Udyam Registration provides an eligible enterprise with
+        options: Automatic DPIIT startup recognition | Formal MSME identity through the official system | A patent | Guaranteed bank loans
+        answer: 1
+        why: Udyam gives MSME identity and classification. It is not startup recognition, a patent or a loan approval.
+      - q: An enterprise has ₹2 crore investment and ₹40 crore turnover. Under the current limits it is
+        options: Micro | Small | Medium | Not an MSME
+        answer: 1
+        why: Investment is within the micro limit, but turnover exceeds ₹10 crore, so composite criteria place it in Small (up to ₹25 crore and ₹100 crore).
+      - q: Which statement about Udyam Registration is correct?
+        options: Only agents can file it | It charges a fee based on turnover | It is free and filed on the official portal | It replaces GST registration
+        answer: 2
+        why: The official portal states that registration is free, and it does not replace GST or other approvals.
+    short_answers:
+      - q: State the purpose of Udyam Registration.
+        a: Udyam Registration gives an eligible micro, small or medium enterprise a formal MSME identity and classification through the free official Government of India portal. That identity enables access to MSME schemes, credit support, procurement preferences and delayed-payment protection.
+
+quiz:
+  - answer: 1
+    why: A repeatedly observed customer pain is a durable basis for an idea.
+  - answer: 2
+    why: A problem statement describes the user, context and unmet need without assuming a solution.
+  - answer: 3
+    why: In divergent brainstorming, judgement is deferred so that many alternatives appear.
+  - answer: 0
+    why: Product planning starts with the target user, the problem and the value proposition.
+  - answer: 3
+    why: An MVP tests a critical assumption with the least effort.
+  - answer: 1
+    why: Repeated use and willingness to pay are behaviour signals of product-market fit. Sign-ups alone are not.
+  - answer: 0
+    why: A sole proprietorship has one owner with direct control and unlimited liability.
+  - answer: 2
+    why: Unclear ownership and decision rights are an avoidable source of partnership disputes.
+  - answer: 2
+    why: An LLP offers limited liability with partnership-style flexibility.
+  - answer: 0
+    why: A private limited company suits external equity and formal governance.
+  - answer: 1
+    why: A franchisee gets the right to use the franchisor's brand and system, not ownership or a guarantee.
+  - answer: 3
+    why: Founder agreements cover equity, roles, IP, exit and disputes.
+  - answer: 0
+    why: Legal form is chosen on capital, liability, governance and compliance.
+  - answer: 3
+    why: Roadmap priority follows customer value, evidence and dependency.
+  - answer: 2
+    why: A prototype exists for learning. A product must deliver reliably.
+  - answer: 1
+    why: Demand, process, capacity and cash flow must be confirmed before buying equipment.
+  - answer: 1
+    why: Udyam gives formal MSME identity. It is not DPIIT recognition, a patent or a loan.
+  - answer: 3
+    why: Franchising lowers entry uncertainty in exchange for fees and restrictions.
+  - answer: 0
+    why: Technology transfer licenses validated knowledge or IP for market use.
+  - answer: 2
+    why: An LLP limits partners' liability more clearly than a traditional partnership.
+
+long_questions:
+  - q: Explain the sources, methods and screening criteria used to identify a business idea.
+    topics: [II.1, II.2]
+    points:
+      - Sources such as personal pain points, customer complaints, research and patents, industrial exposure, policy and sustainability trends, and local resources.
+      - Methods such as brainstorming, SCAMPER, mind mapping, interviews, observation, problem trees and design thinking.
+      - Separate divergent generation from convergent screening.
+      - Screening criteria are market demand, funds, raw materials, technical feasibility, profitability, personnel, government policy and corporate objectives.
+      - Product selection runs idea generation → evaluation (pre-feasibility) → choice.
+      - Example such as the hostel energy-saving ideas narrowed to one feasible option.
+  - q: Explain product planning from problem definition to pilot release.
+    topics: [II.4]
+    points:
+      - Define the problem and target user, and state the value proposition.
+      - Identify assumptions and requirements, then develop and screen concepts.
+      - Select an architecture, build a prototype and test technical and user performance.
+      - Estimate cost, capacity and manufacturability.
+      - Build an MVP, then run a controlled pilot with metrics and a decision date.
+      - Each gate needs evidence. Balance desirability, feasibility, viability and responsibility, using an example such as the posture monitor.
+  - q: Explain the features of sole proprietorship, partnership, LLP and private limited company.
+    topics: [II.5, II.6, II.7]
+    points:
+      - Sole proprietorship has one owner, no separate entity, unlimited liability, low compliance and continuity tied to the owner.
+      - Partnership has two or more partners under the Partnership Act 1932 and a deed, with unlimited joint and several liability and an optional registration.
+      - LLP falls under the LLP Act 2008, with a separate entity, limited liability, perpetual succession and MCA filings.
+      - Private limited company falls under the Companies Act 2013, with a separate entity, limited liability, shares, 2 to 200 members and the highest compliance.
+      - Compare ownership, liability, continuity, capital raising and compliance in a table.
+      - Conclude with which form suits which venture.
+  - q: Explain the franchise model, including brand support, fees, quality control and restrictions.
+    topics: [II.7]
+    points:
+      - Define the franchisor and the franchisee and the contractual right to use the brand and system.
+      - Support from the franchisor includes brand, operating manual, training, technology, approved suppliers and marketing.
+      - Fees and costs are the initial franchise fee, ongoing royalty, marketing contribution and working capital.
+      - Quality control covers standards, audits and corrective action rights. Localisation must be governed.
+      - Restrictions cover territory, suppliers, pricing and renewal or exit terms.
+      - Benefits and risks include lower entry uncertainty against brand dependency. Speak to existing franchisees before signing.
+  - q: Describe the purpose and main clauses of a founder agreement.
+    topics: [II.6]
+    points:
+      - The purpose is to turn informal promises into governance before pressure makes disputes personal.
+      - Clauses on roles, decision rights and time commitment.
+      - Clauses on capital contribution, equity ownership and vesting.
+      - Clauses on salary, expenses and additional funding.
+      - Clauses on IP assignment and confidentiality.
+      - Clauses on deadlock, conflict, founder exit, share transfer restrictions and dispute resolution.
+  - q: Explain a stage-gated product-development process and the evidence expected at each stage.
+    topics: [II.4]
+    points:
+      - A stage gate is a decision point to continue, change, pause or stop.
+      - The problem stage needs evidence of a frequent, painful problem.
+      - The concept stage needs user reaction and screening scores.
+      - The prototype stage needs technical performance and usability results.
+      - The MVP and pilot stages need adoption, willingness to pay and pilot metrics.
+      - The launch stage needs reliability, cost, supply, compliance and service readiness. Commitment grows as uncertainty falls.
+  - q: Explain the difference between an MVP, a prototype and a market-ready product.
+    topics: [II.4]
+    points:
+      - A prototype answers a learning question about form, function, usability or performance and may not be saleable.
+      - An MVP is the smallest coherent offering a real customer can use to experience the core value.
+      - A market-ready product adds reliability, quality, documentation, support, compliance, supply and viable cost.
+      - Compare purpose, audience, completeness and evidence produced in a table.
+      - Use an example such as CaneBOT's progression.
+      - Treating them as the same thing causes launch failures.
+  - q: Describe the sequence for setting up a small product or service enterprise.
+    topics: [II.8, II.9]
+    points:
+      - Select the project, covering product or service, location, feasibility study and business plan.
+      - Decide the legal form (constitution).
+      - Prepare the project report with market, process, investment, working capital and profitability.
+      - Arrange finance, land or premises, machinery, utilities and manpower.
+      - Register (Udyam, GST and so on) and obtain clearances.
+      - Start operations and monitor. Avoid buying machinery before demand is confirmed (example the 3D printing centre).
+  - q:
+      - (i) Explain how observation and interviews help frame a recurring customer problem.
+      - (ii) List four venture concepts that could address a laboratory waiting-time problem.
+    topics: [II.1, II.3]
+    points:
+      - Observation reveals actual behaviour, workarounds and delays.
+      - Interviews reveal motives, priorities and the user's own language.
+      - Combine them with operational data on frequency and cost, then write a problem statement naming user, context, need and evidence.
+      - Concepts include a sample-tracking app with status alerts, a digital token and queue system, priority triage tagging, an automated sample hand-off or barcode workflow, and scheduled time slots.
+  - q:
+      - (i) Explain the features of a traditional partnership and an LLP.
+      - (ii) Describe the circumstances in which each form may be suitable.
+    topics: [II.6]
+    points:
+      - Partnership features are the 1932 Act, a deed, unlimited joint liability, simplicity and optional registration.
+      - LLP features are the 2008 Act, a separate entity, limited liability, perpetual succession and MCA compliance.
+      - A partnership suits small, low-risk, trust-based businesses where simplicity matters.
+      - An LLP suits professional or consulting firms with client contracts and liability exposure, or where continuity matters.
+  - q:
+      - (i) Explain the purpose of a product roadmap.
+      - (ii) Describe how customer value, evidence, risk and dependency guide feature priority.
+    topics: [II.4]
+    points:
+      - A roadmap is a time-phased path from present evidence to a target customer and business outcome, not a wish list.
+      - Its layers are outcome, assumption, capability, release and review.
+      - Features essential to core value, or that remove a safety or compliance barrier, come first.
+      - Features that test the riskiest assumption or unlock dependent work come early.
+      - Consider effort, service burden and opportunity cost, but not team popularity. Example, allergen accuracy before cosmetic features.
+  - q:
+      - (i) Explain the benefits and limitations of franchising a technical-training model.
+      - (ii) Describe methods for maintaining curriculum quality and local relevance.
+    topics: [II.7]
+    points:
+      - Benefits are faster expansion with the franchisee's capital, local market knowledge and a proven curriculum.
+      - Limitations are quality dilution, dependence on franchisees, brand risk and royalty disputes.
+      - Quality methods include trainer certification, a controlled curriculum, standard assessments and periodic audits.
+      - Local relevance comes from governed localisation of examples, language and schedule, without changing outcomes.
+      - Monitor learner outcomes and allow corrective action.
+  - q:
+      - (i) Explain the features of an LLP and a private limited company.
+      - (ii) Describe how the legal form affects governance and future financing.
+    topics: [II.6, II.7]
+    points:
+      - Both are separate entities with limited liability and perpetual succession.
+      - An LLP is managed by partners through an agreement and has lighter compliance.
+      - A private limited company has shares, a board and more compliance.
+      - Governance differs, with the LLP agreement setting decision rights and the company using a board, shareholders and articles.
+      - Equity investors and ESOPs need shares, so a private limited company is preferred for VC-funded growth.
+  - q:
+      - (i) Describe the categories of registration and compliance for a small enterprise.
+      - (ii) Explain the difference among business registration, MSME identity, tax, local, labour and sector requirements.
+    topics: [II.9, II.8]
+    points:
+      - Entity formation creates the legal form (company, LLP or registered partnership).
+      - MSME identity through Udyam gives classification and scheme access.
+      - Tax covers GST, income tax and TDS where applicable.
+      - Local covers trade licence and shop or establishment registration.
+      - Labour covers EPF, ESI and factory licence where applicable. Sector covers FSSAI, pollution consent and product standards.
+      - One registration does not replace another. Verify against current official sources.
+  - q:
+      - (i) Describe how manufacturability, serviceability, cost and customer evidence are considered during product planning.
+      - (ii) Explain why a technically successful prototype may still be unsuitable for market release.
+    topics: [II.4]
+    points:
+      - Design for manufacture, meaning process, tolerances, suppliers and batch economics.
+      - Serviceability, meaning spare parts, repair and field support.
+      - Set cost targets early, before the design is frozen.
+      - Customer evidence such as pilot use and willingness to pay guides features.
+      - A prototype proves only that it can work. It may lack reliability, cost viability, compliance, supply or support, as with the soil sensor that farmers rejected.

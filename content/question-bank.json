@@ -1,0 +1,1967 @@
+[
+ {
+  "co": "CO1",
+  "A": [
+   {
+    "q": "____ identifies direct evidence that a business idea addresses a customer need.",
+    "opts": {
+     "a": "A verified customer problem",
+     "b": "A novel-sounding concept",
+     "c": "A polished presentation",
+     "d": "A broad technology trend"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "Which action denotes revising an assumption after contradictory pilot evidence?",
+    "opts": {
+     "a": "Defend the design despite contrary pilot evidence",
+     "b": "Revise the assumption and retest",
+     "c": "Increase the promotion budget",
+     "d": "Postpone all user feedback"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "The market-delivery role of an entrepreneur is",
+    "opts": {
+     "a": "An entrepreneur only finances inventions",
+     "b": "An inventor always owns a company",
+     "c": "An entrepreneur mobilises resources to deliver value",
+     "d": "An inventor avoids testing after creating an original concept"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "What is recognised as innovation-driven entrepreneurship?",
+    "opts": {
+     "a": "Replicating a local shop while preserving its established model",
+     "b": "Taking temporary work between semesters",
+     "c": "Selling surplus household items online",
+     "d": "Commercialising a novel solution through a scalable model"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "What condition is associated with necessity-driven entrepreneurship?",
+    "opts": {
+     "a": "rapid access to venture capital",
+     "b": "ownership of protected technology",
+     "c": "income generation when alternatives are limited",
+     "d": "expansion into foreign markets before testing local demand"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "Which among the following names economic contributions of entrepreneurship?",
+    "opts": {
+     "a": "Job creation and productivity improvement",
+     "b": "Elimination of all business uncertainty",
+     "c": "Reduction of every market price",
+     "d": "Replacement of public institutions"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "___ description identifies a startup rather than an established small firm.",
+    "opts": {
+     "a": "exempt from operational discipline during market search",
+     "b": "required to use digital technology",
+     "c": "owned by first-time founders",
+     "d": "searching for a scalable model under uncertainty"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "The  combination that names major participants in an entrepreneurial ecosystem are",
+    "opts": {
+     "a": "Patents, machines, buildings, and stock",
+     "b": "Incubators, mentors, finance, and markets",
+     "c": "Advertisements, discounts, slogans, and logos",
+     "d": "Taxes, penalties, audits, and litigation"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "What action is called a low-cost test of an uncertain business assumption?",
+    "opts": {
+     "a": "commit the full available budget",
+     "b": "run a low-cost test before committing resources",
+     "c": "wait until all uncertainty disappears",
+     "d": "copy a competitor's decision without testing assumptions"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "____ activity is included in entrepreneurial risk management.",
+    "opts": {
+     "a": "Avoiding every unfamiliar market",
+     "b": "Treating optimistic forecasts as facts despite downside exposure",
+     "c": "Transferring all decisions to advisers",
+     "d": "Identifying assumptions, exposure, and responses"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "What identifies a scalable business model?",
+    "opts": {
+     "a": "revenue can grow faster than key resource cost",
+     "b": "every sale requires equal founder time",
+     "c": "capacity is fixed at the first pilot level",
+     "d": "customers are acquired only through discounts"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "Which among the following description defines social entrepreneurship?",
+    "opts": {
+     "a": "charity without an operating model",
+     "b": "profit maximisation without a measurable impact objective",
+     "c": "mission impact supported by sustainable revenue",
+     "d": "public ownership of every enterprise"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "What defines an intrapreneur?",
+    "opts": {
+     "a": "licenses every idea to another firm",
+     "b": "invests only in listed companies",
+     "c": "runs a family business without changing its operating model",
+     "d": "builds a new venture within an existing organisation"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "_______ & _________ pair consists of macro-environmental factors.",
+    "opts": {
+     "a": "Founder stamina and team trust",
+     "b": "Prototype speed, defect rate, and internal engineering workload",
+     "c": "Regulatory stability and access to finance",
+     "d": "Logo design and office layout"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "Which pair of indicators is a recognised warning that venture growth is harming service quality?",
+    "opts": {
+     "a": "Orders increase after a pilot",
+     "b": "Complaints rise while repeat purchases fall",
+     "c": "A new employee joins the team",
+     "d": "The firm documents processes while service complaints increase"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "Market-pull innovation begins with",
+    "opts": {
+     "a": "an unmet user need",
+     "b": "an unused laboratory instrument",
+     "c": "a completed patent application",
+     "d": "a competitor's advertising claim"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "_______ is required when a prototype fails a safety test.",
+    "opts": {
+     "a": "Disclose the evidence and correct course",
+     "b": "Rename the test as non-critical",
+     "c": "Delete the measurement and proceed without disclosure",
+     "d": "Launch before repeating the test"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "Which item is direct evidence of early customer validation?",
+    "opts": {
+     "a": "Many social-media impressions",
+     "b": "Positive comments from friends",
+     "c": "Repeated willingness to pay",
+     "d": "A large slide deck"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "What method limits downside through staged commitments?",
+    "opts": {
+     "a": "ignore downside consequences while committing all resources",
+     "b": "forecast only the best case",
+     "c": "borrow before testing demand",
+     "d": "use staged commitments to cap downside"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "The activity that states the resource-coordination role of an entrepreneur is",
+    "opts": {
+     "a": "Protecting an idea from all feedback",
+     "b": "Combining resources to create and capture value",
+     "c": "Separating the product from customer needs",
+     "d": "Delegating every decision to investors"
+    },
+    "rbt": "R"
+   }
+  ],
+  "B": [
+   "Define the term entrepreneur.",
+   "State the meaning of entrepreneurship.",
+   "Name the four stages shown in the textbook model of the entrepreneurial process.\n\nSource: Aurangabadkar & Singh, Startup and New Venture Management, Fig. 1.5, p. 1.44 (PDF p. 52).",
+   "List any two characteristics of a successful entrepreneur.",
+   "Name any two motives for becoming an entrepreneur.",
+   "Define innovation in an entrepreneurial context.",
+   "State the meaning of intrapreneurship.",
+   "Define social entrepreneurship.",
+   "List two contributions of entrepreneurship to economic development.",
+   "Name any two participants in an entrepreneurial ecosystem.",
+   "Define entrepreneurial competency.",
+   "State the meaning of entrepreneurial risk.",
+   "List two internal factors affecting entrepreneurial growth.",
+   "List two external factors affecting entrepreneurial growth.",
+   "Define necessity-driven entrepreneurship.",
+   "State the meaning of opportunity-driven entrepreneurship.",
+   "Name two ethical responsibilities of an entrepreneur.",
+   "Define an entrepreneurial ecosystem.",
+   "State the meaning of a startup.",
+   "List any two stages in the growth of an entrepreneurial firm."
+  ],
+  "C": [
+   [
+    "1",
+    "Define the terms entrepreneur and entrepreneurship, and explain the difference between them. (Textbook question: Aurangabadkar & Singh, p. 1.48.)",
+    "U"
+   ],
+   [
+    "1",
+    "Define the terms entrepreneur and entrepreneurship, and explain the difference between them. (Textbook question: Aurangabadkar & Singh, p. 1.48.)",
+    "U"
+   ],
+   [
+    "2",
+    "Explain the relationship among entrepreneur, entrepreneurship, and enterprise.",
+    "U"
+   ],
+   [
+    "2",
+    "Explain the relationship among entrepreneur, entrepreneurship, and enterprise.",
+    "U"
+   ],
+   [
+    "3",
+    "Describe the characteristics, competencies, and roles of a successful entrepreneur.",
+    "U"
+   ],
+   [
+    "3",
+    "Describe the characteristics, competencies, and roles of a successful entrepreneur.",
+    "U"
+   ],
+   [
+    "4",
+    "Explain the economic and non-economic factors affecting entrepreneurial growth.",
+    "U"
+   ],
+   [
+    "4",
+    "Explain the economic and non-economic factors affecting entrepreneurial growth.",
+    "U"
+   ],
+   [
+    "5",
+    "Discuss the contribution of entrepreneurship to employment, innovation, competition, regional development, and social value.",
+    "U"
+   ],
+   [
+    "5",
+    "Discuss the contribution of entrepreneurship to employment, innovation, competition, regional development, and social value.",
+    "U"
+   ],
+   [
+    "6",
+    "Explain innovation-driven, necessity-driven, social, and intrapreneurial forms of entrepreneurship with suitable examples.",
+    "U"
+   ],
+   [
+    "6",
+    "Explain innovation-driven, necessity-driven, social, and intrapreneurial forms of entrepreneurship with suitable examples.",
+    "U"
+   ],
+   [
+    "7",
+    "Describe the roles of mentors, incubators, finance providers, customers, laboratories, and public agencies in an entrepreneurial ecosystem.",
+    "U"
+   ],
+   [
+    "7",
+    "Describe the roles of mentors, incubators, finance providers, customers, laboratories, and public agencies in an entrepreneurial ecosystem.",
+    "U"
+   ],
+   [
+    "8",
+    "Explain entrepreneurial uncertainty, risk, validation, and staged commitment.",
+    "U"
+   ],
+   [
+    "8",
+    "Explain entrepreneurial uncertainty, risk, validation, and staged commitment.",
+    "U"
+   ],
+   [
+    "9",
+    "i",
+    "Explain the meanings of invention, idea, and opportunity.",
+    "U"
+   ],
+   [
+    "9",
+    "ii",
+    "Illustrate their differences with one engineering-related example.",
+    "U"
+   ],
+   [
+    "10",
+    "i",
+    "Explain necessity-driven and opportunity-driven entrepreneurship.",
+    "U"
+   ],
+   [
+    "10",
+    "ii",
+    "Describe suitable forms of support for each.",
+    "U"
+   ],
+   [
+    "11",
+    "i",
+    "Describe the ethical responsibilities of an entrepreneur during product testing.",
+    "U"
+   ],
+   [
+    "11",
+    "ii",
+    "Explain the likely effects of concealing an unfavourable safety result.",
+    "U"
+   ],
+   [
+    "12",
+    "i",
+    "Explain how entrepreneurship can produce creative destruction and new economic value.",
+    "U"
+   ],
+   [
+    "12",
+    "ii",
+    "Illustrate the explanation with an Indian engineering-sector example.",
+    "U"
+   ],
+   [
+    "13",
+    "i",
+    "Classify the factors affecting a rural technology venture as internal or external.",
+    "U"
+   ],
+   [
+    "13",
+    "ii",
+    "Explain how any four of these factors influence entrepreneurial growth.",
+    "U"
+   ],
+   [
+    "14",
+    "i",
+    "Describe the evidence used to establish a promising venture opportunity.",
+    "U"
+   ],
+   [
+    "14",
+    "ii",
+    "Explain why social-media reach alone is insufficient evidence.",
+    "U"
+   ],
+   [
+    "15",
+    "i",
+    "Explain the stages of opportunity validation for a student venture.",
+    "U"
+   ],
+   [
+    "15",
+    "ii",
+    "Describe how staged commitments limit time and capital risk.",
+    "U"
+   ]
+  ]
+ },
+ {
+  "co": "CO2",
+  "A": [
+   {
+    "q": "____ is recognised as a useful basis for a durable business idea?",
+    "opts": {
+     "a": "A trending slogan",
+     "b": "A customer pain observed repeatedly",
+     "c": "An untested feature list",
+     "d": "A competitor's colour scheme"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "Which statement identifies the required elements of a problem statement?",
+    "opts": {
+     "a": "specify the final product architecture",
+     "b": "promise a particular financial return",
+     "c": "describe the user, context, and unmet need",
+     "d": "exclude evidence that contradicts the team"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "What rule applies during the divergent phase of brainstorming?",
+    "opts": {
+     "a": "approve only low-cost ideas",
+     "b": "rank ideas as they are spoken",
+     "c": "defend the first concept before exploring alternatives",
+     "d": "defer judgement while generating alternatives"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "______ belongs at the beginning of product planning?",
+    "opts": {
+     "a": "target user, problem, and value proposition",
+     "b": "final factory layout before confirming customer need",
+     "c": "brand colours and launch event",
+     "d": "complete five-year feature list"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "The statement that gives the purpose of a minimum viable product is",
+    "opts": {
+     "a": "match every competitor feature before testing assumptions",
+     "b": "avoid contact with early users",
+     "c": "finalise the production system",
+     "d": "test a critical assumption with limited effort"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "Which evidence is commonly associated with early product-market fit?",
+    "opts": {
+     "a": "A large number of free sign-ups",
+     "b": "Repeated use and willingness to pay",
+     "c": "A positive faculty review",
+     "d": "A technically complex prototype"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "What condition describes a sole proprietorship?",
+    "opts": {
+     "a": "one owner accepts direct control and liability",
+     "b": "several investors require transferable shares",
+     "c": "the venture needs a separate board immediately",
+     "d": "the founders want perpetual succession by default"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "Which issue is a recognised source of avoidable partnership risk?",
+    "opts": {
+     "a": "Complementary technical skills",
+     "b": "Shared access to customers",
+     "c": "Unclear ownership and decision rights",
+     "d": "Documented profit-sharing rules that omit decision rights"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "______ gives a central feature of an LLP.",
+    "opts": {
+     "a": "freedom from every statutory filing",
+     "b": "automatic access to public equity",
+     "c": "limited liability with partnership-style flexibility",
+     "d": "absence of a separate legal structure and personal exposure"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "Which requirement commonly favours a private limited company?",
+    "opts": {
+     "a": "external equity and formal governance",
+     "b": "no growth beyond one owner",
+     "c": "zero compliance obligations",
+     "d": "informal profit-sharing without external governance"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "What right is ordinarily granted to a franchisee?",
+    "opts": {
+     "a": "ownership of the franchisor's company and wider assets",
+     "b": "the right to use an established brand and system",
+     "c": "freedom from operating standards",
+     "d": "a guarantee of commercial success"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "________ belongs in a founder agreement.",
+    "opts": {
+     "a": "only the initial business name",
+     "b": "only the founders' academic records",
+     "c": "only the first product specification",
+     "d": "equity, roles, IP, exit, and disputes"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "_______ is used when selecting a legal form.",
+    "opts": {
+     "a": "Capital, liability, governance, and compliance",
+     "b": "Logo, office, dress, and slogan",
+     "c": "Age, grades, hobbies, and travel",
+     "d": "Packaging, colour, font, and domain choices at launch"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "Which set among the following criteria is used to sequence a product roadmap?",
+    "opts": {
+     "a": "founder preference and visual appeal",
+     "b": "competitor count and press coverage",
+     "c": "alphabetical order and coding effort",
+     "d": "customer value, evidence, and dependency"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "_______ distinguishes a prototype from a finished product?",
+    "opts": {
+     "a": "A product need not operate reliably",
+     "b": "A prototype must be ready for mass production and routine service",
+     "c": "A prototype enables learning; a product delivers reliably",
+     "d": "A product cannot change after launch"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "Which checks should precede equipment purchase by a small enterprise?",
+    "opts": {
+     "a": "select the largest machine before verifying capacity needs",
+     "b": "confirm demand, process, capacity, and cash flow",
+     "c": "apply for every available subsidy",
+     "d": "lease a showroom near competitors"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "Udyam Registration provides an eligible enterprise with",
+    "opts": {
+     "a": "automatic DPIIT startup recognition",
+     "b": "formal MSME identity through the official system",
+     "c": "a patent for its core technology",
+     "d": "guaranteed bank-loan approval without credit appraisal"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "________ identifies the main trade-off in franchising?",
+    "opts": {
+     "a": "more invention with no operating support",
+     "b": "full autonomy with no contractual or operating restrictions",
+     "c": "public ownership with limited liability",
+     "d": "lower entry uncertainty with fees and restrictions"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "Which activity describes commercial technology transfer to a venture?",
+    "opts": {
+     "a": "licenses validated knowledge or IP for market use",
+     "b": "keeps all research results permanently unpublished",
+     "c": "copies an unprotected competitor design",
+     "d": "avoids defining ownership and usage rights"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "_____  distinguishes an LLP from a traditional partnership.",
+    "opts": {
+     "a": "Both always issue publicly traded shares",
+     "b": "Neither requires agreed management roles",
+     "c": "An LLP limits liability more clearly than a partnership",
+     "d": "A partnership always has perpetual succession and limited liability"
+    },
+    "rbt": "R"
+   }
+  ],
+  "B": [
+   "Define a business idea.",
+   "State the meaning of a business opportunity.",
+   "Name the three product-selection stages shown in the textbook figure.\n\nSource: Aurangabadkar & Singh, Startup and New Venture Management, Fig. 2.3, p. 2.8 (PDF p. 64).",
+   "List any two sources of business ideas.",
+   "Name any two methods of generating business ideas.",
+   "Define brainstorming.",
+   "State the meaning of product planning.",
+   "List any two criteria used to select a product or venture.",
+   "Define sole proprietorship.",
+   "Define partnership.",
+   "State the meaning of a Limited Liability Partnership.",
+   "State the meaning of a private limited company.",
+   "Define franchising.",
+   "List four matters normally covered by a founder agreement.",
+   "State the meaning of a minimum viable product.",
+   "Define a prototype.",
+   "List any two steps in setting up a small enterprise.",
+   "State the purpose of Udyam Registration.",
+   "Name any two routes for transferring intellectual property to a startup.",
+   "List four factors used to choose a legal form for a venture."
+  ],
+  "C": [
+   [
+    "1",
+    "Explain the sources, methods, and screening criteria used to identify a business idea.",
+    "U"
+   ],
+   [
+    "1",
+    "Explain the sources, methods, and screening criteria used to identify a business idea.",
+    "U"
+   ],
+   [
+    "2",
+    "Explain product planning from problem definition to pilot release.",
+    "U"
+   ],
+   [
+    "2",
+    "Explain product planning from problem definition to pilot release.",
+    "U"
+   ],
+   [
+    "3",
+    "Explain the features of sole proprietorship, partnership, LLP, and private limited company.",
+    "U"
+   ],
+   [
+    "3",
+    "Explain the features of sole proprietorship, partnership, LLP, and private limited company.",
+    "U"
+   ],
+   [
+    "4",
+    "Explain the franchise model, including brand support, fees, quality control, and restrictions.",
+    "U"
+   ],
+   [
+    "4",
+    "Explain the franchise model, including brand support, fees, quality control, and restrictions.",
+    "U"
+   ],
+   [
+    "5",
+    "Describe the purpose and main clauses of a founder agreement.",
+    "U"
+   ],
+   [
+    "5",
+    "Describe the purpose and main clauses of a founder agreement.",
+    "U"
+   ],
+   [
+    "6",
+    "Explain a stage-gated product-development process and the evidence expected at each stage.",
+    "U"
+   ],
+   [
+    "6",
+    "Explain a stage-gated product-development process and the evidence expected at each stage.",
+    "U"
+   ],
+   [
+    "7",
+    "Explain the difference between an MVP, a prototype, and a market-ready product.",
+    "U"
+   ],
+   [
+    "7",
+    "Explain the difference between an MVP, a prototype, and a market-ready product.",
+    "U"
+   ],
+   [
+    "8",
+    "Describe the sequence for setting up a small product or service enterprise.",
+    "U"
+   ],
+   [
+    "8",
+    "Describe the sequence for setting up a small product or service enterprise.",
+    "U"
+   ],
+   [
+    "9",
+    "i",
+    "Explain how observation and interviews help frame a recurring customer problem.",
+    "U"
+   ],
+   [
+    "9",
+    "ii",
+    "List four venture concepts that could address a laboratory waiting-time problem.",
+    "U"
+   ],
+   [
+    "10",
+    "i",
+    "Explain the features of a traditional partnership and an LLP.",
+    "U"
+   ],
+   [
+    "10",
+    "ii",
+    "Describe the circumstances in which each form may be suitable.",
+    "U"
+   ],
+   [
+    "11",
+    "i",
+    "Explain the purpose of a product roadmap.",
+    "U"
+   ],
+   [
+    "11",
+    "ii",
+    "Describe how customer value, evidence, risk, and dependency guide feature priority.",
+    "U"
+   ],
+   [
+    "12",
+    "i",
+    "Explain the benefits and limitations of franchising a technical-training model.",
+    "U"
+   ],
+   [
+    "12",
+    "ii",
+    "Describe methods for maintaining curriculum quality and local relevance.",
+    "U"
+   ],
+   [
+    "13",
+    "i",
+    "Explain the features of an LLP and a private limited company.",
+    "U"
+   ],
+   [
+    "13",
+    "ii",
+    "Describe how the legal form affects governance and future financing.",
+    "U"
+   ],
+   [
+    "14",
+    "i",
+    "Describe the categories of registration and compliance for a small enterprise.",
+    "U"
+   ],
+   [
+    "14",
+    "ii",
+    "Explain the difference among business registration, MSME identity, tax, local, labour, and sector requirements.",
+    "U"
+   ],
+   [
+    "15",
+    "i",
+    "Describe how manufacturability, serviceability, cost, and customer evidence are considered during product planning.",
+    "U"
+   ],
+   [
+    "15",
+    "ii",
+    "Explain why a technically successful prototype may still be unsuitable for market release.",
+    "U"
+   ]
+  ]
+ },
+ {
+  "co": "CO3",
+  "A": [
+   {
+    "q": "The executive summary of a business plan should primarily",
+    "opts": {
+     "a": "repeat every appendix in full",
+     "b": "describe only the product technology",
+     "c": "present the venture case concisely",
+     "d": "avoid stating the funding requirement"
+    },
+    "rbt": "U"
+   },
+   {
+    "q": "Which combination makes a marketing plan decision-ready?",
+    "opts": {
+     "a": "Slogan, logo, brochure, and colour",
+     "b": "Industry size, patent count, and awards",
+     "c": "Price list, office plan, and founder profile",
+     "d": "Segment, value, channel, acquisition, and metrics"
+    },
+    "rbt": "U"
+   },
+   {
+    "q": "______ correctly distinguishes cash flow from profit.",
+    "opts": {
+     "a": "A profitable firm can still face a cash shortage",
+     "b": "Profit records only cash received from customers",
+     "c": "Cash flow excludes payments to suppliers",
+     "d": "The two measures are always identical"
+    },
+    "rbt": "U"
+   },
+   {
+    "q": "At the break-even point, total contribution is equal to",
+    "opts": {
+     "a": "total sales revenue",
+     "b": "total fixed cost",
+     "c": "total variable cost",
+     "d": "total capital employed"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "Sensitivity analysis is used to",
+    "opts": {
+     "a": "test how outcomes change when assumptions change",
+     "b": "remove uncertainty from every forecast",
+     "c": "replace customer validation with one calculated forecast",
+     "d": "prove that the optimistic case will occur"
+    },
+    "rbt": "Ap"
+   },
+   {
+    "q": "A useful organisational plan should clearly specify",
+    "opts": {
+     "a": "only the founders' job titles",
+     "b": "only the number of future employees",
+     "c": "roles, accountability, and capability gaps",
+     "d": "the colours used in the organisation chart"
+    },
+    "rbt": "U"
+   },
+   {
+    "q": "The strongest opening for an investor pitch normally establishes the",
+    "opts": {
+     "a": "complete legal history of the company",
+     "b": "customer problem and supporting evidence",
+     "c": "founders' preferred technology stack",
+     "d": "five-year financial tables before establishing the problem"
+    },
+    "rbt": "Ap"
+   },
+   {
+    "q": "A credible investor ask should state",
+    "opts": {
+     "a": "only the highest possible valuation",
+     "b": "only the founder's personal ambition",
+     "c": "only the market-size estimate without funding milestones",
+     "d": "capital needed, use of funds, and milestones"
+    },
+    "rbt": "Ap"
+   },
+   {
+    "q": "In the TAM-SAM-SOM framework, SOM represents",
+    "opts": {
+     "a": "all global spending in the broad industry",
+     "b": "the segment addressable by the business model",
+     "c": "the revenue already earned by competitors",
+     "d": "the realistic initial share the venture can obtain"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "Gross margin is most directly calculated as",
+    "opts": {
+     "a": "cash balance minus loan balance",
+     "b": "revenue minus direct cost of sales",
+     "c": "assets minus total liabilities",
+     "d": "sales forecast minus market size"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "A major limitation of the undiscounted payback period is that it",
+    "opts": {
+     "a": "requires a marketing plan",
+     "b": "cannot be used with cash flows",
+     "c": "ignores value after cutoff and time value",
+     "d": "always favours long projects regardless of later cash flow"
+    },
+    "rbt": "U"
+   },
+   {
+    "q": "Which item is the strongest evidence of traction?",
+    "opts": {
+     "a": "Repeated customer behaviour tied to value",
+     "b": "A large number of presentation slides",
+     "c": "An untested forecast presented as confirmed traction",
+     "d": "A positive comment from one mentor"
+    },
+    "rbt": "U"
+   },
+   {
+    "q": "Implementation converts a business plan into action through",
+    "opts": {
+     "a": "branding, slogans, and press coverage",
+     "b": "milestones, owners, budgets, and review",
+     "c": "patents, awards, and networking alone",
+     "d": "forecasting without operational responsibility"
+    },
+    "rbt": "Ap"
+   },
+   {
+    "q": "A value proposition should communicate",
+    "opts": {
+     "a": "the customer outcome and meaningful differentiation",
+     "b": "the complete list of internal activities",
+     "c": "the founders' educational qualifications",
+     "d": "the highest specification regardless of customer outcome"
+    },
+    "rbt": "U"
+   },
+   {
+    "q": "Which assumption creates the clearest inconsistency in a financial plan?",
+    "opts": {
+     "a": "Price is tested across scenarios",
+     "b": "Direct cost rises with sales volume",
+     "c": "Working capital is linked to the operating cycle",
+     "d": "Sales grow without capacity or cash requirements"
+    },
+    "rbt": "Ap"
+   },
+   {
+    "q": "_______ best connects a solution to a verified problem?",
+    "opts": {
+     "a": "A generic industry-history slide",
+     "b": "A detailed office-floor plan",
+     "c": "A demonstration linked to user evidence",
+     "d": "A list of product features without supporting user evidence"
+    },
+    "rbt": "Ap"
+   },
+   {
+    "q": "An organisational structure is credible when",
+    "opts": {
+     "a": "every function reports directly to investors",
+     "b": "all founders hold identical responsibilities",
+     "c": "critical capabilities have clear ownership",
+     "d": "future roles are left completely undefined"
+    },
+    "rbt": "U"
+   },
+   {
+    "q": "A balanced business-plan evaluation should assess",
+    "opts": {
+     "a": "desirability, feasibility, viability, and responsibility",
+     "b": "only revenue, valuation, and an optimistic market scenario",
+     "c": "only technical novelty and patentability",
+     "d": "only the quality of document formatting"
+    },
+    "rbt": "U"
+   },
+   {
+    "q": "Which among the following forecasting practices is most ethical?",
+    "opts": {
+     "a": "Omitting the downside scenario",
+     "b": "Showing assumptions, scenarios, and uncertainty",
+     "c": "Using a single number without evidence",
+     "d": "Treating a management target as confirmed in every scenario"
+    },
+    "rbt": "U"
+   },
+   {
+    "q": "The most effective close to an investor pitch is",
+    "opts": {
+     "a": "a repetition of the venture name",
+     "b": "an unrelated founder biography",
+     "c": "a broad claim of future leadership",
+     "d": "a precise next step and information offer"
+    },
+    "rbt": "Ap"
+   }
+  ],
+  "B": [
+   "Explain how a business plan serves both the entrepreneur and external stakeholders.",
+   "Summarise the information that belongs in the executive summary of a business plan.",
+   "Using the textbook figure, explain the purpose of initial screening and the two terminate decisions in a project-feasibility study.\n\nSource: Charantimath, Entrepreneurship Development and Small Business Enterprises, Fig. 5.2, p. 223 (PDF p. 240).",
+   "Two machines have fixed/variable costs of Rs. 100/Rs. 2 and Rs. 200/Re. 1 per piece. The selling price is Rs. 3.50 for the first 800 units and Rs. 3.00 thereafter. Determine each machine's break-even quantity and state its use in a financial plan. (GATE ME '03)",
+   "Monthly sales are 70, 68, 82, and 95 units. Using exponential smoothing with alpha = 0.4 and the first observation as the initial forecast, estimate the next-month forecast and state one caution for its use in a business plan. (GATE ME '03)",
+   "Explain the main components of a marketing plan.",
+   "Use a customer-segment statement to specify two suitable acquisition metrics.",
+   "Explain the purpose of an organisational plan.",
+   "Calculate contribution per unit when selling price is Rs. 500 and variable cost is Rs. 320.",
+   "Distinguish cash flow from accounting profit.",
+   "Explain the purpose of the projected income statement, cash-flow statement, and balance sheet.",
+   "Apply sensitivity analysis to show the direction of profit change when selling price falls and unit sales remain constant.",
+   "Explain the problem-solution-evidence sequence in an investor pitch.",
+   "Rewrite the claim 'everyone will buy our product' as a testable, evidence-based statement.",
+   "Explain what a clear investor ask should contain.",
+   "Use the owner-budget-metric-date format to convert a launch objective into a milestone.",
+   "Distinguish an assumption, evidence, and aspiration in a business plan.",
+   "Explain how an implementation plan converts decisions into action.",
+   "Use base, upside, and downside labels to organise three stated sales forecasts.",
+   "Explain why financial assumptions must be disclosed honestly in an investor pitch."
+  ],
+  "C": [
+   [
+    "1",
+    "Why is a business plan important to the entrepreneur, investor, customer, and suppliers? Explain. (Textbook question: Charantimath, 2009, p. 246.)",
+    "U"
+   ],
+   [
+    "1",
+    "Why is a business plan important to the entrepreneur, investor, customer, and suppliers? Explain. (Textbook question: Charantimath, 2009, p. 246.)",
+    "U"
+   ],
+   [
+    "2",
+    "Explain the sections of a complete business plan and the decision purpose of each section.",
+    "U"
+   ],
+   [
+    "2",
+    "Explain the sections of a complete business plan and the decision purpose of each section.",
+    "U"
+   ],
+   [
+    "3",
+    "Analyse the consistency required among the marketing, operations, organisational, and financial sections of a business plan.",
+    "An"
+   ],
+   [
+    "3",
+    "Analyse the consistency required among the marketing, operations, organisational, and financial sections of a business plan.",
+    "An"
+   ],
+   [
+    "4",
+    "Analyse a business plan that projects rapid sales growth without customer evidence, capacity planning, working-capital estimates, or risk disclosure.",
+    "An"
+   ],
+   [
+    "4",
+    "Analyse a business plan that projects rapid sales growth without customer evidence, capacity planning, working-capital estimates, or risk disclosure.",
+    "An"
+   ],
+   [
+    "5",
+    "Explain the contents of an organisational plan for a venture moving from prototype to pilot production.",
+    "U"
+   ],
+   [
+    "5",
+    "Explain the contents of an organisational plan for a venture moving from prototype to pilot production.",
+    "U"
+   ],
+   [
+    "6",
+    "Explain a logical investor-pitch sequence from customer problem to funding ask.",
+    "U"
+   ],
+   [
+    "6",
+    "Explain a logical investor-pitch sequence from customer problem to funding ask.",
+    "U"
+   ],
+   [
+    "7",
+    "Analyse the usefulness and limitations of break-even, payback, gross margin, cash runway, and sensitivity analysis in an early-stage venture.",
+    "An"
+   ],
+   [
+    "7",
+    "Analyse the usefulness and limitations of break-even, payback, gross margin, cash runway, and sensitivity analysis in an early-stage venture.",
+    "An"
+   ],
+   [
+    "8",
+    "Explain how milestones, budgets, owners, review routines, and corrective action convert a business plan into implementation.",
+    "U"
+   ],
+   [
+    "8",
+    "Explain how milestones, budgets, owners, review routines, and corrective action convert a business plan into implementation.",
+    "U"
+   ],
+   [
+    "9",
+    "i",
+    "Analyse the weakness in claiming a large market from evidence collected from only five users.",
+    "An"
+   ],
+   [
+    "9",
+    "ii",
+    "Apply TAM-SAM-SOM terms to organise a more defensible market estimate.",
+    "An"
+   ],
+   [
+    "10",
+    "i",
+    "Use a base-case cash-flow format to organise monthly revenue, cost, working-capital, and closing-cash assumptions.",
+    "Ap"
+   ],
+   [
+    "10",
+    "ii",
+    "Apply lower-sales, higher-cost, and delayed-payment changes to the same format.",
+    "Ap"
+   ],
+   [
+    "11",
+    "i",
+    "Analyse an investor pitch that lists product features but omits the customer problem, traction, competition, business model, and ask.",
+    "An"
+   ],
+   [
+    "11",
+    "ii",
+    "Reorder the omitted elements into a logical pitch sequence.",
+    "An"
+   ],
+   [
+    "12",
+    "i",
+    "Distinguish the purpose of a marketing, operations, organisational, and financial plan.",
+    "An"
+   ],
+   [
+    "12",
+    "ii",
+    "Analyse two assumptions that must remain consistent across the four plans.",
+    "An"
+   ],
+   [
+    "13",
+    "i",
+    "Analyse how a venture showing accounting profit can still become insolvent.",
+    "An"
+   ],
+   [
+    "13",
+    "ii",
+    "Apply working-capital and cash-control measures to the stated situation.",
+    "An"
+   ],
+   [
+    "14",
+    "i",
+    "Use an amount-purpose-milestone-metric format to state a pilot-production funding ask.",
+    "Ap"
+   ],
+   [
+    "14",
+    "ii",
+    "Map each use of funds to its milestone and expected runway effect.",
+    "Ap"
+   ],
+   [
+    "15",
+    "i",
+    "Analyse the ethical and strategic consequences of presenting only an optimistic financial forecast to investors.",
+    "An"
+   ],
+   [
+    "15",
+    "ii",
+    "Present the same forecast as base, upside, and downside scenarios with explicit assumptions.",
+    "An"
+   ]
+  ]
+ },
+ {
+  "co": "CO4",
+  "A": [
+   {
+    "q": "Which sequence names the usual stages of design thinking?",
+    "opts": {
+     "a": "Define, launch, advertise, scale, exit",
+     "b": "Ideate, patent, price, recruit, sell",
+     "c": "Test, finance, register, produce, and promote without empathy",
+     "d": "Empathise, define, ideate, prototype, test"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "Which activity belongs to the empathy stage of design thinking?",
+    "opts": {
+     "a": "Observing and interviewing actual users",
+     "b": "Ranking internal preferences without observing actual users",
+     "c": "Selecting the final legal structure",
+     "d": "Estimating five-year valuation"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "Which set of elements belongs in a design-thinking problem statement?",
+    "opts": {
+     "a": "chosen technology and detailed bill of materials",
+     "b": "user, need, insight, and meaningful constraint",
+     "c": "final price, channel, and promotion plan",
+     "d": "founder's preferred solution and supplier"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "Which rule supports divergent brainstorming?",
+    "opts": {
+     "a": "Reject unfamiliar ideas immediately",
+     "b": "Permit only one idea per person",
+     "c": "Separate idea generation from evaluation",
+     "d": "Select the least costly idea first"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "Which description identifies a suitable early prototype?",
+    "opts": {
+     "a": "contains every planned feature",
+     "b": "tests the riskiest assumption economically",
+     "c": "uses advanced technology before testing the key assumption",
+     "d": "looks identical to a final product"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "Which feature characterises the new industrial revolution?",
+    "opts": {
+     "a": "complete separation of physical and digital factory work",
+     "b": "replacement of data by manual records",
+     "c": "mass production without customisation",
+     "d": "connected cyber-physical systems and automation"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "Which statement describes a technology-first startup error?",
+    "opts": {
+     "a": "tests prototypes with representative users",
+     "b": "documents assumptions but refuses to test customer need",
+     "c": "selects a solution before validating the need",
+     "d": "updates its design from field evidence"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "Which factors distinguish a small business, scalable startup, and social enterprise?",
+    "opts": {
+     "a": "founder goals, capital, impact, and growth logic",
+     "b": "the venture name and logo",
+     "c": "the first available office location",
+     "d": "the number of followers without a defined growth model"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "Which statement correctly describes DPIIT startup recognition?",
+    "opts": {
+     "a": "a status for eligible startups, not incorporation itself",
+     "b": "automatic approval for every sector licence",
+     "c": "guaranteed equity investment without independent investor appraisal",
+     "d": "a substitute for customer validation"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "Which condition must exist before an eligible entity applies for startup recognition?",
+    "opts": {
+     "a": "obtain a government purchase order",
+     "b": "complete international patent filing",
+     "c": "choose and form an eligible legal entity",
+     "d": "raise venture-capital investment"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "Which action belongs before uncontrolled disclosure of a potentially patentable product?",
+    "opts": {
+     "a": "post the full design before assessing protection options",
+     "b": "transfer ownership informally",
+     "c": "avoid documenting inventorship",
+     "d": "assess protection, ownership, and disclosure timing"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "Which factors determine the sector approvals applicable to a venture?",
+    "opts": {
+     "a": "founder biography and pitch style",
+     "b": "product, activity, location, and user risk",
+     "c": "logo, colour, and office furniture",
+     "d": "competition awards rather than product and user risk"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "Which practice belongs to basic tax and compliance planning?",
+    "opts": {
+     "a": "assuming all exemptions apply",
+     "b": "copying another firm's list without checking applicability",
+     "c": "checking applicability and maintaining records",
+     "d": "delaying every filing until scale-up"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "Which activity describes stage-matched use of a startup ecosystem?",
+    "opts": {
+     "a": "collects the names of every institution",
+     "b": "matches a stage-specific gap to the right resource",
+     "c": "depends on one mentor for all decisions",
+     "d": "applies to every scheme without screening obligations"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "Which set of elements belongs in a decision-ready pilot test?",
+    "opts": {
+     "a": "predefined user, technical, and business metrics",
+     "b": "a launch event but no predefined decision metrics",
+     "c": "an unlimited test duration",
+     "d": "only qualitative founder impressions"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "In design thinking, iteration means",
+    "opts": {
+     "a": "repeat the same prototype without learning",
+     "b": "avoid returning to earlier stages",
+     "c": "lock the solution after the first interview",
+     "d": "update the problem or solution from evidence"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "Which result is not proved by possession of an operating licence?",
+    "opts": {
+     "a": "the entity is legally registered",
+     "b": "the venture has documented records",
+     "c": "the product can be tested safely",
+     "d": "customers will adopt and pay"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "Which criteria are used to screen a startup-policy benefit?",
+    "opts": {
+     "a": "selecting the scheme with the largest headline amount",
+     "b": "matching eligibility, stage, need, and obligations",
+     "c": "submitting the same application everywhere",
+     "d": "assuming all benefits are automatic"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "Which group consists entirely of startup-ecosystem participants?",
+    "opts": {
+     "a": "Competitors, rumours, slogans, and colours as ecosystem assets",
+     "b": "Machines, patents, rent, and inventory",
+     "c": "Incubators, labs, mentors, customers, and financiers",
+     "d": "Invoices, penalties, receipts, and ledgers"
+    },
+    "rbt": "R"
+   },
+   {
+    "q": "Which sequence states a systematic venture-launch pathway?",
+    "opts": {
+     "a": "Validate problem, design model, form entity, comply, pilot",
+     "b": "Form entity, scale capacity, then identify the problem",
+     "c": "Raise finance, recruit staff, then test user need",
+     "d": "Advertise, patent, purchase equipment, then prototype"
+    },
+    "rbt": "R"
+   }
+  ],
+  "B": [
+   "Define design thinking.",
+   "List the five common stages of design thinking.",
+   "State the meaning of empathy in design thinking.",
+   "Define a problem statement.",
+   "State the meaning of ideation.",
+   "Define divergent thinking.",
+   "Define convergent thinking.",
+   "State the meaning of a prototype.",
+   "State the purpose of prototype testing.",
+   "Define iteration in design thinking.",
+   "List two features of Industry 4.0.",
+   "Define a small business.",
+   "State the meaning of a scalable startup.",
+   "State the meaning of a social enterprise.",
+   "Define incorporation.",
+   "State the purpose of DPIIT startup recognition.",
+   "Define intellectual property.",
+   "State the meaning of a sector-specific approval.",
+   "Define a business incubator.",
+   "State the meaning of a controlled market pilot."
+  ],
+  "C": [
+   [
+    "1",
+    "Using the textbook flowchart, explain the sequence for setting up a small enterprise. State which registrations and clearances require verification from current official sources. (Adapted from Charantimath, 2009, Fig. 5.1.)\n\nSource: Charantimath, Entrepreneurship Development and Small Business Enterprises, Fig. 5.1, p. 214 (PDF p. 231).",
+    "U"
+   ],
+   [
+    "1",
+    "Using the textbook flowchart, explain the sequence for setting up a small enterprise. State which registrations and clearances require verification from current official sources. (Adapted from Charantimath, 2009, Fig. 5.1.)\n\nSource: Charantimath, Entrepreneurship Development and Small Business Enterprises, Fig. 5.1, p. 214 (PDF p. 231).",
+    "U"
+   ],
+   [
+    "2",
+    "Explain the empathise, define, ideate, prototype, and test stages of design thinking.",
+    "U"
+   ],
+   [
+    "2",
+    "Explain the empathise, define, ideate, prototype, and test stages of design thinking.",
+    "U"
+   ],
+   [
+    "3",
+    "Describe brainstorming, SCAMPER, mind mapping, customer interviews, and observation as methods for generating startup ideas.",
+    "U"
+   ],
+   [
+    "3",
+    "Describe brainstorming, SCAMPER, mind mapping, customer interviews, and observation as methods for generating startup ideas.",
+    "U"
+   ],
+   [
+    "4",
+    "Explain startup opportunities associated with cyber-physical systems, robotics, additive manufacturing, AI, and industrial data.",
+    "U"
+   ],
+   [
+    "4",
+    "Explain startup opportunities associated with cyber-physical systems, robotics, additive manufacturing, AI, and industrial data.",
+    "U"
+   ],
+   [
+    "5",
+    "Explain the features of a small business, scalable startup, social enterprise, franchise, consulting practice, and technology-licensing venture.",
+    "U"
+   ],
+   [
+    "5",
+    "Explain the features of a small business, scalable startup, social enterprise, franchise, consulting practice, and technology-licensing venture.",
+    "U"
+   ],
+   [
+    "6",
+    "Describe the legal and compliance categories relevant to a technology startup.",
+    "U"
+   ],
+   [
+    "6",
+    "Describe the legal and compliance categories relevant to a technology startup.",
+    "U"
+   ],
+   [
+    "7",
+    "Explain why startup recognition, MSME registration, or incubator admission is not proof of customer demand.",
+    "U"
+   ],
+   [
+    "7",
+    "Explain why startup recognition, MSME registration, or incubator admission is not proof of customer demand.",
+    "U"
+   ],
+   [
+    "8",
+    "Explain how incubators, laboratories, mentors, early customers, financiers, and public agencies support a venture at different stages.",
+    "U"
+   ],
+   [
+    "8",
+    "Explain how incubators, laboratories, mentors, early customers, financiers, and public agencies support a venture at different stages.",
+    "U"
+   ],
+   [
+    "9",
+    "i",
+    "Explain the weaknesses of building an advanced product before understanding users.",
+    "U"
+   ],
+   [
+    "9",
+    "ii",
+    "Describe how the design-thinking stages correct this technology-first approach.",
+    "U"
+   ],
+   [
+    "10",
+    "i",
+    "Explain the features of a private limited company and an LLP.",
+    "U"
+   ],
+   [
+    "10",
+    "ii",
+    "Describe two financing contexts in which the suitability of these forms differs.",
+    "U"
+   ],
+   [
+    "11",
+    "i",
+    "Describe the categories of approvals that may apply to a food-product startup.",
+    "U"
+   ],
+   [
+    "11",
+    "ii",
+    "Explain why entity registration does not replace sector, local, tax, labour, and quality obligations.",
+    "U"
+   ],
+   [
+    "12",
+    "i",
+    "Explain the purpose and components of a controlled pilot for an industrial sensing product.",
+    "U"
+   ],
+   [
+    "12",
+    "ii",
+    "Describe suitable technical, user, business, safety, and learning metrics.",
+    "U"
+   ],
+   [
+    "13",
+    "i",
+    "Explain the relationship among patent review, prototype disclosure, investor pitching, and customer trials.",
+    "U"
+   ],
+   [
+    "13",
+    "ii",
+    "Describe a practical IP and confidentiality sequence.",
+    "U"
+   ],
+   [
+    "14",
+    "i",
+    "Explain how eligibility, stage, need, obligation, timing, and evidence are used to screen a government-policy benefit.",
+    "U"
+   ],
+   [
+    "14",
+    "ii",
+    "Describe a scheme-screening matrix using these headings.",
+    "U"
+   ],
+   [
+    "15",
+    "i",
+    "Explain the risks of incorporating, renting facilities, and purchasing machinery before validating demand.",
+    "U"
+   ],
+   [
+    "15",
+    "ii",
+    "Describe how staged commitments reduce these risks.",
+    "U"
+   ]
+  ]
+ },
+ {
+  "co": "CO5",
+  "A": [
+   {
+    "q": "Which statement correctly distinguishes a grant from a loan?",
+    "opts": {
+     "a": "Both always require scheduled repayment",
+     "b": "A grant is non-repayable subject to stated conditions",
+     "c": "A loan never requires evidence of cash flow",
+     "d": "A grant transfers equity ownership to the funding agency"
+    },
+    "rbt": "U"
+   },
+   {
+    "q": "A subsidy is best described as support that",
+    "opts": {
+     "a": "replaces all promoter contribution",
+     "b": "guarantees venture profitability after approved support",
+     "c": "removes every compliance obligation",
+     "d": "reduces a specified eligible cost under rules"
+    },
+    "rbt": "U"
+   },
+   {
+    "q": "An entrepreneurial incentive is generally intended to",
+    "opts": {
+     "a": "encourage a defined investment or behaviour",
+     "b": "eliminate market competition permanently",
+     "c": "finance any activity without eligibility",
+     "d": "replace the entrepreneur's business model"
+    },
+    "rbt": "U"
+   },
+   {
+    "q": "Inclusive entrepreneurial growth primarily seeks to",
+    "opts": {
+     "a": "concentrate support in established firms",
+     "b": "fund only high-valuation digital startups",
+     "c": "widen access for underserved groups and regions",
+     "d": "remove commercial discipline from enterprises"
+    },
+    "rbt": "U"
+   },
+   {
+    "q": "Which statement about Startup India recognition is correct?",
+    "opts": {
+     "a": "Recognition does not guarantee funding or customers",
+     "b": "Recognition replaces company incorporation",
+     "c": "Recognition approves every sector licence",
+     "d": "Recognition removes tax duties and sector approvals"
+    },
+    "rbt": "U"
+   },
+   {
+    "q": "Udyam Registration is primarily associated with",
+    "opts": {
+     "a": "patent examination",
+     "b": "formal MSME registration",
+     "c": "stock-exchange listing",
+     "d": "foreign-trade licensing only"
+    },
+    "rbt": "U"
+   },
+   {
+    "q": "A term loan is most suitable for financing",
+    "opts": {
+     "a": "daily petty-cash fluctuations",
+     "b": "unverified social-media promotion",
+     "c": "founder drawings and dividends",
+     "d": "long-lived machinery or equipment"
+    },
+    "rbt": "U"
+   },
+   {
+    "q": "Working-capital finance primarily supports",
+    "opts": {
+     "a": "purchase of land for indefinite holding",
+     "b": "acquisition of founder equity",
+     "c": "inventory, receivables, and operating needs",
+     "d": "payment of dividends before operating needs are met"
+    },
+    "rbt": "U"
+   },
+   {
+    "q": "Which evidence most directly supports bank repayment appraisal?",
+    "opts": {
+     "a": "The number of pitch-deck slides",
+     "b": "The novelty of the venture name",
+     "c": "Projected cash flow and repayment capacity",
+     "d": "The founder's social network without cash-flow evidence"
+    },
+    "rbt": "U"
+   },
+   {
+    "q": "Which statement best distinguishes angels from venture-capital funds?",
+    "opts": {
+     "a": "Angels invest personal funds, often at an earlier stage",
+     "b": "Angels provide only secured bank loans",
+     "c": "VC funds never seek governance rights",
+     "d": "VC funds invest only in proprietorships without governance rights"
+    },
+    "rbt": "U"
+   },
+   {
+    "q": "Bootstrapping commonly uses",
+    "opts": {
+     "a": "only government grants",
+     "b": "founder funds, revenue, and customer advances",
+     "c": "only public-equity markets",
+     "d": "unlimited supplier credit without agreed payment terms"
+    },
+    "rbt": "U"
+   },
+   {
+    "q": "A central risk in reward-based crowdfunding is",
+    "opts": {
+     "a": "automatic loss of all founder equity",
+     "b": "absence of any communication with contributors",
+     "c": "guaranteed bank repayment obligations",
+     "d": "failure to deliver promised rewards transparently"
+    },
+    "rbt": "U"
+   },
+   {
+    "q": "A strategic alliance is most useful when it",
+    "opts": {
+     "a": "provides complementary resources without full ownership",
+     "b": "eliminates the need for a written agreement",
+     "c": "prevents partners from sharing customers or capabilities",
+     "d": "requires one party to abandon its objectives"
+    },
+    "rbt": "U"
+   },
+   {
+    "q": "A major trade-off of equity financing is",
+    "opts": {
+     "a": "scheduled interest with no ownership change",
+     "b": "automatic approval of every business decision",
+     "c": "ownership dilution with added governance influence",
+     "d": "mandatory collateral for each share issued"
+    },
+    "rbt": "U"
+   },
+   {
+    "q": "Compared with equity, debt normally",
+    "opts": {
+     "a": "eliminates fixed repayment commitments",
+     "b": "preserves ownership but creates repayment obligations",
+     "c": "requires investors to share every loss without repayment priority",
+     "d": "has no effect on cash-flow risk"
+    },
+    "rbt": "U"
+   },
+   {
+    "q": "Before applying to a support scheme, a venture should",
+    "opts": {
+     "a": "assume the highest benefit is available",
+     "b": "use an unofficial summary as final eligibility authority",
+     "c": "submit incomplete documents before screening",
+     "d": "verify eligibility, obligations, and official evidence"
+    },
+    "rbt": "U"
+   },
+   {
+    "q": "Because schemes and thresholds can change, students should",
+    "opts": {
+     "a": "rely on undated social-media posts",
+     "b": "use the oldest available classroom handout",
+     "c": "treat every announcement as an entitlement",
+     "d": "recheck the relevant official portal"
+    },
+    "rbt": "U"
+   },
+   {
+    "q": "Cash runway is commonly estimated as",
+    "opts": {
+     "a": "annual revenue divided by total assets",
+     "b": "available cash divided by monthly net burn",
+     "c": "fixed cost divided by selling price",
+     "d": "inventory divided by annual demand"
+    },
+    "rbt": "U"
+   },
+   {
+    "q": "A government-backed Fund of Funds typically",
+    "opts": {
+     "a": "issues direct grants to every applicant",
+     "b": "replaces all private investors",
+     "c": "channels capital through selected investment funds",
+     "d": "provides working-capital overdrafts directly to every applicant"
+    },
+    "rbt": "U"
+   },
+   {
+    "q": "A sound stage-wise financing strategy should",
+    "opts": {
+     "a": "match instrument, evidence, stage, and use of funds",
+     "b": "seek the largest investment before validation",
+     "c": "use debt for every uncertain experiment",
+     "d": "avoid revising the funding plan after learning"
+    },
+    "rbt": "U"
+   }
+  ],
+  "B": [
+   "Define an entrepreneurial incentive.",
+   "Explain the difference between a subsidy and a grant.",
+   "Explain the meaning of inclusive entrepreneurial growth.",
+   "Explain what Startup India recognition may enable and what it does not guarantee.",
+   "Distinguish DPIIT startup recognition from Udyam MSME registration.",
+   "List four common sources of startup finance.",
+   "Explain the difference between a term loan and working-capital finance.",
+   "List four items normally examined during bank loan appraisal.",
+   "Explain the meaning of repayment capacity.",
+   "Explain the difference between angel investment and venture capital.",
+   "Explain bootstrapping with one example.",
+   "Explain reward-based and equity crowdfunding.",
+   "Explain the purpose of a strategic alliance.",
+   "Explain the difference between debt finance and equity finance.",
+   "Explain the difference between a grant and equity investment.",
+   "Explain the meaning of scheme eligibility and permitted use of funds.",
+   "Define cash runway and state the information required to estimate it.",
+   "Explain how a government-backed Fund of Funds normally operates.",
+   "State two ethical duties in a crowdfunding campaign.",
+   "Outline a stage-wise sequence of finance from prototype to production."
+  ],
+  "C": [
+   [
+    "1",
+    "Apply a stage-wise finance framework to match promoter contribution, incubation, grants, bank finance, and equity with a student manufacturing startup.",
+    "Ap"
+   ],
+   [
+    "1",
+    "Apply a stage-wise finance framework to match promoter contribution, incubation, grants, bank finance, and equity with a student manufacturing startup.",
+    "Ap"
+   ],
+   [
+    "2",
+    "Explain the roles and limitations of Central and State Government institutions, MSME bodies, banks, incubators, and investors in promoting entrepreneurship.",
+    "U"
+   ],
+   [
+    "2",
+    "Explain the roles and limitations of Central and State Government institutions, MSME bodies, banks, incubators, and investors in promoting entrepreneurship.",
+    "U"
+   ],
+   [
+    "3",
+    "Use an application-readiness checklist to organise eligibility, evidence, documents, permitted use, milestones, reporting, and current-source verification for a support scheme.",
+    "Ap"
+   ],
+   [
+    "3",
+    "Use an application-readiness checklist to organise eligibility, evidence, documents, permitted use, milestones, reporting, and current-source verification for a support scheme.",
+    "Ap"
+   ],
+   [
+    "4",
+    "Explain the purposes, benefits, limitations, and practical uses of DPIIT startup recognition and Udyam MSME registration.",
+    "U"
+   ],
+   [
+    "4",
+    "Explain the purposes, benefits, limitations, and practical uses of DPIIT startup recognition and Udyam MSME registration.",
+    "U"
+   ],
+   [
+    "5",
+    "Apply fixed-asset, working-capital, promoter-contribution, debt-service, and cash-flow categories to the financing needs of a small fabrication unit.",
+    "Ap"
+   ],
+   [
+    "5",
+    "Apply fixed-asset, working-capital, promoter-contribution, debt-service, and cash-flow categories to the financing needs of a small fabrication unit.",
+    "Ap"
+   ],
+   [
+    "6",
+    "Use stage, evidence, repayment, ownership, and control criteria to select suitable finance from bootstrapping, grants, debt, angel investment, and venture capital.",
+    "Ap"
+   ],
+   [
+    "6",
+    "Use stage, evidence, repayment, ownership, and control criteria to select suitable finance from bootstrapping, grants, debt, angel investment, and venture capital.",
+    "Ap"
+   ],
+   [
+    "7",
+    "Apply a crowdfunding checklist covering campaign type, target, evidence, communication, fulfilment, fund use, risk disclosure, and legal verification to a campus-product case.",
+    "Ap"
+   ],
+   [
+    "7",
+    "Apply a crowdfunding checklist covering campaign type, target, evidence, communication, fulfilment, fund use, risk disclosure, and legal verification to a campus-product case.",
+    "Ap"
+   ],
+   [
+    "8",
+    "Use contribution, governance, IP, quality, performance, and exit headings to outline a strategic alliance among a startup, manufacturer, distributor, and technical institution.",
+    "Ap"
+   ],
+   [
+    "8",
+    "Use contribution, governance, IP, quality, performance, and exit headings to outline a strategic alliance among a startup, manufacturer, distributor, and technical institution.",
+    "Ap"
+   ],
+   [
+    "9",
+    "i",
+    "Use eligibility, timing, documentation, permitted use, and obligation criteria to screen a set of advertised support schemes.",
+    "Ap"
+   ],
+   [
+    "9",
+    "ii",
+    "Record the scheme details that must be verified through current official sources.",
+    "Ap"
+   ],
+   [
+    "10",
+    "i",
+    "Explain the differences between bootstrapping and angel investment.",
+    "U"
+   ],
+   [
+    "10",
+    "ii",
+    "Use stage and runway criteria to choose between them for a prototype-stage venture.",
+    "U"
+   ],
+   [
+    "11",
+    "i",
+    "Use a bank-proposal template to organise promoter contribution, asset cost, working capital, cash flow, repayment, and risk-control information.",
+    "Ap"
+   ],
+   [
+    "11",
+    "ii",
+    "Demonstrate how the organised information supports loan appraisal.",
+    "Ap"
+   ],
+   [
+    "12",
+    "i",
+    "Apply an ethics checklist to a crowdfunding campaign that overstates readiness and conceals delivery risk.",
+    "Ap"
+   ],
+   [
+    "12",
+    "ii",
+    "Use transparent communication, milestone, refund, and reporting practices to correct it.",
+    "Ap"
+   ],
+   [
+    "13",
+    "i",
+    "Use ownership, governance, repayment, and cash-runway criteria to select debt, equity, or a combination for a stated pilot-production need.",
+    "Ap"
+   ],
+   [
+    "13",
+    "ii",
+    "Illustrate how the selected mix fits the venture's stage and use of funds.",
+    "Ap"
+   ],
+   [
+    "14",
+    "i",
+    "Use need and stage categories to match a student hardware startup with appropriate Tamil Nadu and national support channels.",
+    "Ap"
+   ],
+   [
+    "14",
+    "ii",
+    "List the details that must be reverified from official portals before application.",
+    "Ap"
+   ],
+   [
+    "15",
+    "i",
+    "Apply a source-of-funds reporting checklist to grant, loan, and equity money used in the same venture.",
+    "Ap"
+   ],
+   [
+    "15",
+    "ii",
+    "Demonstrate how records and controls differ according to repayment, ownership, and reporting obligations.",
+    "Ap"
+   ]
+  ]
+ }
+]

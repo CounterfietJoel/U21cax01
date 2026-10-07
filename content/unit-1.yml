@@ -1,0 +1,896 @@
+number: 1
+title: Entrepreneurship
+tagline: Think like an entrepreneur
+co: CO1 · Discuss the fundamentals of entrepreneurship
+co_short: CO1 · K2
+pages: 3–16
+overview:
+  - Entrepreneurship is a system, not a personality trait. A founder or team, an evidence-backed opportunity, a supportive or hostile environment and an organisation that can deliver repeatedly all have to work together.
+  - This unit builds the vocabulary you will use for the rest of the course. Know the difference between an idea, an invention and an opportunity. Know how entrepreneurs are classified, which factors help or block them, and why entrepreneurship matters to the economy.
+cases:
+  - name: India startup ecosystem snapshot
+    what: Startup India reported 1 lakh-plus recognised startups, 110-plus unicorns, 57 simplified regulations, startups in 670 districts and 12 lakh-plus self-reported jobs as of 31 December 2023.
+    use: Entrepreneurship as an ecosystem activity, economic development, environment and growth (I.1, I.8, I.9).
+  - name: Greenviro Global Pvt. Ltd., Coimbatore
+    what: Converts coconut agricultural waste into charcoal and briquettes. Local waste becomes a revenue-earning product with environmental value.
+    use: Characteristics, types and mindset. A clear example of innovation, local opportunity recognition and social value in one venture (I.2, I.3, I.5).
+  - name: Breathe Applied Sciences Pvt. Ltd.
+    what: Works on converting CO₂ into purified methanol and high-energy-density chemicals.
+    use: Inventor versus entrepreneur. The science is the invention, but the venture must also solve cost, process, customer and regulatory problems (I.6).
+  - name: Quixy (Vividminds Technologies)
+    what: A no-code platform that lets business users build enterprise applications with drag-and-drop workflows.
+    use: Company versus startup. What makes it a startup is the search for a repeatable, scalable model, not the date it was registered (I.7).
+
+topics:
+  - id: I.1
+    slug: concept-of-entrepreneurship
+    title: Concept of entrepreneurship
+    outcome: Explain the concept and scope of entrepreneurship.
+    page: 5
+    labs:
+      - title: Entrepreneurship Engine
+        href: modules/01-concept-of-entrepreneurship/index.html
+        note: Interactive explainer of opportunity, resources, risk and value
+    summary:
+      - Entrepreneurship is the **process** of identifying an opportunity, organising resources, accepting calculated risk and creating value through a new or improved venture. The **entrepreneur** is the person who drives that process.
+      - For an engineer, entrepreneurship is a disciplined way to convert technical knowledge into value. A prototype becomes entrepreneurial only when it solves a real customer problem, can be delivered reliably and has a path to revenue or social impact.
+    key_points:
+      - The entrepreneur visualises, initiates, organises, innovates, plans, communicates, motivates and takes responsibility for outcomes under uncertainty.
+      - An **idea** is a possible response to a problem. An **opportunity** is an evidence-supported situation where a defined customer has a meaningful need and the venture can create and capture value.
+      - Opportunity evidence combines problem frequency and severity, customer access, willingness to try or pay, and technical and economic feasibility.
+      - Uncertainty cannot be removed before acting. It is reduced through small tests, prototypes, interviews, pilots and staged commitments.
+      - The scope is wide. A product company, service firm, social enterprise, family business, rural enterprise or campus startup can all be entrepreneurial.
+    framework:
+      title: Four elements of entrepreneurship
+      items:
+        - term: Opportunity
+          text: A problem, gap, unmet need or under-served market backed by evidence.
+        - term: Resources
+          text: Knowledge, people, capital, equipment, information and networks that the founder assembles.
+        - term: Risk
+          text: Uncertainty about market acceptance, cost, technology, regulation and competition, taken in calculated steps.
+        - term: Value creation
+          text: Economic, social, environmental or institutional benefit that the venture delivers and can sustain.
+    example: A civil engineering student developing low-cost interlocking blocks becomes entrepreneurial when the blocks are tested with builders, costed, validated for strength and positioned against existing construction materials.
+    case:
+      name: India startup ecosystem snapshot
+      text: By 31 December 2023, recognised startups had spread to 670 districts and self-reported 12 lakh-plus jobs. Entrepreneurship is connected to employment, policy, women-led ventures and sectoral innovation. It is not a lone-founder activity.
+      prompt: Which of the four elements does the ecosystem mainly help a first-time founder with?
+    mistakes:
+      - Confusing entrepreneurship with mere self-employment.
+      - Assuming every invention is automatically a business.
+      - Ignoring whether customers are willing to pay.
+    terms:
+      - term: Entrepreneur
+        def: A person who identifies an opportunity, organises resources and bears calculated risk to create value through a venture.
+      - term: Entrepreneurship
+        def: The process of identifying an opportunity, organising resources, accepting calculated risk and creating value through a new or improved venture.
+      - term: Opportunity
+        def: An evidence-supported possibility for feasible and sustainable value creation for a defined customer.
+      - term: Validation
+        def: Evidence strong enough to support the next decision while acknowledging the uncertainty that remains.
+    check:
+      - q: Which statement best separates an *opportunity* from an *idea*?
+        options:
+          - An opportunity uses more advanced technology.
+          - An opportunity has evidence of a meaningful customer need and a way to create value.
+          - An opportunity has already been registered as a company.
+          - An opportunity has received praise on social media.
+        answer: 1
+        why: An idea is only a possible response to a problem. It becomes an opportunity when evidence shows a defined customer has a meaningful need and the venture can create and capture value.
+      - q: A team has a working sensor prototype. What must still be shown before it counts as an entrepreneurial venture?
+        options:
+          - That the sensor has a patent.
+          - That the team has a logo and website.
+          - That it solves a real customer problem, can be delivered reliably and has a path to revenue or impact.
+          - That the founders have left their jobs.
+        answer: 2
+        why: A prototype proves something can work. Entrepreneurship needs a real problem, reliable delivery and a path to revenue or social impact.
+      - q: How do entrepreneurs deal with uncertainty?
+        options:
+          - They wait until all uncertainty disappears.
+          - They reduce it through small tests, pilots and staged commitments.
+          - They ignore it because confidence is enough.
+          - They transfer it entirely to investors.
+        answer: 1
+        why: Uncertainty cannot be eliminated before action. Small, affordable tests turn it into manageable risk.
+    short_answers:
+      - q: Define the term entrepreneur.
+        a: An entrepreneur is a person who identifies an opportunity, organises the resources needed to pursue it and accepts calculated risk to create value through a new or improved venture. The entrepreneur initiates, innovates and takes responsibility for outcomes under uncertainty.
+      - q: State the meaning of entrepreneurship.
+        a: Entrepreneurship is the process of identifying an opportunity, organising resources, accepting calculated risk and creating economic or social value through a new or improved venture. The entrepreneur is the actor; entrepreneurship is the process.
+      - q: Name the four stages shown in the textbook model of the entrepreneurial process.
+        a: "Aurangabadkar and Singh (Fig. 1.5): (1) decision to become an entrepreneur, (2) developing successful business ideas, (3) moving from an idea to an entrepreneurial firm, and (4) managing and growing the entrepreneurial firm."
+      - q: State the meaning of entrepreneurial risk.
+        a: Entrepreneurial risk is the possibility of loss arising from uncertainty about market acceptance, cost, technology, regulation and competition. Entrepreneurs take calculated risk by testing assumptions in small steps before committing major resources.
+
+  - id: I.2
+    slug: characteristics-of-entrepreneurship
+    title: Characteristics of entrepreneurship
+    outcome: Discuss major entrepreneurial characteristics.
+    page: 6
+    labs:
+      - title: Founder Capabilities
+        href: modules/02-characteristics-of-entrepreneurship/index.html
+        note: Interactive explainer of founder characteristics in action
+    summary:
+      - Entrepreneurship requires creativity, innovation, initiative, leadership, persistence, problem-solving ability, commitment and willingness to take calculated risks. These work together. A good entrepreneur combines imagination with disciplined execution.
+    key_points:
+      - "**Creativity** generates possible ideas. **Innovation** turns selected ideas into practical applications. **Leadership** mobilises people and resources around the opportunity."
+      - "**Commitment and persistence** matter because early ventures face delays, rejection, shortage of funds and repeated redesign."
+      - Engineering founders also need **technical judgement**. Can the product be manufactured, serviced, scaled, certified and protected from easy imitation?
+      - "**Entrepreneurial competency** combines knowledge, skill, behaviour and judgement."
+      - Confidence without evidence becomes overconfidence. Persistence without learning becomes escalation of commitment.
+    framework:
+      title: Core entrepreneurial characteristics
+      items:
+        - term: Creative thinking
+          text: Ability to generate alternatives instead of accepting the first answer.
+        - term: Achievement motivation
+          text: A strong desire to build, improve and excel.
+        - term: Decision-making
+          text: Choosing well with incomplete information.
+        - term: Resourcefulness
+          text: Doing more with limited resources.
+        - term: Calculated risk-taking
+          text: Taking risks in measured steps, not gambling.
+        - term: Ethics
+          text: Building trust with customers, investors, workers and society.
+    example: A mechatronics team building an automated seed-sowing robot must show creativity in mechanism design, persistence during field failures and honesty when reporting actual field performance.
+    case:
+      name: Greenviro Global, Coimbatore
+      text: Turning coconut waste into charcoal and briquettes needed creativity (seeing value in waste), initiative (acting on a local opportunity) and persistence (building a revenue model around it).
+      prompt: Name two characteristics from the framework that this venture clearly needed, and say why.
+    mistakes:
+      - Letting confidence become overconfidence.
+      - Taking careless risks instead of calculated ones.
+      - Believing technical excellence alone is enough without understanding the market.
+    terms:
+      - term: Entrepreneurial competency
+        def: The combination of knowledge, skill, behaviour and judgement that lets a person create and run a venture.
+      - term: Innovation
+        def: The practical introduction of a new or significantly improved solution that creates value.
+      - term: Creativity
+        def: The ability to generate new and useful ideas or alternatives.
+    check:
+      - q: What is the difference between creativity and innovation?
+        options:
+          - They mean the same thing.
+          - Creativity generates ideas; innovation turns selected ideas into practical, valuable applications.
+          - Innovation generates ideas; creativity sells them.
+          - Creativity needs a patent; innovation does not.
+        answer: 1
+        why: Creativity produces possibilities. Innovation is the practical introduction of a selected idea so that it creates value.
+      - q: A founder keeps investing in a product for two years although every customer test fails. What is this?
+        options:
+          - Healthy persistence
+          - Calculated risk-taking
+          - Escalation of commitment, or persistence without learning
+          - Achievement motivation
+        answer: 2
+        why: Persistence is valuable only when it is combined with learning. Ignoring repeated evidence is escalation of commitment.
+      - q: Why do engineering founders need technical judgement in addition to creativity?
+        options:
+          - To decide whether the product can be manufactured, serviced, scaled and certified.
+          - To avoid talking to customers.
+          - To write longer business plans.
+          - To replace market research.
+        answer: 0
+        why: A product that cannot be manufactured, serviced, scaled or certified cannot become a sustainable venture, however creative it is.
+    short_answers:
+      - q: List any two characteristics of a successful entrepreneur.
+        a: Any two, for example (1) creativity and innovation, the ability to generate ideas and turn them into practical value, and (2) calculated risk-taking, acting under uncertainty in measured steps. Persistence, leadership, initiative and ethics are also acceptable.
+      - q: Define entrepreneurial competency.
+        a: Entrepreneurial competency is the combination of knowledge, skills, behaviour and judgement that enables a person to recognise opportunities, mobilise resources and build a venture. Examples include opportunity recognition, customer orientation, persistence and financial awareness.
+      - q: Name two ethical responsibilities of an entrepreneur.
+        a: (1) Report product performance and safety results honestly, and (2) keep fair commitments to customers, workers and investors. Protecting customer data and the environment are also valid answers.
+
+  - id: I.3
+    slug: types-of-entrepreneurship
+    title: Types of entrepreneurship
+    outcome: Classify entrepreneurship types with examples.
+    page: 7
+    labs:
+      - title: Entrepreneur Spectrum
+        href: modules/03-types-of-entrepreneurship/index.html
+        note: Interactive explainer of innovative, imitative, Fabian and drone types
+    summary:
+      - Textbooks usually classify **entrepreneurs**. The best-known functional classification has four types, which are innovative, imitative (adoptive), Fabian and drone. Entrepreneurs are also grouped by business activity and by motive, and modern discussions add social entrepreneurs, technopreneurs and intrapreneurs.
+    key_points:
+      - "**Innovative** entrepreneurs introduce new products, methods, markets or business combinations."
+      - "**Imitative or adoptive** entrepreneurs adopt proven ideas and adapt them to local conditions."
+      - "**Fabian** entrepreneurs are cautious and change only when they have to. **Drone** entrepreneurs resist change even when the market demands it."
+      - "**By business activity**, the types are manufacturing, trading, service, agricultural, corporate, technical, non-technical, professional, private, state and joint."
+      - "**By motive**, necessity-driven entrepreneurship starts when income alternatives are limited. Opportunity-driven entrepreneurship starts from an attractive chance to create value. Real founders often have both motives."
+      - "**Modern categories**: social entrepreneur (mission with sustainable revenue), technopreneur (technology is the core value driver), intrapreneur (venture inside an existing organisation), scalable startup and small business."
+    framework:
+      title: Functional classification (classic exam answer)
+      items:
+        - term: Innovative
+          text: Creates or commercialises something new.
+        - term: Imitative / adoptive
+          text: Adapts a successful model or technology to a new context.
+        - term: Fabian
+          text: Slow, cautious and change-averse until forced.
+        - term: Drone
+          text: Refuses change and may lose competitiveness.
+    table:
+      caption: Necessity-driven versus opportunity-driven entrepreneurship
+      head: [Dimension, Necessity-driven, Opportunity-driven]
+      rows:
+        - Trigger | Limited acceptable income or employment alternatives | A perceived unmet need, innovation or attractive market
+        - First objective | Income, continuity and livelihood security | Value creation, independence, growth or impact
+        - Early priority | Reliable demand, cash cycle and stability | Validation, differentiation and scalable economics
+        - Suitable support | Capability, market linkage, basic finance and resilience | Incubation, IP, specialist talent, networks and risk capital
+    example: An AI inspection startup is **innovative** if it builds a new defect-detection model, **imitative** if it adapts an existing solution for local foundries and **Fabian** if it delays adopting AI until customers demand it.
+    case:
+      name: Greenviro Global, Coimbatore
+      text: The same venture can be classified through more than one lens. By function it is innovative, because it creates new value from coconut waste. By activity it is manufacturing, and by mission it has a social and environmental purpose.
+      prompt: Classify Greenviro using two different lenses and justify each in one line.
+    mistakes:
+      - Forcing every venture into a single type. Real entrepreneurs can show more than one type over time.
+      - Treating the necessity and opportunity labels as a ranking of how good a founder is.
+      - Using only the classic four types when a modern category (social, technopreneur, intrapreneur) explains the venture better.
+    terms:
+      - term: Intrapreneurship
+        def: Entrepreneurial venture activity carried out inside an existing organisation.
+      - term: Social entrepreneurship
+        def: Pursuing a measurable social or environmental mission through a financially sustainable operating model.
+      - term: Necessity-driven entrepreneurship
+        def: Entrepreneurship that starts mainly because satisfactory employment or income alternatives are limited.
+      - term: Opportunity-driven entrepreneurship
+        def: Entrepreneurship that starts mainly from an attractive possibility to create value, gain independence, solve a problem or grow.
+      - term: Technopreneur
+        def: An entrepreneur whose venture uses technology as its core value driver.
+    check:
+      - q: A garment unit owner continues manual cutting even after every competitor and customer has moved to CNC cutting. Which type is this?
+        options: [Innovative, Imitative, Fabian, Drone]
+        answer: 3
+        why: Drone entrepreneurs resist change even when the market clearly demands it. A Fabian entrepreneur would change once forced. This owner refuses even then.
+      - q: An engineer adapts a proven European solar-dryer design for Tamil Nadu farmers. Which type is this?
+        options: [Innovative, Imitative or adoptive, Fabian, Drone]
+        answer: 1
+        why: Imitative or adoptive entrepreneurs adopt proven ideas and adapt them to local customers, costs and conditions.
+      - q: Which statement about necessity-driven entrepreneurship is correct?
+        options:
+          - It always fails.
+          - It begins mainly when income alternatives are limited, and the venture can later become opportunity-led.
+          - It requires venture capital.
+          - It cannot be supported by any institution.
+        answer: 1
+        why: The label describes the starting condition, not the founder's worth. A necessity venture can become opportunity-led when repeat demand supports growth.
+    short_answers:
+      - q: State the meaning of intrapreneurship.
+        a: Intrapreneurship is entrepreneurial activity carried out inside an existing organisation. An employee (an intrapreneur) develops a new product, process or venture using the organisation's resources, for example an automobile company's internal EV battery venture.
+      - q: Define social entrepreneurship.
+        a: Social entrepreneurship is the pursuit of a measurable social or environmental mission through a financially sustainable operating model, not through charity alone.
+      - q: Define necessity-driven entrepreneurship.
+        a: Necessity-driven entrepreneurship begins mainly when satisfactory employment or income alternatives are limited, so self-employment becomes a practical livelihood route.
+      - q: State the meaning of opportunity-driven entrepreneurship.
+        a: Opportunity-driven entrepreneurship begins mainly when a person identifies an attractive possibility to create value, solve a problem, gain independence or pursue growth.
+
+  - id: I.4
+    slug: factors-affecting-entrepreneurs
+    title: Factors affecting entrepreneurs
+    outcome: Identify factors influencing entrepreneurial success.
+    page: 8
+    labs:
+      - title: Forces Around the Founder
+        href: modules/04-factors-affecting-entrepreneurs/index.html
+        note: Interactive explainer of economic, social, psychological and institutional factors
+    summary:
+      - Entrepreneurs are shaped by their personal qualities and by the environment around them. The textbook groups growth factors into **economic**, **social**, **psychological** and **government** factors. These can also be split into internal factors (inside the founder and team) and external factors (in the environment).
+    key_points:
+      - "**Economic factors** are capital, skilled labour, raw materials, infrastructure, technology and market demand."
+      - "**Social factors** are family support, community values, role models, respect for business, social networks and social security."
+      - "**Psychological factors** are need for achievement, self-confidence, risk-taking ability, persistence and willingness to learn."
+      - "**Government factors** are industrial policy, registration systems, tax rules, subsidies, incubation, training, procurement access and ease of approvals."
+      - Economic factors are often contrasted with **non-economic** (social, psychological and political) factors. Exams often ask for both.
+    framework:
+      title: Four factor groups
+      items:
+        - term: Economic
+          text: Capital, labour, raw material, market, technology and infrastructure.
+        - term: Social
+          text: Values, status of business, role models, family support and networks.
+        - term: Psychological
+          text: Achievement motivation, confidence, resilience and risk attitude.
+        - term: Government
+          text: Policy, regulation, incentives, training and institutional support.
+    table:
+      caption: Internal versus external factors
+      head: [Type, Examples]
+      rows:
+        - Internal (founder and team) | Skills, motivation, confidence, risk attitude, team capability, execution discipline
+        - External (environment) | Finance access, market demand, infrastructure, regulation, social attitudes, government support
+    example: A drone service startup for agriculture needs skilled pilots and working capital (economic), farmer trust (social), confidence to handle seasonal demand (psychological) and DGCA awareness (government).
+    mistakes:
+      - Assuming a good idea succeeds even when finance, market or regulation is ignored.
+      - Forgetting that family and social pressure can either support or discourage entrepreneurship.
+      - Believing a government scheme helps automatically. It helps only when the founder understands eligibility and compliance.
+    terms:
+      - term: Economic factors
+        def: Material conditions such as capital, labour, raw materials, infrastructure and market demand that enable or limit a venture.
+      - term: Non-economic factors
+        def: Social, psychological and political or government conditions that influence entrepreneurship.
+      - term: Need for achievement
+        def: A psychological drive to accomplish challenging goals and improve performance.
+    check:
+      - q: Which pair contains only external (environmental) factors?
+        options:
+          - Founder stamina and team trust
+          - Regulatory stability and access to finance
+          - Self-confidence and persistence
+          - Need for achievement and risk attitude
+        answer: 1
+        why: Regulation and finance access sit in the environment. The other options describe the founder or team, which are internal factors.
+      - q: Respect for business in a community and the presence of role models are examples of which factor group?
+        options: [Economic, Social, Psychological, Government]
+        answer: 1
+        why: Community values, status of business and role models are social factors.
+      - q: Why can a government subsidy fail to help a founder?
+        options:
+          - Subsidies are always too small.
+          - The founder may not understand eligibility and compliance conditions.
+          - Subsidies are only for large firms.
+          - Subsidies replace the need for customers.
+        answer: 1
+        why: Schemes help only when the founder meets and understands the eligibility, documentation and compliance requirements.
+    short_answers:
+      - q: List two internal factors affecting entrepreneurial growth.
+        a: (1) The founder's motivation and need for achievement, and (2) the team's skills and capability. Risk attitude, confidence and execution discipline are also acceptable.
+      - q: List two external factors affecting entrepreneurial growth.
+        a: (1) Access to finance, and (2) market demand. Infrastructure, government policy and regulation, and social attitudes are also acceptable.
+      - q: Name any two motives for becoming an entrepreneur.
+        a: (1) Achievement and independence, being one's own boss, and (2) financial reward or wealth creation. Applying one's knowledge, solving a meaningful problem, social impact and limited employment options are also valid.
+
+  - id: I.5
+    slug: entrepreneurship-mindset
+    title: Entrepreneurship mindset
+    outcome: Explain the mindset required for opportunity creation.
+    page: 9
+    labs:
+      - title: Mindset Lab
+        href: modules/05-entrepreneurship-mindset/index.html
+        note: Interactive explainer of learning, resilience and uncertainty
+    summary:
+      - An entrepreneurial mindset is a pattern of thinking that searches for possibilities, acts under uncertainty, learns from feedback and treats constraints as design inputs. It is useful for engineers, researchers and project leaders, not only for business founders.
+    key_points:
+      - The mindset has five elements, which are opportunity recognition, customer orientation, experimentation, resilience and ethical value creation.
+      - Instead of saying "this is impossible", ask "what small test can prove or disprove this idea?"
+      - "**Causal logic** starts from a goal and gathers the resources needed. **Effectual logic** starts from available means (who you are, what you know, whom you know) and builds outcomes with stakeholders."
+      - "**Affordable loss** means risking only what you can afford to lose at each step, so one early mistake is not fatal."
+      - Feedback is useful only when it changes decisions.
+    framework:
+      title: How the mindset shows up in practice
+      items:
+        - term: Observe
+          text: Look for problems in real settings, not only in the lab.
+        - term: Reframe
+          text: Convert a problem into an opportunity statement.
+        - term: Prototype
+          text: Build quickly and cheaply to learn.
+        - term: Listen
+          text: Collect feedback from real users, not only friends.
+        - term: Improve
+          text: Revise the solution and the business model together.
+    example: A student building a placement-preparation chatbot should first test whether students use it weekly, what content they trust and whether faculty need analytics, before building advanced features.
+    case:
+      name: Greenviro Global, Coimbatore
+      text: The founders treated agricultural waste, a constraint, as an input to a new product. This is the mindset of treating a constraint as a design input.
+      prompt: What small, cheap test could a similar waste-to-product idea run before buying machinery?
+    mistakes:
+      - Mindset without execution becomes daydreaming.
+      - Passion without data is not evidence.
+      - Collecting feedback that never changes a decision.
+    terms:
+      - term: Entrepreneurial mindset
+        def: A way of thinking that seeks opportunities, acts under uncertainty, learns from feedback and treats constraints as design inputs.
+      - term: Effectual logic
+        def: Starting from available means (identity, knowledge, network and resources) and developing possible outcomes with stakeholders.
+      - term: Affordable loss
+        def: Limiting each step's commitment to what the founder can afford to lose, so learning can continue.
+    check:
+      - q: Which response best shows an entrepreneurial mindset?
+        options:
+          - "This is impossible without a big budget."
+          - "What small test can prove or disprove this idea?"
+          - "Let's build every feature first, then ask users."
+          - "Our friends like it, so it will sell."
+        answer: 1
+        why: The mindset turns uncertainty into small, affordable experiments.
+      - q: A founder starts with her skills, contacts and savings and asks what ventures she could build with them. This is
+        options: [causal logic, effectual logic, drone behaviour, escalation of commitment]
+        answer: 1
+        why: Effectual logic begins with available means and builds outcomes with stakeholders. Causal logic begins with a fixed goal.
+      - q: Which is NOT one of the five mindset elements in the study material?
+        options: [Opportunity recognition, Customer orientation, Experimentation, Avoiding all failure]
+        answer: 3
+        why: The five elements are opportunity recognition, customer orientation, experimentation, resilience and ethical value creation. Resilience assumes failures will happen.
+    short_answers:
+      - q: Define innovation in an entrepreneurial context.
+        a: Innovation is the practical introduction of a new or significantly improved product, process, market or business model that creates value for customers or society. An invention becomes an innovation only when it is implemented and used.
+
+  - id: I.6
+    slug: inventors-and-entrepreneurs
+    title: Inventors and entrepreneurs
+    outcome: Differentiate between inventors and entrepreneurs.
+    page: 10
+    labs:
+      - title: Invention Bridge
+        href: modules/06-inventors-and-entrepreneurs/index.html
+        note: Interactive explainer of how invention becomes delivered value
+    summary:
+      - An **inventor** creates a new idea, device, process or technical solution. An **entrepreneur** converts an idea into value by organising resources, building a delivery system, reaching customers and sustaining the venture. The bridge between the two is **validation**.
+    key_points:
+      - Many inventors stop at the prototype or patent stage. Many entrepreneurs commercialise, adapt or improve ideas they did not invent.
+      - An **invention** is a novel technical creation. An **innovation** is a new or improved solution that is implemented and produces value.
+      - The same invention can support several opportunities, because different customers value different outcomes such as safety, speed, cost or compliance.
+      - The inventor-to-entrepreneur shift is from mechanism-centred thinking to problem-and-system thinking, which covers user behaviour, manufacturing, service, certification, IP, channel, price and cash timing.
+      - The conversion point is moving from **proof of concept** to **proof of value**.
+    framework:
+      title: Inventor versus entrepreneur
+      items:
+        - term: Inventor focus
+          text: Novelty, mechanism, design and the technical solution.
+        - term: Entrepreneur focus
+          text: Customer, cost, revenue, risk, team and scale.
+        - term: Shared areas
+          text: Innovation, problem-solving, intellectual property and persistence.
+        - term: Conversion point
+          text: Proof of concept becomes proof of value.
+    table:
+      caption: Quick comparison for a 2-mark or 14-mark answer
+      head: [Basis, Inventor, Entrepreneur]
+      rows:
+        - [Main contribution, Creates something technically new, Converts an idea into delivered value]
+        - Key question | Does it work? | Will customers use and pay for it, and can we deliver it repeatedly?
+        - Typical output | Prototype or patent | Product, service and a sustainable venture
+        - Risk borne | Mainly technical | Market, financial, operational and technical
+    example: A student who designs a new low-cost water-level sensor is an inventor. The student becomes an entrepreneur when the sensor is packaged, priced, tested in homes or farms and supported with installation and service.
+    case:
+      name: Breathe Applied Sciences
+      text: The technical core, converting CO₂ to methanol, is the invention. The entrepreneurial challenge is turning that science into a usable industrial solution with clear cost, process, customer and regulatory answers.
+      prompt: List two questions an investor would ask Breathe that an inventor alone might not answer.
+    mistakes:
+      - Assuming a patent guarantees market success.
+      - Assuming a prototype proves willingness to pay.
+      - Protecting technical quality but neglecting customer trust.
+    terms:
+      - term: Invention
+        def: A novel technical creation such as a new device, process or solution.
+      - term: Proof of concept
+        def: Evidence that a technical idea can work.
+      - term: Proof of value
+        def: Evidence that customers gain enough value to adopt and pay for the solution.
+    check:
+      - q: What is the main bridge between invention and entrepreneurship?
+        options: A patent | Validation with users, cost and delivery | A larger lab | Media coverage
+        answer: 1
+        why: A project becomes business-ready only when the technical solution, user need, cost structure and delivery model have been tested.
+      - q: Which statement is TRUE?
+        options:
+          - Every inventor is an entrepreneur.
+          - Every entrepreneur must invent the product.
+          - An entrepreneur may commercialise an idea invented by someone else.
+          - A patent proves customers will pay.
+        answer: 2
+        why: Entrepreneurs often commercialise, adapt or improve existing ideas. Invention and entrepreneurship are different skill sets.
+      - q: Proof of value means
+        options:
+          - the prototype works once in the lab
+          - customers gain enough value to adopt and pay
+          - the patent has been filed
+          - the team has raised funding
+        answer: 1
+        why: Proof of concept shows it works. Proof of value shows that customers benefit enough to adopt and pay.
+
+  - id: I.7
+    slug: companies-and-startups
+    title: Companies and startups
+    outcome: Differentiate established companies and startups.
+    page: 11
+    labs:
+      - title: Company or Startup?
+        href: modules/07-companies-and-startups/index.html
+        note: Interactive explainer of structure, search and scale
+    summary:
+      - An **established company** executes a known business model, with stable customers, processes, departments and metrics. A **startup** searches for a repeatable and scalable business model under high uncertainty. A startup is not just a smaller company.
+    key_points:
+      - Companies **optimise** operations, but startups **test** assumptions.
+      - Companies prepare annual plans, but startups run experiments.
+      - Companies reduce variation, but startups learn from variation until they reach product-market fit.
+      - A **small business** can stay local and stable. A **scalable startup** aims to grow rapidly through innovation, technology, network effects or scalable delivery.
+      - "**Corporate entrepreneurship** (intrapreneurship) is innovation inside an established organisation."
+    framework:
+      title: Five forms to tell apart
+      items:
+        - term: Established company
+          text: Executes a validated model.
+        - term: Startup
+          text: Searches for a validated, repeatable model.
+        - term: Small business
+          text: Earns stable local or niche revenue.
+        - term: Scalable startup
+          text: Designed for rapid growth and replication.
+        - term: Corporate entrepreneurship
+          text: Builds new ventures inside an existing firm.
+    table:
+      caption: Company versus startup
+      head: [Basis, Established company, Startup]
+      rows:
+        - [Business model, Known and validated, Being searched for]
+        - [Main activity, Execution and optimisation, Experimentation and learning]
+        - [Planning, Annual plans and budgets, Hypotheses and tests]
+        - [Attitude to variation, Reduce it, Learn from it until product-market fit]
+        - [Uncertainty, Low to moderate, High]
+    example: A local repair shop is a small business. A platform that standardises repair booking across cities is a startup. An automobile company launching an internal EV battery venture is corporate entrepreneurship.
+    case:
+      name: Quixy (Vividminds Technologies)
+      text: Compare a normal IT service firm with Quixy's no-code platform. The difference is not when they registered. Quixy searches for a repeatable, scalable model that lets revenue grow faster than costs.
+      prompt: What evidence would show that Quixy has found a repeatable model?
+    mistakes:
+      - Calling every new company a startup.
+      - Pursuing high growth without healthy unit economics.
+      - Using startup language to hide weak fundamentals.
+    terms:
+      - term: Startup
+        def: A young venture searching for and developing a repeatable, scalable and sustainable model under uncertainty.
+      - term: Scalability
+        def: The ability to grow revenue or impact faster than the growth of key resource costs.
+      - term: Product-market fit
+        def: The point at which a product clearly satisfies a market, shown by repeated use and willingness to pay.
+    check:
+      - q: Which description identifies a startup rather than an established small firm?
+        options:
+          - It is owned by first-time founders.
+          - It uses digital technology.
+          - It is searching for a scalable model under uncertainty.
+          - It is less than one year old.
+        answer: 2
+        why: A startup is defined by the search for a repeatable, scalable model, not by age, ownership or technology.
+      - q: What identifies a scalable business model?
+        options:
+          - Every sale needs equal founder time.
+          - Revenue can grow faster than key resource cost.
+          - Capacity is fixed at pilot level.
+          - Customers come only through discounts.
+        answer: 1
+        why: Scalability means revenue or impact grows faster than the cost of the key resources.
+      - q: A large FMCG firm creates an internal team to launch a new plant-based product line. This is
+        options: [a small business, a drone enterprise, corporate entrepreneurship, franchising]
+        answer: 2
+        why: Building a new venture inside an existing organisation is corporate entrepreneurship, or intrapreneurship.
+    short_answers:
+      - q: State the meaning of a startup.
+        a: A startup is a young venture that searches for a repeatable, scalable and sustainable business model under high uncertainty. It tests assumptions rather than executing a known model.
+
+  - id: I.8
+    slug: entrepreneurial-environment-and-growth
+    title: Entrepreneurial environment and growth
+    outcome: Describe entrepreneurial environment and growth factors.
+    page: 11
+    labs:
+      - title: Growth Network
+        href: modules/08-entrepreneurial-environment-and-growth/index.html
+        note: Interactive explainer of ecosystems, networks and constraints
+    summary:
+      - The entrepreneurial environment is every condition that influences the birth, survival and growth of ventures, including markets, technology, finance, institutions, infrastructure, culture, policy, competition, education and networks. Growth happens when a venture can repeatedly acquire customers, deliver value, control costs, attract resources and adapt.
+    key_points:
+      - A supportive **ecosystem** provides incubation, mentoring, testing facilities, bank linkages, investor access, legal guidance and procurement opportunities.
+      - Healthy growth is **coordinated**. Capacity, quality, cash, people, processes and customer experience must develop together.
+      - Warning signs of unhealthy growth include rising complaints, falling repeat purchases, delayed delivery, defects and cash stress.
+      - "A systems view tracks four linked flows: customer demand, physical delivery, information and cash. A delay in one affects the others."
+      - Founders should find the current bottleneck and strengthen it before accelerating the rest.
+    framework:
+      title: Four layers of the environment
+      items:
+        - term: Macro environment
+          text: Economy, policy, technology, demography and culture.
+        - term: Industry environment
+          text: Competitors, suppliers, buyers, substitutes and entry barriers.
+        - term: Institutional environment
+          text: Banks, incubators, government bodies, colleges and industry associations.
+        - term: Internal environment
+          text: Founder skills, team, culture, resources and execution discipline.
+    example: Coimbatore's engineering base, foundries, textile machinery ecosystem and technical manpower create a favourable environment for manufacturing and automation ventures.
+    case:
+      name: India startup ecosystem snapshot
+      text: Startups in 670 districts and 57 simplified regulations by end-2023 show how policy and ecosystem support can widen where ventures are born.
+      prompt: Name one ecosystem actor that would help a Coimbatore hardware startup and say what it provides.
+    mistakes:
+      - Growing without systems, which leads to quality failure.
+      - Expecting favourable policy to make up for poor customer value.
+      - Listing ecosystem support in a plan without actually using it.
+    terms:
+      - term: Entrepreneurial ecosystem
+        def: The connected people, institutions, resources, culture, markets and policies surrounding ventures.
+      - term: Incubator
+        def: An organisation that supports early ventures with workspace, mentoring, networks and sometimes funding.
+      - term: Bottleneck
+        def: The constraint that currently limits the whole venture's output or growth.
+    check:
+      - q: Which group lists major participants in an entrepreneurial ecosystem?
+        options:
+          - Patents, machines, buildings and stock
+          - Incubators, mentors, finance providers and markets
+          - Advertisements, discounts, slogans and logos
+          - Taxes, penalties, audits and litigation
+        answer: 1
+        why: An ecosystem is made of actors and institutions such as incubators, mentors, finance providers, customers, universities and government bodies.
+      - q: Which pair of signals warns that growth is harming service quality?
+        options:
+          - Orders increase after a pilot
+          - Complaints rise while repeat purchases fall
+          - A new employee joins
+          - A new product is launched
+        answer: 1
+        why: Rising complaints and falling repeat purchases show revenue growing faster than the organisation's ability to deliver.
+      - q: Competitors, suppliers, buyers and substitutes belong to the
+        options: [macro environment, industry environment, institutional environment, internal environment]
+        answer: 1
+        why: These are the forces of the industry environment, which is the immediate competitive context.
+    short_answers:
+      - q: Name any two participants in an entrepreneurial ecosystem.
+        a: (1) Incubators and accelerators, and (2) investors and banks. Mentors, universities and labs, government agencies, customers and suppliers are also acceptable.
+      - q: Define an entrepreneurial ecosystem.
+        a: An entrepreneurial ecosystem is the connected set of people, institutions, resources, culture, markets and policies that support the birth, survival and growth of ventures, such as founders, incubators, investors, universities and government bodies.
+      - q: List any two stages in the growth of an entrepreneurial firm.
+        a: For example, (1) start-up or validation, testing the model with early customers, and (2) growth or scaling, expanding capacity, team and market. Later stages include expansion and maturity. Using the textbook process model, "moving from an idea to a firm" and "managing and growing the firm" are also valid.
+
+  - id: I.9
+    slug: entrepreneurship-economic-development
+    title: Role of entrepreneurship in economic development
+    outcome: Discuss the economic contribution of entrepreneurship.
+    page: 12
+    labs:
+      - title: Economic Ripples
+        href: modules/09-entrepreneurship-economic-development/index.html
+        note: Interactive explainer of employment, innovation and impact
+    summary:
+      - Entrepreneurship drives economic development by mobilising savings, forming capital, creating employment, improving productivity, introducing innovation, reducing regional imbalance, developing exports and improving living standards. Entrepreneurs bring land, labour, capital, technology and knowledge together to produce goods and services.
+    key_points:
+      - In developing economies, large employers alone cannot absorb all skilled youth, so entrepreneurship is an important source of jobs.
+      - Job creation includes direct jobs and indirect jobs in supply chains, logistics and services.
+      - Entrepreneurs introduce competition, commercialise knowledge and develop local supplier networks.
+      - Inclusive development happens when entrepreneurship reaches rural areas, women, first-generation founders, social enterprises and local clusters.
+      - "**Creative destruction** happens when a superior product, process or business model draws resources away from older arrangements. The gain is real, but displaced workers and transition costs need responsible attention."
+    framework:
+      title: Five contributions (exam headings)
+      items:
+        - term: Capital formation
+          text: Mobilising savings into investment and reinvestment.
+        - term: Employment generation
+          text: Direct and indirect jobs.
+        - term: Innovation
+          text: New products, processes and markets that raise productivity.
+        - term: Balanced regional development
+          text: Local enterprises and clusters outside big cities.
+        - term: Exports and import substitution
+          text: Earning foreign exchange and reducing import dependence.
+    example: A food-processing startup in a semi-urban area can create farmer linkages, packaging jobs, logistics demand, retail revenue and local tax contribution.
+    case:
+      name: India startup ecosystem snapshot
+      text: 12 lakh-plus self-reported jobs and startups in 670 districts by end-2023 show both employment generation and regional spread.
+      prompt: Which two contributions in the framework does this data support most directly?
+    mistakes:
+      - Valuing only growth. Entrepreneurship must also be sustainable.
+      - Counting only factory jobs and ignoring supply-chain and service jobs.
+      - Forgetting ethics, safety and environmental responsibility when discussing development.
+    terms:
+      - term: Capital formation
+        def: Converting savings into productive investment such as plant, equipment and infrastructure.
+      - term: Creative destruction
+        def: The process by which superior products, processes or business models replace older ones and reallocate resources.
+      - term: Import substitution
+        def: Producing domestically what was previously imported.
+    check:
+      - q: Which pair names economic contributions of entrepreneurship?
+        options:
+          - Job creation and productivity improvement
+          - Elimination of all business uncertainty
+          - Reduction of every market price
+          - Replacement of public institutions
+        answer: 0
+        why: Entrepreneurship creates jobs and raises productivity. It does not remove uncertainty or replace institutions.
+      - q: Digital payments replacing many cash-handling services is an example of
+        options: [capital formation, creative destruction, import substitution, a drone enterprise]
+        answer: 1
+        why: A superior model drawing resources away from an older arrangement is creative destruction.
+      - q: How does entrepreneurship reduce regional imbalance?
+        options:
+          - By concentrating all firms in metro cities
+          - By creating enterprises and clusters in rural and semi-urban areas
+          - By reducing exports
+          - By replacing government spending
+        answer: 1
+        why: Local enterprises and clusters spread income and employment beyond the big cities.
+    short_answers:
+      - q: List two contributions of entrepreneurship to economic development.
+        a: (1) Employment generation, through direct and indirect jobs, and (2) capital formation, by mobilising savings into productive investment. Innovation, balanced regional development and export promotion are also acceptable.
+
+quiz:
+  - answer: 0
+    why: Only a verified customer problem is evidence of need. Novelty, polish and trends are not.
+  - answer: 1
+    why: Evidence should change decisions. Revising and retesting is the learning cycle.
+  - answer: 2
+    why: The entrepreneur organises resources and a delivery system so that value reaches customers.
+  - answer: 3
+    why: Innovation-driven entrepreneurship commercialises something new and aims to scale it.
+  - answer: 2
+    why: Necessity-driven ventures start mainly because income or employment alternatives are limited.
+  - answer: 0
+    why: Employment and productivity are core economic contributions.
+  - answer: 3
+    why: A startup is defined by its search for a repeatable, scalable model under uncertainty.
+  - answer: 1
+    why: Ecosystem participants are actors and institutions such as incubators, mentors, financiers and markets.
+  - answer: 1
+    why: Small, affordable tests reduce uncertainty before major commitment.
+  - answer: 3
+    why: Risk management means knowing your assumptions, what you could lose and how you will respond.
+  - answer: 0
+    why: Scalability means revenue grows faster than the cost of key resources.
+  - answer: 2
+    why: Social entrepreneurship pursues a measurable mission through a financially sustainable model.
+  - answer: 3
+    why: An intrapreneur creates new ventures inside an existing organisation.
+  - answer: 2
+    why: Regulation and finance access are external, environment-level factors. The others are internal or cosmetic.
+  - answer: 1
+    why: Rising complaints together with falling repeat purchases show growth outpacing delivery capability.
+  - answer: 0
+    why: Market pull starts from customer need. Technology push starts from a capability looking for a use.
+  - answer: 0
+    why: Ethical responsibility requires disclosing safety evidence and fixing the problem.
+  - answer: 2
+    why: Repeated willingness to pay is behaviour. Impressions and praise are not.
+  - answer: 3
+    why: Committing in stages caps what can be lost at each step.
+  - answer: 1
+    why: Entrepreneurs combine land, labour, capital, technology and knowledge to create and capture value.
+
+long_questions:
+  - q: Define the terms entrepreneur and entrepreneurship, and explain the difference between them. (Aurangabadkar & Singh, p. 1.48)
+    topics: [I.1]
+    points:
+      - Define the entrepreneur (the actor) and entrepreneurship (the process) in one precise sentence each.
+      - Roles of the entrepreneur, who visualises, initiates, organises, innovates, takes risk and is responsible for outcomes.
+      - The four elements of entrepreneurship, which are opportunity, resources, risk and value creation.
+      - Differences in a table covering person versus process, who acts versus how value is created, and examples.
+      - Engineering example, such as the low-cost interlocking blocks tested with builders.
+      - Conclude that the two are inseparable, because the process needs the actor and the actor creates value only through the process.
+  - q: Explain the relationship among entrepreneur, entrepreneurship and enterprise.
+    topics: [I.1, I.7]
+    points:
+      - The entrepreneur is the person or team who perceives the opportunity and bears risk.
+      - Entrepreneurship is the process of identifying an opportunity, organising resources and creating value.
+      - The enterprise is the organisation or venture created, through which value is delivered repeatedly.
+      - "The relationship is that the entrepreneur, through entrepreneurship, creates and runs the enterprise. Show it as a flow diagram: person → process → organisation."
+      - Use the new-venture system of environment, founding team, venture concept and organisation (Allen).
+      - Illustrate with one venture, such as Greenviro, showing all three.
+  - q: Describe the characteristics, competencies and roles of a successful entrepreneur.
+    topics: [I.2, I.1]
+    points:
+      - Characteristics such as creativity, innovation, initiative, leadership, persistence, calculated risk-taking and commitment.
+      - Competencies, which combine knowledge, skill, behaviour and judgement (for example opportunity recognition, customer orientation, resource mobilisation, communication and financial awareness).
+      - Roles of the entrepreneur, who visualises, initiates, organises, innovates, plans, motivates and takes responsibility.
+      - Technical judgement for engineers covering manufacturability, serviceability, certification and IP.
+      - Ethics as a characteristic, meaning honest reporting and trust.
+      - Limits such as overconfidence and escalation of commitment, with an example like the seed-sowing robot team.
+  - q: Explain the economic and non-economic factors affecting entrepreneurial growth.
+    topics: [I.4]
+    points:
+      - Economic factors, which are capital, labour, raw materials, infrastructure, technology and market demand. Explain each briefly.
+      - Social factors, which are family support, community values, role models, status of business and networks.
+      - Psychological factors, which are need for achievement, confidence, risk attitude and persistence.
+      - Government and political factors, which are policy, regulation, incentives, training and institutional support.
+      - Show how the factors interact. A good idea fails if finance or regulation is ignored.
+      - Example such as the agricultural drone startup.
+  - q: Discuss the contribution of entrepreneurship to employment, innovation, competition, regional development and social value.
+    topics: [I.9, I.8]
+    points:
+      - Employment, both direct and indirect jobs, since large firms cannot absorb all youth.
+      - Innovation, meaning new products and processes, higher productivity and creative destruction.
+      - Competition, which improves quality and price for customers and keeps incumbents efficient.
+      - Regional development, through rural and semi-urban enterprises and clusters that reduce imbalance.
+      - Social value, through inclusive entrepreneurship and social enterprises.
+      - Evidence from the Startup India snapshot (670 districts, 12 lakh-plus jobs), and a caution about displacement and transition costs.
+  - q: Explain innovation-driven, necessity-driven, social and intrapreneurial forms of entrepreneurship with suitable examples.
+    topics: [I.3, I.7]
+    points:
+      - Innovation-driven ventures commercialise a novel solution, often scalable (example Breathe Applied Sciences).
+      - Necessity-driven ventures start for livelihood when alternatives are limited (example a home food business started after job loss).
+      - Social entrepreneurship pursues a measurable mission with sustainable revenue (example Greenviro's environmental value).
+      - Intrapreneurship builds a new venture inside an existing firm (example an automaker's EV battery unit).
+      - Compare their triggers, objectives and support needs in a table.
+      - Note that motives are mixed and ventures can move between forms.
+  - q: Describe the roles of mentors, incubators, finance providers, customers, laboratories and public agencies in an entrepreneurial ecosystem.
+    topics: [I.8]
+    points:
+      - Mentors provide experience, judgement and networks.
+      - Incubators provide workspace, structured programmes, mentoring and investor links.
+      - Finance providers are banks (debt), angels and VCs (equity) and grant agencies.
+      - Customers give early feedback, pilots and the first revenue that validates the venture.
+      - Laboratories and universities provide testing, certification support, talent and knowledge.
+      - Public agencies provide policy, registration, schemes and procurement. Conclude that the actors must be matched to the venture's stage.
+  - q: Explain entrepreneurial uncertainty, risk, validation and staged commitment.
+    topics: [I.1, I.5]
+    points:
+      - Uncertainty means incomplete information about market, technology, cost and regulation.
+      - Risk is the possible loss from that uncertainty, which entrepreneurs manage by taking calculated risk.
+      - Validation means identifying the riskiest assumption, designing the smallest credible test, setting a threshold and collecting evidence.
+      - Decision rule is to continue, change, pause or stop.
+      - Staged commitment and affordable loss limit each step's exposure.
+      - Example of a sensor startup piloting with 10 users before buying production tooling.
+  - q:
+      - (i) Explain the meanings of invention, idea and opportunity.
+      - (ii) Illustrate their differences with one engineering-related example.
+    topics: [I.1, I.6]
+    points:
+      - An idea is a possible response to a problem.
+      - An invention is a novel technical creation.
+      - An opportunity is evidence-supported, with a defined customer, a meaningful need and a way to create and capture value.
+      - Compare novelty, evidence and value in a table.
+      - Use the water-level sensor example. Idea = "monitor tank levels". Invention = the new low-cost sensor. Opportunity = farmers and households shown to need it and willing to pay, with a service model.
+  - q:
+      - (i) Explain necessity-driven and opportunity-driven entrepreneurship.
+      - (ii) Describe suitable forms of support for each.
+    topics: [I.3]
+    points:
+      - Compare trigger, first objective, resource position and early priority.
+      - Necessity-driven ventures need basic business skills, market linkage, dependable working capital and social protection.
+      - Opportunity-driven ventures need incubation, IP advice, specialist talent, networks and risk capital.
+      - Both need customer value, ethics and cash discipline.
+      - Note that motives can be mixed and change over time.
+  - q:
+      - (i) Describe the ethical responsibilities of an entrepreneur during product testing.
+      - (ii) Explain the likely effects of concealing an unfavourable safety result.
+    topics: [I.2, I.5]
+    points:
+      - Responsibilities include honest reporting of results, user safety and informed consent, data privacy, and not overstating claims.
+      - Disclose failures and correct the course before launch.
+      - Concealment can cause harm to users and legal liability.
+      - It also leads to loss of trust from customers, investors and regulators.
+      - It can bring product recall, penalties and collapse of the venture's reputation.
+      - Ethics is part of venture quality, not an add-on.
+  - q:
+      - (i) Explain how entrepreneurship can produce creative destruction and new economic value.
+      - (ii) Illustrate the explanation with an Indian engineering-sector example.
+    topics: [I.9]
+    points:
+      - Creative destruction is when a superior product, process or model reallocates resources away from older arrangements.
+      - New value comes from new jobs, productivity, lower cost and better quality.
+      - There are costs as well, such as displaced workers, obsolete skills and transition.
+      - Indian example, such as UPI or digital payments changing cash-handling services, or EV component makers displacing some IC-engine parts suppliers.
+      - Conclude that responsible entrepreneurship manages the transition.
+  - q:
+      - (i) Classify the factors affecting a rural technology venture as internal or external.
+      - (ii) Explain how any four of these factors influence entrepreneurial growth.
+    topics: [I.4]
+    points:
+      - Internal factors are founder skills, motivation, risk attitude and team capability.
+      - External factors are finance access, rural infrastructure (power, roads, internet), market demand, social acceptance and government schemes.
+      - Explain four factors in detail, each with how it helps or blocks growth.
+      - Use an example such as a solar pump service venture in a village.
+  - q:
+      - (i) Describe the evidence used to establish a promising venture opportunity.
+      - (ii) Explain why social-media reach alone is insufficient evidence.
+    topics: [I.1, I.5]
+    points:
+      - Evidence includes problem frequency and severity, customer access, willingness to try or pay, and technical and economic feasibility.
+      - Strong signals are behaviour such as pre-orders, deposits, repeat use and signed pilots.
+      - Weak signals are likes, impressions, praise from friends and novelty.
+      - Reach shows attention, not need or payment. The audience may not be the buyer.
+      - Combine several sources of evidence (triangulation).
+  - q:
+      - (i) Explain the stages of opportunity validation for a student venture.
+      - (ii) Describe how staged commitments limit time and capital risk.
+    topics: [I.1, I.5, I.6]
+    points:
+      - "Stages: observe the problem, frame the opportunity, map assumptions, run the smallest credible test, pilot, then decide."
+      - Each stage needs a threshold and a decision to continue, change, pause or stop.
+      - Staged commitment releases time and money only after the previous evidence justifies it.
+      - Affordable loss caps exposure at each step.
+      - Example of a campus chatbot tested for weekly use before building advanced features.

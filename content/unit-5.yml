@@ -1,0 +1,879 @@
+number: 5
+title: Government Initiatives and Institutional Support
+tagline: Fund and support the venture
+co: CO5 · Make use of Government initiatives and support organisations for starting new ventures
+co_short: CO5 · K3
+pages: 54–66
+overview:
+  - Support is stage-specific capital and capability, not an entitlement. This unit covers what Central and State governments do, the difference between incentives, subsidies, grants and schemes, inclusive growth, Startup India, the MSME Act and Udyam, Tamil Nadu support channels, and every major source of finance from banks to angels, VC, bootstrapping, crowdfunding and alliances.
+  - "Hold on to two rules. **Match the instrument to the stage and the evidence**: founder money and grants for learning, debt when repayment is visible, equity for scalable uncertainty. **Verify on the official portal**: scheme names, limits and windows change, so an unclear condition means the scheme is unverified."
+cases:
+  - name: National Startup Awards handholding model
+    what: Winners receive recognition, pitching opportunities, public-procurement support, investor connections and ecosystem visibility. Winners also received cash prizes in the 2023 cycle.
+    use: Non-financial support. Recognition and market access can matter as much as money (V.1, V.4).
+  - name: Startup India Fund of Funds 2.0
+    what: Government-backed capital that reaches startups through selected Alternative Investment Funds rather than as direct grants.
+    use: How a fund of funds works, and why the startup still faces normal investor appraisal (V.4, V.8).
+  - name: SIDBI seed funding and venture debt
+    what: Early-stage funding routed through incubators, and venture debt as a growth-stage route.
+    use: Comparing who gives money, at what stage, against what expectation and with what control implications (V.7, V.8).
+  - name: Tamil Nadu Startup and Innovation Policy 2023
+    what: Connects state policy, inclusion, incubation, market access and local ecosystem-building.
+    use: State support, inclusive growth and how a Coimbatore student venture would use TN channels (V.3, V.6).
+
+topics:
+  - id: V.1
+    slug: government-role
+    title: Role of Central and State Governments
+    outcome: Explain the Government's role in promoting entrepreneurship.
+    page: 54
+    summary:
+      - Governments support entrepreneurship through **policy, infrastructure, access to finance, training, market support, institutional networks and ease of doing business**. Central schemes set the national framework, and state and district bodies provide local facilitation. Support reduces entry barriers, especially for first-generation founders, but it **cannot replace founder effort or customer evidence**.
+    key_points:
+      - Approach each institution according to its **mandate**. A venture that needs a test certificate should not approach an investor, and one that needs working capital should not treat an incubator as a bank.
+      - The founder's task is to define the constraint, identify the responsible institution, understand its decision criteria and prepare the evidence it requires.
+      - "Different actors apply different criteria. Banks look at repayment, investors at scale and exit, and grant committees at eligibility, novelty, public purpose and reporting."
+      - Market access, through public procurement, the GeM portal, exhibitions and export promotion, is a form of support as important as finance.
+      - Verify every scheme and mandate on official portals.
+    framework:
+      title: Five forms of government support
+      items:
+        - term: Policy
+          text: Rules, incentives, recognition and sector priorities.
+        - term: Infrastructure
+          text: Industrial estates, power, water, roads and internet.
+        - term: Finance
+          text: Loans, subsidies, guarantees, seed funds and grants.
+        - term: Capacity building
+          text: Entrepreneurship development programmes (EDPs), training and mentoring.
+        - term: Market access
+          text: Procurement, exhibitions, exports and GeM.
+    table:
+      caption: Institutional support map
+      head: Actor | Typical contribution | Limitation
+      rows:
+        - Ministry of MSME and its development system | Policy, capability programmes and MSME support | Does not guarantee finance or customers to any one enterprise
+        - District Industries Centre (DIC) | District guidance, scheme processing and facilitation | Mandate and scheme coverage must be checked locally
+        - SIDBI and banks | Debt, refinance and specialised finance | Need instrument fit, documents and repayment logic
+        - NSIC and market-support bodies | Market, procurement and raw-material services | Eligibility and conditions differ
+        - StartupTN and recognised incubators | Ecosystem access, mentoring, programmes and some funding | Selection is competitive and programme-specific
+        - Universities and laboratories | Testing, knowledge, talent and facilities | Scope, IP, cost and liability need agreement
+        - Angels and venture funds | Risk capital, governance and networks | Ownership, return, scale and exit expectations apply
+    example: A first-generation manufacturing entrepreneur may use DIC guidance, MSME registration, bank finance, technical consultancy and market-development programmes, each for a different need.
+    case:
+      name: National Startup Awards
+      text: NSA winners get procurement support, investor connections and visibility as well as prize money. This shows that government support is often about access and credibility, not just cash.
+      prompt: Which NSA benefit would matter most to a hardware startup selling to government buyers?
+    mistakes:
+      - Expecting government support to replace founder effort.
+      - Ignoring documentation and eligibility.
+      - Relying on unofficial summaries instead of official sources.
+    terms:
+      - term: District Industries Centre (DIC)
+        def: A district-level government office that guides entrepreneurs and processes selected enterprise schemes.
+      - term: EDP
+        def: Entrepreneurship development programme, structured training that builds entrepreneurial skills and motivation.
+      - term: GeM
+        def: Government e-Marketplace, the online portal through which government buyers procure goods and services.
+    check:
+      - q: A startup needs a certified test report for its product. The right institution to approach first is
+        options: A venture capital fund | A testing laboratory or technical institution | A crowdfunding platform | A bank
+        answer: 1
+        why: Approach institutions according to their mandate. Testing is a lab's job.
+      - q: Which statement about government support is correct?
+        options: It guarantees success | It reduces barriers but cannot replace customer evidence | It removes all compliance | It is the same for every venture
+        answer: 1
+        why: Support eases a constraint. The venture still needs a credible problem, customers and capability.
+      - q: Public procurement through GeM is an example of
+        options: Infrastructure | Market access | A grant | Equity
+        answer: 1
+        why: It connects ventures to government buyers.
+    short_answers: []
+
+  - id: V.2
+    slug: incentives-subsidies-grants
+    title: Incentives, subsidies, grants and schemes
+    outcome: Describe incentives, subsidies, grants and schemes.
+    page: 55
+    summary:
+      - These are policy tools that encourage entrepreneurship in priority sectors, regions, social groups and technologies. An **incentive** encourages a defined behaviour or investment. A **subsidy** reduces an eligible cost under specified rules. A **grant** is normally non-repayable if conditions, milestones, permitted use and reporting are met. A **scheme** is the programme that packages these with eligibility, process and obligations.
+    key_points:
+      - "Contrast them with other money. A **loan** creates repayment and often security obligations. **Equity** exchanges ownership and governance rights for risk capital. A grant is non-dilutive, but it is competitive, documented and purpose-specific."
+      - Misusing a grant or reporting it poorly can lead to recovery of the money or disqualification.
+      - "Read the guidelines for eligibility, promoter contribution, project-cost limits, **permitted and excluded expenses**, reporting or repayment conditions and deadlines."
+      - Check whether support is **reimbursed after you spend** or given in advance, since that changes your cash flow.
+      - Screen schemes by need and stage first, not by the advertised amount. If a critical condition is unclear, treat the scheme as unverified.
+    framework:
+      title: Types of support
+      items:
+        - term: Capital subsidy
+          text: Support for fixed investment.
+        - term: Interest subsidy
+          text: Reduces borrowing cost.
+        - term: Seed grant
+          text: Early support for prototype or validation.
+        - term: Training grant
+          text: Skill and capacity building.
+        - term: Market support
+          text: Exhibitions, procurement and export promotion.
+        - term: Inclusive schemes
+          text: For women, SC/ST, rural, differently abled and first-generation founders.
+    table:
+      caption: Application-readiness checklist
+      head: Item | What to record
+      rows:
+        - Administering body and objective | Who runs it and what it aims to achieve
+        - Eligibility | Entity type, sector, geography, age, turnover and stage
+        - Evidence and documents | What proof and paperwork are required
+        - Contribution | How much the promoter must invest
+        - Permitted use | Which costs are allowed and which are excluded
+        - Milestones and reporting | What must be achieved and reported, and when
+        - Consequence | Repayment, equity or recovery if conditions are not met
+        - Source date | The official portal and the date it was checked
+    example: A startup developing a prototype may need a seed grant, while a small manufacturing unit may benefit more from a machinery subsidy or a credit guarantee.
+    case:
+      name: TN Startup and Innovation Policy 2023
+      text: Students should separate each scheme's eligibility, benefit, implementing department, application route and limitations, rather than quoting a headline amount.
+      prompt: For any one scheme you know, write its permitted use and one obligation.
+    mistakes:
+      - Depending fully on subsidies for viability.
+      - Not checking whether support is reimbursement after spending or an advance.
+      - Not keeping invoices, bank statements and utilisation records.
+    terms:
+      - term: Incentive
+        def: A policy measure that encourages a defined investment or behaviour, such as setting up in a backward region.
+      - term: Subsidy
+        def: Support that reduces a specified eligible cost, such as capital or interest, under scheme rules.
+      - term: Grant
+        def: Funding that is normally non-repayable if its conditions, permitted use and reporting are met.
+      - term: Permitted use
+        def: The specific expenses on which scheme money may lawfully be spent.
+    check:
+      - q: Which statement correctly distinguishes a grant from a loan?
+        options: Both always need repayment | A grant is non-repayable subject to stated conditions | A loan never needs cash-flow evidence | A grant transfers equity to the agency
+        answer: 1
+        why: Grants are not repaid if conditions are met. Loans must be repaid.
+      - q: A subsidy is best described as support that
+        options: Replaces all promoter contribution | Guarantees profit | Removes compliance | Reduces a specified eligible cost under rules
+        answer: 3
+        why: A subsidy lowers a particular cost, such as capital or interest, within the scheme's rules.
+      - q: A grant is approved, but the team spends part of it on an unrelated trip. The likely consequence is
+        options: Nothing | Recovery of funds or disqualification | A larger grant | Automatic equity dilution
+        answer: 1
+        why: Grants are purpose-specific. Misuse can lead to recovery or disqualification.
+    short_answers:
+      - q: Define an entrepreneurial incentive.
+        a: An entrepreneurial incentive is a government policy measure, such as a tax concession, subsidy or preferential access, that encourages a defined investment or behaviour, for example setting up in a priority sector or region.
+      - q: Explain the difference between a subsidy and a grant.
+        a: A subsidy reduces a specified eligible cost, such as capital investment or interest, usually as a percentage of that cost and often as reimbursement. A grant is a sum given for a defined purpose, such as prototype development, that is normally not repayable if milestones, permitted use and reporting conditions are met.
+      - q: Explain the difference between a grant and equity investment.
+        a: A grant is non-repayable and non-dilutive, with eligibility, permitted-use and reporting obligations. Equity investment gives money in exchange for ownership, so founders are diluted and the investor gains governance rights and expects a return through growth and exit.
+      - q: Explain the meaning of scheme eligibility and permitted use of funds.
+        a: Eligibility is the set of conditions an applicant must meet, such as entity type, age, turnover, sector, location and stage. Permitted use is the list of expenses on which the scheme money may be spent. Spending on anything else can trigger recovery.
+
+  - id: V.3
+    slug: inclusive-growth
+    title: Challenges and inclusive entrepreneurial growth
+    outcome: Discuss challenges and inclusive entrepreneurial growth.
+    page: 56
+    summary:
+      - Entrepreneurial opportunity is not equal across society. Barriers include finance, networks, gender norms, rural infrastructure, collateral, digital access, confidence, market linkages and lack of role models. **Inclusive entrepreneurship** widens access for women, rural youth, first-generation founders, marginalised groups, differently abled persons, students, artisans and local clusters.
+    key_points:
+      - Institutions support inclusion through training, credit support, mentoring, incubation, local-language support, local facilitation centres, cluster development, market access and digital platforms.
+      - Inclusion should be measurable, with support reaching real users in understandable language.
+      - Market access is as important as training. A trained entrepreneur with no buyers still fails.
+      - Inclusive schemes still require commercial discipline. They lower barriers but do not remove the need for a viable venture.
+      - Tamil Nadu has category-specific channels, such as TWEES for women and transgender entrepreneurs (see V.6).
+    framework:
+      title: Five A's of inclusion
+      items:
+        - term: Access
+          text: Finance, information, technology and mentors.
+        - term: Ability
+          text: Skills, confidence and business literacy.
+        - term: Acceptance
+          text: Social support and respect.
+        - term: Affordability
+          text: Low-cost entry and shared infrastructure.
+        - term: Accountability
+          text: Transparent schemes and measurable outcomes.
+    table:
+      caption: Barrier and response
+      head: Barrier | Typical response
+      rows:
+        - No collateral | Credit guarantee and collateral-free loan routes
+        - Weak networks | Mentoring, incubation and cluster associations
+        - Rural infrastructure | Shared facilities and common facility centres
+        - Low digital access | Local facilitation centres and language support
+        - No market linkage | Procurement preference, exhibitions and e-commerce onboarding
+    example: A food-processing entrepreneur needs packaging training, FSSAI guidance, bank support, e-commerce onboarding and cold-chain links, not training alone.
+    case:
+      name: TN Startup and Innovation Policy 2023
+      text: The policy explicitly connects inclusion with incubation, market access and local ecosystem-building, so support reaches founders beyond the big cities.
+      prompt: Name one barrier a rural woman entrepreneur in your district faces and a matching support.
+    mistakes:
+      - Treating inclusion as only a policy word.
+      - Delivering support in language or channels that users cannot reach.
+      - Training without market access.
+    terms:
+      - term: Inclusive entrepreneurship
+        def: Widening entrepreneurial access and success for under-served groups and regions.
+      - term: Credit guarantee
+        def: A guarantee that covers part of a lender's loss, reducing the need for collateral.
+      - term: Cluster development
+        def: Support for a group of related local enterprises through shared facilities, skills and market links.
+    check:
+      - q: Inclusive entrepreneurial growth primarily seeks to
+        options: Concentrate support in established firms | Fund only high-valuation startups | Widen access for under-served groups and regions | Remove commercial discipline
+        answer: 2
+        why: Inclusion widens opportunity. It does not remove the need for viability.
+      - q: A rural artisan has been trained but still has no buyers. The missing support is
+        options: More training | Market access | A trademark | A larger loan
+        answer: 1
+        why: Market access matters as much as skill.
+      - q: Which support most directly addresses lack of collateral?
+        options: Credit guarantee | Exhibition stall | EDP | Trademark filing
+        answer: 0
+        why: A guarantee covers lender risk, reducing the need for collateral.
+    short_answers:
+      - q: Explain the meaning of inclusive entrepreneurial growth.
+        a: Inclusive entrepreneurial growth means widening the opportunity to start and grow ventures to under-served groups and regions, such as women, rural youth, first-generation, marginalised and differently abled founders, through access to finance, skills, networks, infrastructure and markets, with measurable outcomes.
+
+  - id: V.4
+    slug: startup-india
+    title: Startup India scheme
+    outcome: Explain the Startup India scheme and benefits.
+    page: 57
+    summary:
+      - Startup India is a national initiative supporting eligible startups through **DPIIT recognition**, easier compliance, IPR support, tax-related benefits, public-procurement relaxation, funding links and ecosystem access, subject to current rules. Recognition is useful, but it **does not guarantee funding or customers**.
+    key_points:
+      - "Eligibility (Course Reader note, verified 2 August 2026, recheck before use): a private limited company, registered partnership, LLP or cooperative society, up to **10 years** old with turnover below **₹200 crore**, or 20 years and ₹300 crore for DeepTech. It must work towards innovation or improvement with employment or wealth-creation potential, and must not be formed by splitting or reconstructing an existing business."
+      - Benefits listed on the official page include self-certification, startup patent and IPR support, **Section 80-IAC** tax exemption (with its own separate conditions), easier winding up and easier public-procurement norms.
+      - "**Recognition is not** incorporation, Udyam registration, a licence, funding approval or tax exemption. Each needs its own process."
+      - "Funding links such as the **Fund of Funds** work through selected investment funds (AIFs). The startup still has to convince those funds."
+      - Use benefits that are relevant to your stage, and keep compliance and documents up to date.
+    framework:
+      title: Using Startup India
+      items:
+        - term: Check
+          text: Eligibility on the Startup India portal.
+        - term: Apply
+          text: Register and apply for DPIIT recognition.
+        - term: Use
+          text: The benefits relevant to your stage.
+        - term: Maintain
+          text: Compliance and documentation.
+        - term: Connect
+          text: Incubators, mentors, investors and programmes.
+    table:
+      caption: DPIIT recognition and Udyam registration compared
+      head: Dimension | DPIIT recognition | Udyam registration
+      rows:
+        - Purpose | Startup status under Startup India | MSME identity and classification
+        - Core test | Age, turnover, eligible form, innovation and no reconstruction | Investment and turnover thresholds
+        - It is not | Incorporation, funding, a licence or automatic tax approval | Incorporation, startup recognition or a sector approval
+        - Where | Startup India portal and NSWS | Government Udyam portal
+    example: A DPIIT-recognised hardware startup may use IPR support for patent filing and procurement relaxation to approach government buyers.
+    case:
+      name: Startup India Fund of Funds 2.0
+      text: Government capital flows into SEBI-registered AIFs, which then invest in startups using their own appraisal. Recognition opens the door, but the startup still has to win the investor.
+      prompt: Why does a Fund of Funds not give money directly to every recognised startup?
+    mistakes:
+      - Assuming eligibility rules never change.
+      - Treating recognition as funding approval.
+      - Assuming tax benefits are automatic, when they need specific conditions and an application.
+    terms:
+      - term: Startup India
+        def: The national initiative that recognises and supports eligible startups through DPIIT.
+      - term: Section 80-IAC
+        def: The Income Tax Act provision offering an eligible recognised startup a tax holiday on profits, subject to separate certification and conditions.
+      - term: Fund of Funds
+        def: A fund that invests in other investment funds, which in turn invest in startups.
+    check:
+      - q: Which statement about Startup India recognition is correct?
+        options: It does not guarantee funding or customers | It replaces incorporation | It approves every sector licence | It removes tax duties
+        answer: 0
+        why: Recognition enables access to some benefits. It guarantees nothing commercial.
+      - q: A government-backed Fund of Funds typically
+        options: Gives direct grants to every applicant | Replaces private investors | Channels capital through selected investment funds | Provides overdrafts
+        answer: 2
+        why: It invests in AIFs, which appraise and invest in startups.
+      - q: Which is NOT listed as a DPIIT recognition benefit?
+        options: Self-certification | IPR support | Guaranteed bank loan | Easier public procurement
+        answer: 2
+        why: Recognition does not guarantee any loan.
+    short_answers:
+      - q: Explain what Startup India recognition may enable and what it does not guarantee.
+        a: Recognition may enable access to self-certification, startup IPR support, Section 80-IAC tax exemption (subject to conditions), easier public-procurement norms, easier winding up and selected funding channels. It does not guarantee investment, a bank loan, tax relief, procurement orders, sector approvals, customers or commercial success.
+
+  - id: V.5
+    slug: msme-act-policy
+    title: MSME Act and MSME policy in India
+    outcome: Explain the MSME Act and MSME policy in India.
+    page: 58
+    labs:
+      - title: MSME Registration Venture Architect (Unit II)
+        href: modules/unit-2/15-msme-registration-venture-architect/index.html
+        note: Classify and register a small unit
+    summary:
+      - MSME policy supports micro, small and medium enterprises through recognition, finance, procurement preference, technology upgrading, cluster development, skills, **delayed-payment protection** and institutional facilitation. The **MSMED Act, 2006** gives the legal framework. **Udyam** is the current free, online registration route for MSME identity.
+    key_points:
+      - "Classification uses **composite investment and turnover** limits (effective 1 April 2025, Udyam portal checked 2 August 2026). Micro is up to ₹2.5 crore investment and ₹10 crore turnover, Small up to ₹25 crore and ₹100 crore, and Medium up to ₹125 crore and ₹500 crore."
+      - "**Delayed payments (MSMED Act):** section 15 caps the agreed payment period at **45 days** from acceptance. Section 16 provides compound interest with monthly rests at **three times the RBI-notified bank rate** on late payment. Sections 18 to 21 cover the MSE Facilitation Councils for disputes."
+      - Udyam does not replace incorporation, tax, local or sector approvals.
+      - Many Indian entrepreneurs begin as MSMEs, not VC-funded startups. MSMEs are central to jobs, manufacturing, services, exports and regional development.
+      - Update MSME status as the enterprise grows, and use only the official Udyam portal.
+    framework:
+      title: MSME essentials
+      items:
+        - term: Micro
+          text: Lowest investment and turnover limits.
+        - term: Small
+          text: Larger scale with higher limits.
+        - term: Medium
+          text: Established scale and significant turnover.
+        - term: Udyam
+          text: Official free online registration.
+        - term: Policy support
+          text: Credit, procurement, technology, training and markets.
+    table:
+      caption: Udyam classification (from 1 April 2025, recheck the portal)
+      head: Class | Investment up to | Turnover up to
+      rows:
+        - Micro | ₹2.5 crore | ₹10 crore
+        - Small | ₹25 crore | ₹100 crore
+        - Medium | ₹125 crore | ₹500 crore
+    example: A small precision-machining unit serving textile-machinery manufacturers can use MSME registration for bank linkage, procurement opportunities and delayed-payment protection.
+    case:
+      name: Autocracy Machinery (from Unit II)
+      text: A machinery maker supplying larger firms can register on Udyam and rely on the MSMED Act's 45-day payment rule when a buyer delays payment.
+      prompt: A buyer accepted goods 70 days ago and has not paid. Which MSMED Act provisions apply?
+    mistakes:
+      - Using unofficial agents or portals instead of the official Udyam portal.
+      - Classifying on investment alone, when both investment and turnover apply.
+      - Not updating MSME status as the enterprise grows.
+    terms:
+      - term: MSME
+        def: Micro, small or medium enterprise, classified by investment in plant and machinery or equipment and by turnover.
+      - term: Udyam registration
+        def: The free, official online registration that gives an enterprise its MSME identity and classification.
+      - term: MSMED Act, 2006
+        def: The law that classifies MSMEs and provides promotion measures and delayed-payment protection.
+    check:
+      - q: Udyam registration is primarily associated with
+        options: Patent examination | Formal MSME registration | Stock-exchange listing | Foreign-trade licensing only
+        answer: 1
+        why: Udyam is the official MSME registration route.
+      - q: An enterprise has ₹2 crore investment and ₹40 crore turnover. Its class is
+        options: Micro | Small | Medium | Not an MSME
+        answer: 1
+        why: Investment fits micro, but turnover above ₹10 crore pushes it into Small. Both limits apply.
+      - q: Under the MSMED Act, the agreed payment period to a micro or small supplier cannot exceed
+        options: 30 days | 45 days | 60 days | 90 days
+        answer: 1
+        why: Section 15 caps it at 45 days from acceptance or deemed acceptance.
+    short_answers:
+      - q: Distinguish DPIIT startup recognition from Udyam MSME registration.
+        a: DPIIT recognition is a startup status under Startup India, based on age, turnover, eligible form and innovation, and it opens startup-specific benefits. Udyam registration is MSME identity and classification based on investment and turnover, and it opens MSME benefits such as credit, procurement and delayed-payment protection. Neither is incorporation, and an enterprise may hold both.
+
+  - id: V.6
+    slug: tamil-nadu-startup-schemes
+    title: Tamil Nadu startup schemes
+    outcome: Describe Tamil Nadu startup schemes and support mechanisms.
+    page: 60
+    summary:
+      - Tamil Nadu supports entrepreneurship through MSME facilitation, **StartupTN** ecosystem initiatives, incubation, mentoring, funding programmes, market linkages and state industrial support. Local facilitation, district support and regional incubation make implementation easier for student and first-generation founders. **Names, amounts, eligibility and deadlines change, so verify on official portals.**
+    key_points:
+      - First identify your **stage and constraint**, such as validation, prototype, testing, setup, fixed assets, working capital, market access, inclusion or scale. Then screen the current programme.
+      - Coimbatore's strengths in manufacturing, textiles, auto components, engineering services, electronics, food processing, SaaS and deep-tech create practical opportunities.
+      - "Prepare a standard document set: pitch deck, registration details, founder profile, problem-solution note and financials."
+      - Eligibility may depend on registered office, founder category, sector or stage. Many programmes run in cohorts with deadlines.
+      - Do not rely on old scheme screenshots. Track announcements on StartupTN and the TN MSME portal.
+    framework:
+      title: Approach
+      items:
+        - term: Check
+          text: StartupTN and the TN MSME official portals.
+        - term: Stage
+          text: Idea, prototype, startup, MSME, scale-up or market access.
+        - term: Network
+          text: District industry centres and incubation networks.
+        - term: Documents
+          text: Deck, registration, founder profile, problem-solution note and financials.
+        - term: Track
+          text: Announcements, cohorts and deadlines.
+    table:
+      caption: TN and national channels (orientation as of 2 August 2026; reverify before applying)
+      head: Channel | Indicative fit | What to reverify
+      rows:
+        - StartupTN / TANSEED and ecosystem programmes | Innovative early-stage startups, incubation and seed support | Current call, registration, sector, stage, equity stake, milestones and permitted use
+        - NEEDS | First-generation entrepreneurs starting a new manufacturing or service venture | Applicant conditions, project cost, contribution, subsidy, training and bank process
+        - TWEES | Women and transgender entrepreneurs | Age, domicile, project cap, contribution, subsidy and activity rules
+        - UYEGP | Unemployed applicants starting qualifying self-employment | Age, category, education, income, activity, project cap and subsidy
+        - AABCS and other category-specific channels | Entrepreneurs meeting the notified community and enterprise conditions | Guidelines, activity, contribution, bank linkage and benefit
+        - PMEGP and national MSME channels | Eligible new micro-enterprises | Implementing agency, category, location, project cost and contribution
+        - Startup India funding and market access | DPIIT-recognised startups where the programme fits | Recognition, stage, intermediary, window, instrument and obligations
+    example: "A student hardware startup building a low-cost water-quality device could use the campus incubator and lab for prototype evidence, StartupTN for ecosystem and programme access, DPIIT recognition if eligible, Udyam after enterprise setup, a TN enterprise scheme only if its conditions fit, and bank or equity finance once repayment or growth evidence exists."
+    case:
+      name: TN Startup and Innovation Policy 2023
+      text: The policy links state support with inclusion, incubation, market access and local ecosystem-building. A Coimbatore venture should read it alongside the current StartupTN calls.
+      prompt: Which TN channel fits a 23-year-old first-generation graduate opening a CNC job shop? What must they reverify?
+    mistakes:
+      - Relying on old scheme screenshots.
+      - Missing cohort deadlines.
+      - Ignoring eligibility conditions on registered office, founder category, sector or stage.
+    terms:
+      - term: StartupTN
+        def: Tamil Nadu's startup mission, which runs ecosystem programmes, incubation links and funding calls.
+      - term: NEEDS
+        def: A Tamil Nadu scheme for eligible first-generation entrepreneurs setting up new ventures, with subsidy and bank linkage.
+      - term: TWEES
+        def: A Tamil Nadu scheme supporting eligible women and transgender entrepreneurs.
+    check:
+      - q: The first step in choosing a TN support channel is to
+        options: Pick the one with the largest amount | Identify your stage and constraint | Apply to all of them | Copy a friend's application
+        answer: 1
+        why: Channels fit different stages and needs. Match those first.
+      - q: Why must TN scheme details be reverified before applying?
+        options: They never change | Names, amounts, eligibility and deadlines change | Portals are optional | Only national schemes change
+        answer: 1
+        why: State schemes run in cohorts and are revised, so old details may be wrong.
+      - q: A first-generation entrepreneur wants subsidy and bank linkage for a new service venture. Which channel fits on the face of it?
+        options: Venture capital | NEEDS | Equity crowdfunding | Section 80-IAC
+        answer: 1
+        why: NEEDS targets first-generation entrepreneurs, subject to its current conditions.
+    short_answers: []
+
+  - id: V.7
+    slug: finance-and-banks
+    title: Entrepreneurial finance and commercial banks
+    outcome: Identify sources of entrepreneurial finance and bank support.
+    page: 61
+    labs:
+      - title: Runway and Break-even Lab (Unit III)
+        href: modules/unit-3/lesson-05.html
+        note: See how burn and cash change runway
+    summary:
+      - Sources of entrepreneurial finance include owner funds, family and friends, bank loans, government schemes, microfinance, grants, seed funds, angels, venture capital, crowdfunding, supplier credit, customer advances and retained earnings. **Commercial banks** finance MSMEs and traditional enterprises after appraising viability, promoter contribution, collateral or guarantee, cash flow, credit history and **repayment capacity**.
+    key_points:
+      - "A **term loan** finances long-lived assets such as machinery and buildings, repaid over years. **Working-capital finance** (cash credit or overdraft) funds inventory, receivables, wages and utilities through the operating cycle."
+      - "**Repayment capacity** is the credible ability to pay principal and interest from projected cash flows after operating and working-capital needs. Security reduces lender loss but does not fix an unviable cash flow."
+      - Banks appraise the promoter, purpose, contribution, project cost, market, technical feasibility, permissions, collateral, cash flow, debt service, risk and records.
+      - "**Cash runway** = available cash ÷ monthly net burn. It needs the cash balance, expected receipts and payments, and one-time costs. It is an indicator, not a guarantee."
+      - Loans must be repaid even if sales are delayed. Do not divert working capital to unrelated spending.
+    framework:
+      title: Bank finance building blocks
+      items:
+        - term: Fixed capital
+          text: Machinery, building, equipment and tools.
+        - term: Working capital
+          text: Inventory, receivables, wages and utilities.
+        - term: Term loan
+          text: Long-term asset finance.
+        - term: Cash credit or overdraft
+          text: Working-capital support.
+        - term: Credit guarantee
+          text: Reduces the collateral burden where eligible.
+    table:
+      caption: Bank-proposal blocks
+      head: Block | Information to organise
+      rows:
+        - Promoter and entity | Background, capability, credit record, legal form and contribution
+        - Purpose and project | Problem, customer, offering, location, process, capacity and schedule
+        - Project cost | Machinery, installation, deposits, pre-operative cost, contingency and working-capital margin
+        - Sources of funds | Promoter contribution, subsidy or grant, term loan and working-capital limit
+        - Market and operations | Demand evidence, orders, price, competition, suppliers and staffing
+        - Permissions and security | Registrations, insurance, collateral or guarantee
+        - Financial projection | Income statement, monthly cash flow, balance sheet, break-even and sensitivity
+        - Repayment and risk | Debt-service schedule, repayment capacity, downside case and cash buffer
+    example: A small fabrication unit may use promoter contribution plus a term loan for machines, and a working-capital limit for raw material and receivables.
+    case:
+      name: SIDBI seed funding and venture debt
+      text: SIDBI-linked seed money reaches early startups through incubators, while venture debt suits later startups that already have investors and revenue. The same institution offers different instruments at different stages.
+      prompt: Why would a bank prefer to lend against a machine rather than fund early prototype experiments?
+    mistakes:
+      - Forgetting that loans must be repaid even if sales are delayed.
+      - Using working capital for unrelated expenses.
+      - Approaching banks without records and financial discipline.
+    terms:
+      - term: Term loan
+        def: A loan for long-lived assets, repaid in instalments over several years.
+      - term: Working-capital finance
+        def: Short-term finance, such as cash credit or an overdraft, for inventory, receivables and operating needs.
+      - term: Repayment capacity
+        def: The ability to meet principal and interest from projected cash flow after operating needs.
+      - term: Promoter contribution
+        def: The founders' own money invested in the project, which lenders expect as a share of project cost.
+    check:
+      - q: A term loan is most suitable for financing
+        options: Daily petty cash | Unverified promotion | Founder drawings | Long-lived machinery
+        answer: 3
+        why: Term loans match long-lived assets that earn over years.
+      - q: Which evidence most directly supports bank repayment appraisal?
+        options: Number of slides | Novelty of the name | Projected cash flow and repayment capacity | Social network
+        answer: 2
+        why: Banks lend against the ability to repay from cash flow.
+      - q: A venture has ₹6,00,000 in cash and net burn of ₹75,000 a month. Its runway is
+        options: 4 months | 6 months | 8 months | 12 months
+        answer: 2
+        why: Runway = 6,00,000 ÷ 75,000 = 8 months.
+    short_answers:
+      - q: List four common sources of startup finance.
+        a: (1) Owner funds or bootstrapping, (2) bank loans, (3) government grants and seed funds, and (4) angel investment. Venture capital, crowdfunding, customer advances and supplier credit are also valid answers.
+      - q: Explain the difference between a term loan and working-capital finance.
+        a: A term loan finances long-lived assets such as machinery or buildings and is repaid in instalments over several years. Working-capital finance, such as cash credit or an overdraft, funds the operating cycle, meaning inventory, receivables, wages and utilities, and is drawn and repaid as cash moves.
+      - q: List four items normally examined during bank loan appraisal.
+        a: (1) Promoter background and contribution, (2) project cost and technical feasibility, (3) projected cash flow and repayment capacity, and (4) collateral or guarantee and credit history.
+      - q: Explain the meaning of repayment capacity.
+        a: Repayment capacity is a borrower's credible ability to pay loan principal and interest on schedule from projected cash flows, after meeting operating costs and working-capital needs. Collateral reduces the lender's loss but does not create repayment capacity.
+      - q: Define cash runway and state the information required to estimate it.
+        a: Cash runway is the number of months a venture can operate before cash runs out, estimated as available cash ÷ monthly net burn. It needs the current cash balance, expected monthly receipts and payments (net burn) and known one-time costs such as equipment, tax or debt service.
+
+  - id: V.8
+    slug: vc-angels-bootstrapping
+    title: Venture capital, angel investors and bootstrapping
+    outcome: Compare VC, angel investment and bootstrapping.
+    page: 62
+    labs:
+      - title: Runway and Break-even Lab (Unit III)
+        href: modules/unit-3/lesson-05.html
+        note: Test how long bootstrapped cash lasts
+    summary:
+      - "**Angel investors** are individuals who invest their own money early, usually with mentoring and networks. **Venture capital** firms invest larger pooled funds in high-growth, scalable startups for equity, governance rights and an exit. **Bootstrapping** builds the venture with founder savings, revenue, customer advances and tight cost control. It preserves ownership but may slow growth."
+    key_points:
+      - The right route depends on the business. A scalable SaaS or deep-tech venture may need equity. A service business may grow well through bootstrapping and bank finance.
+      - "**Debt** preserves ownership but creates repayment obligations. **Equity** has no fixed repayment but dilutes ownership and adds investor governance."
+      - "Match the **instrument to the stage, evidence and use of funds**. Founder funds, incubation and small grants come first, at prototype stage. Angels or seed funding come at pilot stage with traction. Bank debt suits assets with visible repayment, and VC suits proven, scalable growth."
+      - Fund the next value-creating evidence before seeking the next instrument.
+      - Do not take VC money for a business that cannot scale fast. Understand dilution, and keep strict cash discipline when bootstrapping.
+    framework:
+      title: Finance options compared
+      items:
+        - term: Angel
+          text: Early risk capital, mentoring and smaller cheques.
+        - term: VC
+          text: High-growth capital, dilution and strong return expectations.
+        - term: Bootstrapping
+          text: Low dilution, disciplined spending and slower scaling.
+        - term: Bank loan
+          text: Debt with repayment obligations, for predictable cash flows.
+        - term: Grant
+          text: Non-dilutive, but eligibility and reporting are heavy.
+    table:
+      caption: Choosing finance by criterion
+      head: Criterion | Bootstrapping | Grant | Debt | Angel | VC
+      rows:
+        - Stage | Idea to early revenue | Prototype and validation | Asset or steady revenue | Pilot and early traction | Proven, scaling
+        - Evidence needed | Low | Eligibility and milestones | Cash flow and security | Team and traction | Scale, unit economics and growth
+        - Repayment | None | None if conditions met | Fixed | None | None
+        - Ownership | Kept | Kept | Kept | Diluted | Diluted further
+        - Control | Full | Reporting duties | Covenants | Some advice and rights | Board and governance rights
+    example: A software product with national scaling potential may approach angels after pilot traction, while a local CAD service firm may bootstrap and grow on customer revenue.
+    case:
+      name: Fund of Funds 2.0 and SIDBI venture debt
+      text: Compare who gives money, at what stage, against what expectation and with what control. AIFs backed by the Fund of Funds take equity and governance rights, while venture debt is repaid but dilutes little.
+      prompt: For a startup with steady revenue that wants to avoid dilution, which is a better fit, and why?
+    mistakes:
+      - Taking VC money for a business that cannot scale fast.
+      - Not understanding equity dilution.
+      - Bootstrapping without strict cash discipline.
+    terms:
+      - term: Angel investor
+        def: An individual who invests personal money in an early-stage venture, often with mentoring.
+      - term: Venture capital
+        def: Professionally managed pooled funds invested as equity in high-growth startups, with governance rights and an exit goal.
+      - term: Bootstrapping
+        def: Building a venture with founder funds, revenue and customer advances instead of outside equity.
+      - term: Dilution
+        def: The fall in founders' ownership percentage when new shares are issued to investors.
+    check:
+      - q: Which best distinguishes angels from VC funds?
+        options: Angels invest personal funds, often earlier | Angels give secured loans | VCs never seek governance rights | VCs invest only in proprietorships
+        answer: 0
+        why: Angels use their own money at early stages. VCs invest pooled funds later and at larger scale.
+      - q: Compared with equity, debt normally
+        options: Eliminates repayment | Preserves ownership but creates repayment obligations | Shares every loss | Has no cash-flow effect
+        answer: 1
+        why: Debt keeps ownership but must be repaid with interest.
+      - q: A sound stage-wise financing strategy should
+        options: Match instrument, evidence, stage and use of funds | Seek the largest investment before validation | Use debt for uncertain experiments | Never revise the plan
+        answer: 0
+        why: Each instrument fits a particular stage and level of evidence.
+    short_answers:
+      - q: Explain the difference between angel investment and venture capital.
+        a: Angels are individuals investing their own money, usually smaller amounts at an early stage, often with mentoring. Venture capital firms invest larger pooled funds at later stages in startups with proven high-growth potential, taking equity, board or governance rights and expecting a large return through exit.
+      - q: Explain bootstrapping with one example.
+        a: Bootstrapping is building a venture with founder savings, customer revenue and advances and careful cost control instead of outside equity. For example, a CAD-drafting service starts from a founder's laptop, takes 50 percent advances from clients and reinvests profits to hire its second designer.
+      - q: Explain the difference between debt finance and equity finance.
+        a: Debt finance is borrowed money that must be repaid with interest on a schedule, often with security, while ownership stays with the founders. Equity finance is money given for a share of ownership. It has no fixed repayment, but it dilutes the founders and gives investors governance rights and a share of future value.
+      - q: Explain how a government-backed Fund of Funds normally operates.
+        a: The government commits capital to selected SEBI-registered Alternative Investment Funds rather than to startups directly. Those funds add private capital, appraise startups and invest in them on commercial terms, so public money is multiplied and professionally managed.
+      - q: Outline a stage-wise sequence of finance from prototype to production.
+        a: At prototype stage, founder funds, incubation support and seed grants. At pilot stage, angel or seed equity and customer advances, backed by traction. At setup and production, promoter contribution plus a bank term loan for machinery and a working-capital limit. At scale, venture capital or venture debt. Each step funds the evidence that justifies the next.
+
+  - id: V.9
+    slug: crowdfunding-alliances
+    title: Crowdfunding and strategic alliances
+    outcome: Explain crowdfunding and strategic alliances for startups.
+    page: 63
+    summary:
+      - "**Crowdfunding** raises small contributions from many people, usually online. It may be donation-, reward-, debt- or equity-based, depending on law and platform rules. A **strategic alliance** is a partnership with another organisation to access technology, customers, distribution, manufacturing, credibility or complementary resources **without full ownership or merger**. Both depend on trust, backed by clear communication and written agreements."
+    key_points:
+      - "**Reward-based** contributors get a product or reward. The founder's duty is honest readiness, fulfilment, communication and a remedy. Its main failure is an under-costed reward or late or no delivery."
+      - "**Equity-based** contributors get ownership, which brings valuation, disclosure, governance and securities-law consequences. Verify the current legal position in India before use."
+      - "Campaign ethics require you to state what is proven and what is uncertain, cost production, tax, platform fees and delays, set milestones, report bad news as well as good, define refunds in advance and never divert funds without disclosure."
+      - "An alliance agreement defines contributions, decision rights, IP, confidentiality, quality, customer ownership, performance, financial terms, conflict handling, duration and exit."
+      - Alliances should protect IP and customer data. Dependence on one partner is a risk.
+    framework:
+      title: Types
+      items:
+        - term: Crowdfunding
+          text: Community funding, pre-orders and public validation.
+        - term: Technology alliance
+          text: R&D or product integration.
+        - term: Market alliance
+          text: Channel or distribution partner.
+        - term: Manufacturing alliance
+          text: Contract production without owning the plant.
+        - term: Institutional alliance
+          text: College, incubator, industry association, NGO or government body.
+    table:
+      caption: Reward-based and equity crowdfunding compared
+      head: Dimension | Reward-based | Equity-based
+      rows:
+        - Contributor gets | Product, service or reward | Ownership or an equity-linked right
+        - Founder obligation | Honest readiness, fulfilment, communication and remedy | Disclosure, valuation, governance and compliance
+        - Typical evidence | Prototype, costed delivery plan and supplier capacity | Market evidence, financials, legal readiness and governance
+        - Main failure | Under-costed reward or late or no delivery | Misleading offer or unmanaged shareholder duties
+        - Verify | Platform terms, consumer, tax and contract duties | Current securities, platform and investor rules
+    example: A sustainable campus product can use reward-based crowdfunding for early users and partner with a local manufacturer for production.
+    case:
+      name: SIDBI, Fund of Funds and alliances
+      text: A startup, a contract manufacturer, a distributor and a technical institute can form an alliance without merging. The written agreement on IP, quality, customer ownership and exit is what makes it trustworthy.
+      prompt: In such an alliance, who should own customer data, and why must the agreement say so?
+    mistakes:
+      - Making crowdfunding promises that cannot be kept.
+      - Leaving IP and customer data unprotected in alliances.
+      - Becoming dependent on a single partner.
+    terms:
+      - term: Crowdfunding
+        def: Raising small amounts from many people, usually through an online platform.
+      - term: Reward-based crowdfunding
+        def: Contributors receive a product or other non-ownership reward for their support.
+      - term: Equity crowdfunding
+        def: Contributors receive an ownership interest, with legal and governance consequences.
+      - term: Strategic alliance
+        def: A formal partnership that shares complementary resources without full merger or ownership.
+    check:
+      - q: A central risk in reward-based crowdfunding is
+        options: Automatic loss of all equity | No communication is needed | Guaranteed bank repayment | Failure to deliver promised rewards transparently
+        answer: 3
+        why: Under-costed or late rewards are the main failure, so honest fulfilment planning is essential.
+      - q: A strategic alliance is most useful when it
+        options: Provides complementary resources without full ownership | Removes the need for a written agreement | Stops partners sharing customers | Makes one party abandon its goals
+        answer: 0
+        why: Alliances give access to partners' strengths without merging.
+      - q: A campaign shows a polished render as if the product were ready, but tooling is not ordered. The ethical fix is to
+        options: Say nothing | State what is proven and what is uncertain, with realistic milestones and a refund policy | Raise the target | Remove the comments section
+        answer: 1
+        why: Honest readiness, milestones and remedy logic protect contributors and trust.
+    short_answers:
+      - q: Explain reward-based and equity crowdfunding.
+        a: In reward-based crowdfunding, contributors receive a product, service or other reward, so the founder must deliver honestly and on time. In equity crowdfunding, contributors receive ownership, which brings valuation, disclosure, governance and securities-law duties that must be verified before use.
+      - q: Explain the purpose of a strategic alliance.
+        a: A strategic alliance lets a startup access complementary resources it lacks, such as technology, manufacturing, distribution, customers or credibility, from a partner without merging or full ownership. It is governed by a written agreement on contributions, IP, quality, customer ownership and exit.
+      - q: State two ethical duties in a crowdfunding campaign.
+        a: (1) Disclose honestly what is proven and what is uncertain, including delivery risk. (2) Use funds only for the stated purpose and report progress regularly, including bad news, with a predefined refund or remedy if the promise cannot be met.
+
+quiz:
+  - answer: 1
+    why: A grant is non-repayable if its conditions are met, unlike a loan.
+  - answer: 3
+    why: A subsidy reduces a specified eligible cost under the scheme's rules.
+  - answer: 0
+    why: Incentives aim to encourage a defined investment or behaviour.
+  - answer: 2
+    why: Inclusive growth widens access for under-served groups and regions.
+  - answer: 0
+    why: Recognition does not guarantee funding or customers.
+  - answer: 1
+    why: Udyam is the formal MSME registration route.
+  - answer: 3
+    why: Term loans fit long-lived machinery and equipment.
+  - answer: 2
+    why: Working-capital finance funds inventory, receivables and operating needs.
+  - answer: 2
+    why: Banks appraise projected cash flow and repayment capacity.
+  - answer: 0
+    why: Angels invest personal money, often earlier than VC funds.
+  - answer: 1
+    why: Bootstrapping uses founder funds, revenue and customer advances.
+  - answer: 3
+    why: Under-costed or undelivered rewards, handled without transparency, are the central risk.
+  - answer: 0
+    why: Alliances provide complementary resources without full ownership.
+  - answer: 2
+    why: Equity brings dilution and investor governance influence.
+  - answer: 1
+    why: Debt preserves ownership but creates repayment obligations.
+  - answer: 3
+    why: Verify eligibility, obligations and official evidence before applying.
+  - answer: 3
+    why: Schemes change, so recheck the official portal.
+  - answer: 1
+    why: Runway is available cash divided by monthly net burn.
+  - answer: 2
+    why: A Fund of Funds channels capital through selected investment funds.
+  - answer: 0
+    why: Match instrument, evidence, stage and use of funds.
+
+long_questions:
+  - q: Apply a stage-wise finance framework to match promoter contribution, incubation, grants, bank finance and equity with a student manufacturing startup.
+    topics: [V.7, V.8]
+    points:
+      - Idea and prototype — promoter contribution, incubator support and lab access.
+      - Validation — a seed grant tied to milestones and permitted use.
+      - Pilot — customer advances, plus angel or seed equity if growth potential is high.
+      - Setup — promoter margin, a term loan for machinery and a working-capital limit for inventory and receivables.
+      - Scale — VC or venture debt once unit economics are proven.
+      - Each stage funds the evidence for the next, with runway checked at each step.
+  - q: Explain the roles and limitations of Central and State Government institutions, MSME bodies, banks, incubators and investors in promoting entrepreneurship.
+    topics: [V.1]
+    points:
+      - Central bodies (Ministry of MSME, DPIIT) provide policy, recognition and programmes, but guarantee no finance or customers.
+      - State and district bodies (DIC, StartupTN) provide facilitation and schemes, with local mandates and competitive selection.
+      - MSME bodies (NSIC and others) provide market, procurement and raw-material support, with conditions.
+      - Banks and SIDBI provide debt and refinance, but need repayment logic and documents.
+      - Incubators and universities provide mentoring, labs and seed support, with IP and liability agreements.
+      - Angels and VCs provide risk capital and networks, but expect ownership, scale and exit. Approach each by its mandate.
+  - q: Use an application-readiness checklist to organise eligibility, evidence, documents, permitted use, milestones, reporting and current-source verification for a support scheme.
+    topics: [V.2, V.6]
+    points:
+      - Administering body and objective.
+      - Eligibility — entity, age, turnover, sector, location and stage.
+      - Evidence and documents — deck, registration, founder profile and financials.
+      - Contribution and permitted and excluded use.
+      - Milestones, reporting and the consequence of non-compliance.
+      - Official source and date checked. Any unclear condition means the scheme is unverified.
+  - q: Explain the purposes, benefits, limitations and practical uses of DPIIT startup recognition and Udyam MSME registration.
+    topics: [V.4, V.5]
+    points:
+      - DPIIT purpose — startup status, with eligibility on age, turnover, form, innovation and no reconstruction.
+      - DPIIT benefits — self-certification, IPR support, 80-IAC (conditional), procurement and winding up.
+      - Udyam purpose — MSME identity and classification by investment and turnover (micro, small and medium limits).
+      - Udyam benefits — credit linkage, procurement and MSMED Act delayed-payment protection (45 days, interest at 3× bank rate).
+      - Limitations — neither is incorporation, a licence or funding, and neither guarantees customers.
+      - Practical use — a manufacturing startup may hold both, verified on the official portals.
+  - q: Apply fixed-asset, working-capital, promoter-contribution, debt-service and cash-flow categories to the financing needs of a small fabrication unit.
+    topics: [V.7]
+    points:
+      - Fixed assets — welding sets, press, CNC and installation, financed by a term loan plus promoter margin.
+      - Working capital — steel inventory, receivables and wages, financed by a cash-credit limit.
+      - Promoter contribution — the founder's share of project cost, showing commitment.
+      - Debt service — EMI schedule and interest, set against cash flow.
+      - Cash flow — monthly receipts and payments, collection delay and a buffer.
+      - Repayment capacity and the downside case support the bank appraisal.
+  - q: Use stage, evidence, repayment, ownership and control criteria to select suitable finance from bootstrapping, grants, debt, angel investment and venture capital.
+    topics: [V.8]
+    points:
+      - Build a criteria table with stage, evidence, repayment, ownership and control as rows.
+      - Bootstrapping keeps full control with no repayment, but is slow.
+      - Grants are non-dilutive, but carry eligibility and reporting duties.
+      - Debt preserves ownership, but needs cash flow and security.
+      - Angels bring early equity and mentoring with some dilution. VC brings large equity for proven scale, with governance rights.
+      - Apply this to a stated venture and justify the choice.
+  - q: Apply a crowdfunding checklist covering campaign type, target, evidence, communication, fulfilment, fund use, risk disclosure and legal verification to a campus-product case.
+    topics: [V.9]
+    points:
+      - Type — reward-based, which suits a campus product.
+      - Target — costed production, tax, platform fees, shipping and a contingency for delays.
+      - Evidence — a working prototype and supplier quotes.
+      - Communication and fulfilment — milestones, regular updates and a delivery plan.
+      - Fund use and risk disclosure — what is proven, what is uncertain and the refund policy.
+      - Legal — platform terms and consumer, tax and contract duties verified.
+  - q: Use contribution, governance, IP, quality, performance and exit headings to outline a strategic alliance among a startup, manufacturer, distributor and technical institution.
+    topics: [V.9]
+    points:
+      - Contribution — design (startup), production (manufacturer), channel (distributor), testing (institution).
+      - Governance — steering committee, decision rights and dispute resolution.
+      - IP — background IP and new IP ownership, licences and confidentiality.
+      - Quality — specifications, inspection and corrective action.
+      - Performance — volumes, lead times, service levels and payment terms.
+      - Exit — duration, termination triggers, IP and customer-data handover.
+  - q:
+      - (i) Use eligibility, timing, documentation, permitted use and obligation criteria to screen a set of advertised support schemes.
+      - (ii) Record the scheme details that must be verified through current official sources.
+    topics: [V.2, V.6]
+    points:
+      - Build a matrix with schemes as rows and criteria as columns.
+      - Eligibility — entity, founder category, sector, location and stage.
+      - Timing — window, cohort and disbursal (advance or reimbursement).
+      - Documentation and permitted use — required proofs and allowed costs.
+      - Obligations — contribution, milestones, reporting, equity or repayment.
+      - Verify the administering body, current status, amounts, deadlines and source date on the official portal.
+  - q:
+      - (i) Explain the differences between bootstrapping and angel investment.
+      - (ii) Use stage and runway criteria to choose between them for a prototype-stage venture.
+    topics: [V.8]
+    points:
+      - Bootstrapping — own funds and revenue, full control, slower growth.
+      - Angel — outside equity, mentoring and networks, with dilution.
+      - At prototype stage evidence is low, so angels may be hard to win and valuation low.
+      - Compute runway = cash ÷ burn. If it covers the next validation milestone, bootstrap.
+      - If the milestone needs more cash than the runway allows and growth potential is high, seek an angel.
+      - Conclude with a stated choice and its reason.
+  - q:
+      - (i) Use a bank-proposal template to organise promoter contribution, asset cost, working capital, cash flow, repayment and risk-control information.
+      - (ii) Demonstrate how the organised information supports loan appraisal.
+    topics: [V.7]
+    points:
+      - Blocks — promoter and entity, purpose, project cost, sources of funds.
+      - Market and operations evidence, permissions and security.
+      - Financial projection with monthly cash flow, break-even and sensitivity.
+      - Debt-service schedule, repayment capacity and downside case.
+      - Appraisal link — contribution shows commitment, cash flow shows capacity, security limits loss.
+      - Risk controls and monitoring build lender confidence.
+  - q:
+      - (i) Apply an ethics checklist to a crowdfunding campaign that overstates readiness and conceals delivery risk.
+      - (ii) Use transparent communication, milestone, refund and reporting practices to correct it.
+    topics: [V.9]
+    points:
+      - Overstating readiness misleads contributors, and concealed risk breaks trust and may breach consumer law.
+      - Checklist items — proven versus uncertain, full costing, realistic schedule and fund use.
+      - Correction — restate readiness honestly with the prototype status.
+      - Publish milestones and regular updates, including delays.
+      - Define a refund, substitution or remedy policy in advance.
+      - Keep records and do not divert funds without disclosure and consent.
+  - q:
+      - (i) Use ownership, governance, repayment and cash-runway criteria to select debt, equity or a combination for a stated pilot-production need.
+      - (ii) Illustrate how the selected mix fits the venture's stage and use of funds.
+    topics: [V.8, V.7]
+    points:
+      - Debt preserves ownership, but needs repayment from cash flow.
+      - Equity brings dilution and governance, with no repayment, and suits uncertainty.
+      - Runway — equity extends it without EMIs, while debt adds an obligation.
+      - A likely mix is equity or a grant for uncertain pilot work, and debt for tooling with predictable use.
+      - Map each use of funds to its source and milestone.
+      - Explain why the mix fits the pilot stage.
+  - q:
+      - (i) Use need and stage categories to match a student hardware startup with appropriate Tamil Nadu and national support channels.
+      - (ii) List the details that must be reverified from official portals before application.
+    topics: [V.6, V.4]
+    points:
+      - Prototype — campus incubator and lab.
+      - Ecosystem and seed — StartupTN and TANSEED calls.
+      - Recognition — DPIIT if eligible, and Udyam after setup.
+      - Enterprise schemes — NEEDS, TWEES or UYEGP only if the applicant conditions fit. PMEGP for micro units.
+      - Finance — bank or equity once evidence justifies it.
+      - Reverify the call window, eligibility, amount, contribution, equity stake, permitted use, milestones and source date.
+  - q:
+      - (i) Apply a source-of-funds reporting checklist to grant, loan and equity money used in the same venture.
+      - (ii) Demonstrate how records and controls differ according to repayment, ownership and reporting obligations.
+    topics: [V.2, V.7, V.8]
+    points:
+      - Grant — permitted use, utilisation certificates, milestone reports and invoices, with risk of recovery.
+      - Loan — end-use as sanctioned, EMI schedule, stock statements and covenants.
+      - Equity — shareholder records, board reporting and investor information rights.
+      - Track each source separately in the books (separate cost centres or accounts where required).
+      - Controls — approvals, reconciliation and audit trail.
+      - Mixing sources without records risks recovery, default or investor disputes.
