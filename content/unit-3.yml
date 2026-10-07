@@ -1,0 +1,875 @@
+number: 3
+title: Business Plan and Pitch
+tagline: Plan and pitch the venture
+co: CO3 · Assess business plan and business pitch as entrepreneurial tools
+co_short: CO3 · K4
+pages: 29–41
+overview:
+  - A business plan is a connected argument, not a set of optimistic sections. This unit covers what a plan is for, how it is written, evaluated and implemented, the marketing, financial and organisational plans inside it, and how the plan is compressed into an investor pitch.
+  - Hold on to three ideas. **Consistency** across sections is the main quality test. **Profit is not cash**, so the cash-flow statement matters as much as the income statement. A pitch ends with a **precise ask** tied to milestones.
+cases:
+  - name: Vividminds Technologies (Quixy)
+    what: A no-code platform that lets business users build enterprise applications with drag-and-drop workflows.
+    use: Marketing plan and pitch. The target segment, decision-maker, user, channel and proof of productivity must be separated, and the value must be explained quickly to non-technical listeners (III.4, III.7 to III.9).
+  - name: VVP Healthcare Evolution (WONDRx)
+    what: An AI-powered e-prescription and smart Rx kit that links handwritten prescriptions with pharmacy, diagnostics and the patient journey.
+    use: Business plan and pitch. The plan must explain problem, product, customer, delivery model, costs, risks and evidence of demand, and the pitch must show how the system fits a doctor's workflow (III.1 to III.3, III.7).
+  - name: Canectar Foods (CaneBOT)
+    what: A robotic sugarcane-juice vending machine that combines food retail, automation, hygiene and IP.
+    use: Financial plan. Machine cost, installation, maintenance, consumables, revenue per location and payback should all be visible (III.1, III.5).
+
+topics:
+  - id: III.1
+    slug: nature-of-business-plan
+    title: Nature of a business plan
+    outcome: Explain the purpose and nature of a business plan.
+    page: 29
+    labs:
+      - title: Business Plan Map
+        href: modules/unit-3/lesson-01.html
+        note: See how the sections of a plan connect
+    summary:
+      - A business plan is a written document that explains what the venture will do, who it will serve, how it will operate, how much money it needs, how it will earn revenue and how it will handle risk. It is both a **thinking tool** for the founder and a **communication tool** for banks, investors, incubators, partners and evaluators.
+    key_points:
+      - "**Internal job.** It helps founders test logic, expose assumptions, coordinate decisions, allocate resources and set milestones."
+      - "**External job.** It helps investors, lenders, partners, suppliers, key employees and sometimes customers judge credibility, risk, resource need and return."
+      - A plan is a **living document**. Revise it when market feedback, cost estimates, technical assumptions or customer segments change.
+      - "Length and detail depend on the decision being requested, but the logic must stay connected: customer, value, channel, forecast, capacity, cost, cash and funding."
+      - "Label every statement honestly. An **assumption** is a belief still to be tested, **evidence** is something observed or measured, and an **aspiration** is a target the team hopes to reach."
+    framework:
+      title: What every plan must answer
+      items:
+        - term: Problem and opportunity
+          text: What pain exists, and for whom?
+        - term: Solution and value proposition
+          text: What is offered, and what outcome does the customer get?
+        - term: Market and segment
+          text: Who buys first, and how many such customers are reachable?
+        - term: Business model
+          text: How the venture earns revenue.
+        - term: Operations and resources
+          text: How it will be produced and delivered.
+        - term: Finance and risk
+          text: What it costs, when cash runs short, and what could go wrong.
+    table:
+      caption: Who reads a business plan, and what they look for
+      head: Reader | Main question
+      rows:
+        - Founder | Does the logic hold, and what should we do first?
+        - Investor | Is the opportunity large, the team capable and the return worth the risk?
+        - Bank or lender | Can the venture repay on time from its cash flow?
+        - Supplier | Will this customer order steadily and pay on time?
+        - Key employee or partner | Is the venture credible enough to commit to?
+    example: A startup producing modular assistive devices should plan product variants, user groups, hospitals and NGOs as channels, manufacturing cost, certification needs and service support.
+    case:
+      name: WONDRx and CaneBOT
+      text: A neat document alone is not a plan. For WONDRx or CaneBOT, the plan must explain the problem, product, customer, delivery model, costs, risks and evidence of demand.
+      prompt: For CaneBOT, name one assumption, one piece of evidence and one aspiration a plan might contain.
+    mistakes:
+      - Writing the plan as only a description of the product.
+      - Showing financial numbers that are not connected to operational assumptions.
+      - Hiding risks instead of acknowledging and mitigating them.
+    terms:
+      - term: Business plan
+        def: A written document that explains a venture's offering, customers, operations, money needs, revenue model and risk handling.
+      - term: Assumption
+        def: A belief the plan relies on that has not yet been confirmed by evidence.
+      - term: Aspiration
+        def: A target the team hopes to achieve, which must not be presented as evidence.
+    check:
+      - q: A business plan serves the founder mainly as
+        options: A marketing brochure | A thinking tool to test logic and assumptions | A legal registration form | A substitute for customer contact
+        answer: 1
+        why: For the founder the plan clarifies assumptions and decisions. For outsiders it communicates feasibility.
+      - q: "'We will reach 10,000 users in year one' with no supporting data is"
+        options: Evidence | An assumption | An aspiration | A milestone
+        answer: 2
+        why: It is a hoped-for target. It becomes evidence only when it is observed.
+      - q: When should a business plan be revised?
+        options: Never, once it is approved | Only when funding is raised | When market feedback, costs or assumptions change | Only at the end of each financial year
+        answer: 2
+        why: A plan is a living document that changes as evidence arrives.
+    short_answers:
+      - q: Explain how a business plan serves both the entrepreneur and external stakeholders.
+        a: For the entrepreneur, the plan is a thinking tool. It tests logic, exposes assumptions, coordinates decisions and sets milestones. For external stakeholders such as investors, lenders, suppliers and partners, it is a communication tool that lets them judge credibility, risk, resource need and return before committing.
+      - q: Distinguish an assumption, evidence and an aspiration in a business plan.
+        a: An assumption is a belief the plan depends on but has not yet tested, for example a 5 percent conversion rate. Evidence is something observed or measured, such as 20 paid pilot orders. An aspiration is a target the team hopes to reach, such as market leadership in three years. A credible plan labels each one honestly.
+
+  - id: III.2
+    slug: writing-business-plan
+    title: Writing a business plan
+    outcome: Identify major sections of a business plan.
+    page: 29
+    labs:
+      - title: Plan Builder Desk
+        href: modules/unit-3/lesson-02.html
+        note: Assemble a plan section by section
+    summary:
+      - A complete plan usually contains an executive summary, company description, problem statement, solution, market analysis, competitor analysis, marketing plan, operations plan, organisation plan, financial plan, implementation schedule, risk analysis and appendices. The **executive summary is written last but placed first**.
+    key_points:
+      - "The executive summary states the problem, solution, target market, evidence, business model, advantage, team, headline financial logic, next milestone and the ask, in one or two pages."
+      - Start with the problem and the customer, then explain the offering, the market need and the competition.
+      - Show how money will be earned, with cost, revenue and cash-flow logic.
+      - Close with implementation milestones, responsibilities and risks.
+      - "**Consistency is the central quality test.** Sales in the marketing plan must be deliverable by operations, capacity must be supported by people, suppliers and working capital, and hiring and equipment timing must appear in the cash flow."
+    framework:
+      title: Sections and their decision purpose
+      items:
+        - term: Executive summary
+          text: Lets a busy reader decide whether to read further.
+        - term: Problem, solution and market
+          text: Shows there is a real need and a reachable customer.
+        - term: Marketing plan
+          text: Shows how customers will be acquired and kept.
+        - term: Operations plan
+          text: Shows the offering can be produced and delivered reliably.
+        - term: Organisation plan
+          text: Shows who is responsible for what.
+        - term: Financial plan
+          text: Shows the money needed, profitability and cash timing.
+        - term: Implementation and risk
+          text: Shows milestones, owners and responses to what may go wrong.
+    table:
+      caption: Consistency checks across sections
+      head: If this section says | Then this section must show
+      rows:
+        - Marketing forecasts 5,000 units in year one | Operations has the capacity, suppliers and quality control for 5,000 units
+        - Operations needs two new technicians in month 4 | Cash flow includes their salaries from month 4
+        - Customers get 60-day credit | Cash flow shows receipts 60 days after sale, and working capital covers the gap
+        - Growth doubles sales | Inventory, support and service capacity also grow
+    example: For a campus EV charging solution, the plan should include user groups, number of vehicles, charging time, power cost, station location, payment model, maintenance and safety approvals.
+    case:
+      name: WONDRx
+      text: If WONDRx's marketing section plans clinic sign-ups across a city, its operations section must show onboarding and support staff, and its cash flow must show their cost before clinics start paying.
+      prompt: Name one more cross-section consistency check WONDRx's plan needs.
+    mistakes:
+      - Copying generic internet templates blindly.
+      - Inflating demand estimates.
+      - Leaving implementation responsibilities vague.
+    terms:
+      - term: Executive summary
+        def: A short opening section, written last, that presents the whole venture case and the ask.
+      - term: Consistency
+        def: Agreement among the plan's sections, so that sales, capacity, people, cash and funding support each other.
+    check:
+      - q: The executive summary is written
+        options: First, before research begins | Last, and placed first | Only for investors, never for banks | As the final appendix
+        answer: 1
+        why: It summarises the whole plan, so it can only be written once the other sections exist.
+      - q: Marketing forecasts doubled sales but the operations plan shows no extra capacity. This is a failure of
+        options: Formatting | Consistency | Branding | Length
+        answer: 1
+        why: Sections must support each other. Contradictions often reveal more than polished prose.
+      - q: Which belongs in the executive summary?
+        options: The full competitor price list | The funding requirement and expected outcome | Every appendix | Detailed machine specifications
+        answer: 1
+        why: The summary states the opportunity, solution, customer, model, funding need and outcome.
+    short_answers:
+      - q: Summarise the information that belongs in the executive summary of a business plan.
+        a: The executive summary concisely states the problem, the proposed solution, the target customer and market, the evidence of demand, the business model, the competitive advantage, the team, the headline financial logic, the next milestone and the funding requirement or ask. It is written last but placed first.
+
+  - id: III.3
+    slug: evaluating-implementing-plan
+    title: Evaluating and implementing a business plan
+    outcome: Explain evaluation and implementation of business plans.
+    page: 30
+    labs:
+      - title: Venture Evaluation Board
+        href: modules/unit-3/lesson-03.html
+        note: Score a plan on several feasibility lenses
+    summary:
+      - Evaluation checks whether the plan is **desirable, feasible, viable, scalable and responsible**. Implementation converts the plan into action through milestones, budgets, roles, procurement, production, sales and monitoring.
+    key_points:
+      - "Evaluate from several angles: market attractiveness, technical feasibility, financial viability, founder capability, regulatory fit and risk exposure."
+      - "Charantimath's feasibility screen (Fig. 5.2): generate ideas → **initial screening** (is the idea prima facie worthwhile? if not, terminate) → plan the feasibility study → financial analysis → **is the project worthwhile?** (if not, terminate) → prepare the funding proposal."
+      - The two terminate points stop weak ideas cheaply, before money and commitment escalate.
+      - "Implementation needs, for every milestone, an **owner, budget, metric, due date, dependency, review rhythm and response rule**."
+      - A milestone should describe an evidence-producing result, not an activity.
+    framework:
+      title: Five evaluation lenses
+      items:
+        - term: Market feasibility
+          text: Is there real demand?
+        - term: Technical feasibility
+          text: Can we build and deliver reliably?
+        - term: Financial viability
+          text: Can revenue exceed cost sustainably?
+        - term: Operational feasibility
+          text: Can the resources be arranged?
+        - term: Risk review
+          text: What can go wrong, and what is the response?
+    table:
+      caption: Activity versus milestone
+      head: Weak (activity) | Strong (milestone)
+      rows:
+        - Work on pilot launch | Complete 20 paid pilot installations with less than 2 percent critical failure by 30 September within ₹4 lakh (owner, operations lead)
+        - Do marketing | Sign 15 clinics from 60 qualified leads by 31 December with CAC below ₹6,000
+        - Improve the prototype | Reach 500 hours of field operation with fewer than 3 breakdowns by the end of Q2
+    example: A low-cost water purifier plan should be tested for water quality, filter life, replacement cost, user trust, service model and regulatory claims before launch.
+    case:
+      name: CaneBOT
+      text: Before installing machines at many locations, Canectar would test footfall, hygiene acceptance, uptime and revenue per machine at a few sites. That is the initial screen before larger commitment.
+      prompt: Write one CaneBOT pilot milestone in owner-budget-metric-date form.
+    mistakes:
+      - Leaving roles unclear, so nobody owns the outcome.
+      - Trusting a profitable-looking plan that has a cash-flow gap.
+      - Relying on assumptions when pilot evidence could be collected.
+    terms:
+      - term: Feasibility study
+        def: A structured check of whether a project is technically, commercially and financially workable before major commitment.
+      - term: Initial screening
+        def: A quick check of whether an idea is worth studying further, which terminates weak ideas early.
+      - term: Milestone
+        def: A dated, measurable result with an owner and budget that produces evidence of progress.
+    check:
+      - q: In Charantimath's feasibility schematic, what is the purpose of initial screening?
+        options: To prepare the funding proposal | To terminate ideas that are not prima facie worthwhile before money is spent | To register the company | To design the logo
+        answer: 1
+        why: Screening stops weak ideas cheaply, before detailed study and financial analysis.
+      - q: Which is a well-formed milestone?
+        options: Work on marketing | Improve product quality | Sign 10 paying customers by 31 March within ₹50,000 (owner, sales lead) | Be the best in the market
+        answer: 2
+        why: It has a result, metric, date, budget and owner.
+      - q: A plan scores well on market demand but its funding need exceeds what the founders can raise. It fails on
+        options: Desirability | Technical feasibility | Financial viability | Responsibility
+        answer: 2
+        why: Viability is about whether the money works, including funding and sustainable margins.
+    short_answers:
+      - q: Explain the purpose of initial screening and the two terminate decisions in a project-feasibility study.
+        a: Initial screening asks whether the idea is prima facie worthwhile. If not, the project is terminated before money is spent on a detailed study. After the feasibility plan and financial analysis, a second decision asks whether the project is worthwhile. If not, it is terminated before a funding proposal is prepared. Both stop weak projects before commitment escalates (Charantimath, Fig. 5.2).
+      - q: Use the owner-budget-metric-date format to convert a launch objective into a milestone.
+        a: "Objective: launch the product. Milestone: the operations lead (owner) completes 20 paid pilot installations (metric) with less than 2 percent critical failure by 30 September (date), within ₹4 lakh (budget)."
+      - q: Explain how an implementation plan converts decisions into action.
+        a: It breaks each decision into milestones and assigns each one an owner, a budget, a metric, a due date and its dependencies. Progress is reviewed at a fixed rhythm against the metrics, and a response rule says what corrective action follows when a milestone slips.
+
+  - id: III.4
+    slug: marketing-plan
+    title: Marketing plan
+    outcome: Describe components of a marketing plan.
+    page: 31
+    labs:
+      - title: Market Signal Studio
+        href: modules/unit-3/lesson-04.html
+        note: Size a market and read acquisition metrics
+    summary:
+      - A marketing plan explains how the venture will understand, reach, persuade, acquire, retain and serve customers. It is **not only advertising**. It covers segmentation, targeting, positioning, product, price, channel, promotion, the sales process and customer relationships.
+    key_points:
+      - Marketing starts before launch. Customer interviews, pilot users, competitor observation and willingness-to-pay tests reduce the risk of building something nobody wants.
+      - Engineering founders must turn technical **features** into customer **benefits** such as lower cost, safety, speed, convenience, reliability or compliance.
+      - "**TAM** is total demand within stated customer, geography, need and price boundaries. **SAM** is the part your offer and model can actually serve. **SOM** is the share you can realistically win in a stated period."
+      - "Estimate **bottom-up**: reachable qualified customers × conversion × units per customer × repeat frequency × net price. State the source and date of every input."
+      - Five friendly interviews cannot justify a national SOM. They can only improve the next assumption and test.
+    framework:
+      title: Components of a marketing plan
+      items:
+        - term: Segmentation
+          text: Divide the market into meaningful groups.
+        - term: Targeting
+          text: Choose the most attractive first segment.
+        - term: Positioning
+          text: State why the solution is different and valuable.
+        - term: Marketing mix
+          text: Product, price, place and promotion.
+        - term: Retention
+          text: Service, trust, feedback and repeat value.
+    table:
+      caption: Acquisition metrics
+      head: Metric | Formula | Watch out for
+      rows:
+        - Lead-to-customer conversion | New customers / qualified leads | Define a qualified lead consistently
+        - Customer acquisition cost (CAC) | Sales and marketing cost / new customers | Include people, channel, promotion and onboarding cost
+        - Retention | Customers still active / customers eligible to remain | Use a period that fits the model
+        - Repeat purchase rate | Customers buying again / customers eligible to buy again | Useful for products and periodic services
+        - CAC payback | CAC / monthly contribution per customer | Shorter is safer, but depends on contribution and churn
+    example: For a solar dryer, the first target may be farmer producer organisations rather than individual farmers, because they can afford it, use it more and decide collectively.
+    case:
+      name: Quixy
+      text: Quixy sells a capability to business users. Its plan must separate the target segment, the decision-maker who signs, the user who builds the apps, the channel, and the proof of productivity.
+      prompt: For Quixy, who is the user and who is likely the decision-maker in a mid-sized firm?
+    mistakes:
+      - Defining the target market as everyone.
+      - Treating social-media posting as a complete marketing plan.
+      - Setting a price without considering value, cost and affordability.
+    terms:
+      - term: Positioning
+        def: The clear statement of why the offering is different and valuable to the target segment.
+      - term: TAM, SAM, SOM
+        def: Total addressable market, serviceable available market and serviceable obtainable market, narrowing from all possible demand to the share realistically won.
+      - term: CAC
+        def: Customer acquisition cost, the sales and marketing spend divided by the number of new customers in the period.
+    check:
+      - q: Which statement is a proper target segment?
+        options: Everyone who uses a phone | Tier-2 machine shops with 10 to 50 employees in Tamil Nadu | All industries in India | Anyone interested in technology
+        answer: 1
+        why: A segment is specific enough to reach, price and serve.
+      - q: SAM differs from TAM because SAM is
+        options: The share already won | The part the venture's offer and model can actually serve | Always larger than TAM | Competitor revenue
+        answer: 1
+        why: SAM limits TAM by language, channel, regulation, technology and geography.
+      - q: A venture spends ₹2,00,000 on sales and marketing and gains 40 customers. CAC is
+        options: ₹2,000 | ₹5,000 | ₹8,000 | ₹40,000
+        answer: 1
+        why: CAC = 2,00,000 / 40 = ₹5,000.
+    short_answers:
+      - q: Explain the main components of a marketing plan.
+        a: Segmentation divides the market into meaningful groups. Targeting picks the first segment. Positioning states why the offer is different and valuable. The marketing mix sets product, price, place and promotion. The sales process and retention cover acquisition, service, trust and repeat value. Metrics such as conversion and CAC track progress.
+      - q: Use a customer-segment statement to specify two suitable acquisition metrics.
+        a: "Segment: private dental clinics in Coimbatore with two or more chairs. Metric 1: lead-to-customer conversion, which is clinics signed divided by qualified clinic leads. Metric 2: CAC, which is sales and demo cost divided by clinics signed in the quarter."
+      - q: Rewrite the claim 'everyone will buy our product' as a testable, evidence-based statement.
+        a: "For example: 'At least 15 of 60 qualified hostel residents contacted on our campus will pre-order the product at ₹499 within four weeks.' It names a segment, a price, a measurable conversion and a time limit, so it can be tested and proved wrong."
+
+  - id: III.5
+    slug: financial-plan
+    title: Financial plan
+    outcome: Explain basic financial plan components.
+    page: 33
+    labs:
+      - title: Runway and Break-even Lab
+        href: modules/unit-3/lesson-05.html
+        note: Change price, cost and burn to see break-even and runway move
+    summary:
+      - A financial plan estimates the money needed to start and run the venture, the expected revenue, expenses, profit, cash flow, break-even point and funding requirement. Its components are fixed capital, working capital, sales forecast, cost of goods sold, operating expenses, depreciation, interest, the three projected statements and key ratios.
+    key_points:
+      - "**Profit is not cash.** Profit recognises revenue and expense under accounting rules. Cash flow records when money is actually received or paid. A growing venture can show a profit and still become insolvent if customers pay late, inventory builds up or equipment and taxes are paid first."
+      - "**Contribution per unit** = selling price − variable cost. **Break-even quantity** = fixed cost ÷ contribution per unit. At break-even, total contribution equals total fixed cost."
+      - "**Runway** = available cash ÷ monthly net burn. **Simple payback** = initial outlay ÷ annual net cash inflow."
+      - "Early numbers are conditional estimates. Show **base, upside and downside** scenarios and use **sensitivity analysis** to see which assumption moves the result most."
+      - "Payback is easy to explain but ignores cash after the payback point and the time value of money."
+    framework:
+      title: Building blocks
+      items:
+        - term: Startup cost
+          text: Machines, tools, registration, deposits and initial marketing.
+        - term: Working capital
+          text: Inventory, wages, utilities, transport and receivables.
+        - term: Revenue model
+          text: Unit price, subscription, commission, service fee or licence.
+        - term: Break-even
+          text: Fixed cost divided by contribution per unit.
+        - term: Funding mix
+          text: Owner funds, bank loan, grant, angel, VC or crowdfunding.
+    table:
+      caption: The three projected statements
+      head: Statement | Question it answers | Key early-venture items
+      rows:
+        - Income statement | Can the operating model earn an acceptable margin? | Sales, discounts, variable cost, salaries, rent, depreciation, interest and tax
+        - Cash-flow statement | Can the venture pay its obligations when due? | Collection delay, inventory, equipment, deposits, loans, tax and a cash buffer
+        - Balance sheet | What does it own and owe at a given date? | Cash, receivables, inventory, equipment, payables, debt and owners' funds
+    example: "Worked example 1 (two machines). Machine A has a fixed cost of ₹100 and a variable cost of ₹2, Machine B a fixed cost of ₹200 and a variable cost of ₹1, and the price is ₹3.50. Contribution is ₹1.50 for A and ₹2.50 for B, so break-even is 100 ÷ 1.50 = 66.67, or **67 units**, for A and 200 ÷ 2.50 = **80 units** for B. Both are below 800 units, so the lower price after 800 units does not change them. Worked example 2 (contribution and runway). At a price of ₹500 and a variable cost of ₹320, contribution is ₹180. With fixed cost of ₹3,60,000, break-even is **2,000 units**. With ₹12,00,000 of cash and a monthly net burn of ₹1,80,000, runway is **6.67 months**. Worked example 3 (forecast). Monthly sales of 70, 68, 82 and 95 with α = 0.4 give F3 = 69.2, F4 = 74.32 and F5 = **82.6 units**."
+    case:
+      name: CaneBOT
+      text: Use a startup-cost worksheet for one CaneBOT machine. It needs machine cost, installation, maintenance, consumables, revenue per location and payback to be visible before scaling to more sites.
+      prompt: Which cost would most likely be underestimated for a vending machine placed in a mall?
+    mistakes:
+      - Making wishful revenue projections.
+      - Underestimating working capital.
+      - Explaining break-even only as a formula instead of in simple units.
+    terms:
+      - term: Contribution
+        def: Selling price minus variable cost per unit, the amount each sale adds toward fixed cost and profit.
+      - term: Break-even point
+        def: The volume at which total contribution equals fixed cost, so operating profit is zero.
+      - term: Working capital
+        def: Money tied up in day-to-day operations such as inventory, receivables and wages.
+      - term: Cash runway
+        def: The number of months the venture can operate on its available cash at the current net burn.
+      - term: Sensitivity analysis
+        def: Changing one or more assumptions to see how much the outcome changes and which variable matters most.
+    check:
+      - q: Fixed cost is ₹60,000, price ₹250 and variable cost ₹150. Break-even quantity is
+        options: 240 units | 400 units | 600 units | 1,000 units
+        answer: 2
+        why: Contribution = 250 − 150 = ₹100, so break-even = 60,000 ÷ 100 = 600 units.
+      - q: A venture is profitable on paper but cannot pay salaries this month. The most likely cause is
+        options: Too much contribution | Customers paying late while costs are paid now | Low fixed cost | A high gross margin
+        answer: 1
+        why: Profit and cash differ in timing. Late receipts can create a shortage despite profit.
+      - q: A startup has ₹9,00,000 in cash and burns ₹1,50,000 a month. Its runway is
+        options: 3 months | 6 months | 9 months | 15 months
+        answer: 1
+        why: Runway = 9,00,000 ÷ 1,50,000 = 6 months.
+    short_answers:
+      - q: Calculate contribution per unit when selling price is ₹500 and variable cost is ₹320.
+        a: Contribution per unit = selling price − variable cost = 500 − 320 = ₹180. Each unit sold adds ₹180 toward fixed cost and profit.
+      - q: Two machines have fixed and variable costs of ₹100 and ₹2, and ₹200 and ₹1, per piece. The price is ₹3.50 for the first 800 units and ₹3.00 after. Find each break-even quantity and its use.
+        a: Machine A has a contribution of 3.50 − 2 = ₹1.50, so break-even = 100 ÷ 1.50 = 66.67, or 67 units. Machine B has a contribution of 3.50 − 1 = ₹2.50, so break-even = 200 ÷ 2.50 = 80 units. Both are under 800 units, so the price change does not affect them. In a financial plan, break-even shows the minimum volume needed and helps compare options. A breaks even sooner, but B earns more per unit afterwards.
+      - q: Monthly sales are 70, 68, 82 and 95 units. Using exponential smoothing with α = 0.4 and the first observation as the initial forecast, estimate next month and state one caution.
+        a: F2 = 70. F3 = 0.4(68) + 0.6(70) = 69.2. F4 = 0.4(82) + 0.6(69.2) = 74.32. F5 = 0.4(95) + 0.6(74.32) = 82.59, about 82.6 units. Caution — smoothing lags a rising trend and ignores seasonality, shocks and capacity limits, so check it against market and operational evidence.
+      - q: Distinguish cash flow from accounting profit.
+        a: Profit is revenue minus expenses recognised under accounting rules for a period, including non-cash items such as depreciation. Cash flow is the actual money received and paid, and when. A firm can show a profit and still run out of cash if customers pay late or inventory and equipment are paid for first.
+      - q: Explain the purpose of the projected income statement, cash-flow statement and balance sheet.
+        a: The income statement tests whether the operating model earns an acceptable margin over a period. The cash-flow statement tests whether the venture can pay its obligations when due and shows the month cash may run short. The balance sheet shows what the venture owns, owes and how it is financed at a given date.
+      - q: Apply sensitivity analysis to show the direction of profit change when selling price falls and unit sales remain constant.
+        a: If the price falls and volume and variable cost per unit are unchanged, revenue falls by the price drop × units, while variable and fixed costs stay the same. Contribution per unit and profit therefore fall by the same amount, and the break-even quantity rises.
+      - q: Use base, upside and downside labels to organise three stated sales forecasts.
+        a: "For forecasts of 800, 1,000 and 1,300 units: the downside is 800 (lower conversion, delayed receipts), the base is 1,000 (the most likely stated assumptions) and the upside is 1,300 (higher conversion or repeat purchase). Each label should list the assumption that differs from the base."
+
+  - id: III.6
+    slug: organisational-plan
+    title: Organisational plan
+    outcome: Describe organisational planning for a venture.
+    page: 34
+    labs:
+      - title: Founder Team Architect
+        href: modules/unit-3/lesson-06.html
+        note: Assign roles and spot capability gaps
+    summary:
+      - An organisational plan explains the team, roles, reporting relationships, ownership, advisory support, hiring plan, governance and key processes. Early ventures need **clarity more than hierarchy**. Founders may wear many hats, but product, finance, sales, operations, compliance and customer support must each have an owner.
+    key_points:
+      - Identify **skill gaps**. A technical founder may need help with sales, accounting, legal compliance or operations.
+      - Fill gaps with co-founders, early hires, advisors, mentors or external professionals such as a chartered accountant.
+      - Plan hiring **by stage**, for example prototype → pilot production → scale, so cost appears in the cash flow at the right time.
+      - Set policies early for finance, customer data, quality, safety and ethics.
+      - Address founder roles, equity and conflict resolution early, ideally in a founder agreement.
+    framework:
+      title: Contents of an organisational plan
+      items:
+        - term: Founders
+          text: Roles and ownership.
+        - term: Core team
+          text: Who is responsible for each critical function.
+        - term: Advisors
+          text: Mentors and external professionals.
+        - term: Hiring roadmap
+          text: Which roles are added at each stage.
+        - term: Policies
+          text: Finance, data, quality, safety and ethics.
+    table:
+      caption: Example team moving from prototype to pilot production
+      head: Function | Owner now | Gap or next hire
+      rows:
+        - Product and engineering | Founder A | Production technician at pilot stage
+        - Customer discovery and sales | Founder B | Field sales executive after 10 paying customers
+        - Finance and compliance | Founder C | External chartered accountant from day one
+        - Quality and safety | Unassigned | Founder A owns it until a QA hire
+    example: A student startup may begin with three founders, one for product, one for customer discovery and sales and one for finance and operations, supported by a faculty mentor.
+    case:
+      name: CaneBOT
+      text: Moving from kiosks to robotic vending needs new capabilities in automation, field maintenance and site partnerships. The organisational plan must show who owns each one.
+      prompt: Which one capability would you hire for first at CaneBOT, and why?
+    mistakes:
+      - Building a title-heavy team with unclear work.
+      - Postponing founder conflicts.
+      - Postponing compliance and accounting indefinitely.
+    terms:
+      - term: Organisational plan
+        def: The part of the business plan that sets out team, roles, ownership, advisors, hiring and governance.
+      - term: Capability gap
+        def: A skill the venture needs but the current team does not have.
+    check:
+      - q: A credible organisational plan above all shows
+        options: Impressive job titles | Clear owners for critical capabilities | Identical roles for all founders | The office floor plan
+        answer: 1
+        why: Clarity of responsibility matters more than hierarchy in an early venture.
+      - q: A team of three engineers plans to sell to hospitals. The most likely gap is
+        options: Product design | Sales and regulatory compliance | Prototyping | Testing
+        answer: 1
+        why: Technical teams often lack sales, accounting and compliance skills, which hospitals demand.
+      - q: Why should the hiring roadmap be staged?
+        options: To keep titles secret | So salaries appear in the cash flow when the stage actually needs them | Because hiring is illegal early | To avoid writing a plan
+        answer: 1
+        why: Hiring timing must match the operating plan and the cash available.
+    short_answers:
+      - q: Explain the purpose of an organisational plan.
+        a: It shows who will do the work and who is accountable. It sets out founder roles and ownership, core-team responsibilities, advisors, the hiring roadmap by stage and governance policies, and it identifies capability gaps. Investors use it to judge whether the team can execute the plan.
+
+  - id: III.7
+    slug: business-pitch
+    title: Business pitch
+    outcome: Explain business pitch structure and purpose.
+    page: 35
+    labs:
+      - title: Pitch Storyboard
+        href: modules/unit-3/lesson-07.html
+        note: Order the pitch from problem to ask
+    summary:
+      - A business pitch is a short, persuasive presentation of the opportunity, solution, market, business model, traction, team, financial need and next steps. Its purpose is not to explain every detail but to create enough **confidence and interest** that the listener wants to continue, support or decide.
+    key_points:
+      - "A good pitch is simple, evidence-based and **audience-specific**. A bank focuses on repayment capacity, an investor on growth and returns, and an incubator on innovation and team capability."
+      - "Follow the **problem → solution → evidence** sequence. Establish the pain first, then the offer, then proof that it works and that people want it."
+      - Start with the customer's problem, not with the technology's specifications.
+      - "**Traction** is the strongest evidence, meaning repeated customer behaviour tied to value such as paid pilots, repeat orders or retention."
+      - Always end with a clear ask.
+    framework:
+      title: Six elements of a pitch
+      items:
+        - term: Problem
+          text: What pain exists?
+        - term: Solution
+          text: What are you offering?
+        - term: Market
+          text: Who needs it, and how large is the reachable segment?
+        - term: Model
+          text: How will money be earned?
+        - term: Traction
+          text: What proof exists?
+        - term: Ask
+          text: What support is required?
+    example: A pitch for an industrial safety wearable should start with accident risk and compliance need, not with sensor specifications.
+    case:
+      name: Quixy and WONDRx
+      text: Both must explain value quickly to non-technical listeners. Who benefits, how the system fits into the workflow, why now, and what evidence supports adoption.
+      prompt: Write WONDRx's opening line as a problem statement a doctor would recognise.
+    mistakes:
+      - Overloading slides with text.
+      - Hiding weak traction behind buzzwords.
+      - Ending without a clear ask.
+    terms:
+      - term: Pitch
+        def: A short, persuasive presentation that seeks the listener's next commitment.
+      - term: Traction
+        def: Evidence that customers value the offering, shown by behaviour such as paid use, repeat purchase or retention.
+    check:
+      - q: The strongest opening for a pitch normally establishes the
+        options: Company's legal history | Customer problem with supporting evidence | Technology stack | Five-year financial tables
+        answer: 1
+        why: Listeners need to feel the problem before they care about the solution.
+      - q: A bank listening to a pitch is most interested in
+        options: Exit valuation | Repayment capacity | The logo | Patent count
+        answer: 1
+        why: A pitch is audience-specific. Lenders care whether the loan will be repaid.
+      - q: Which is the strongest traction?
+        options: 200 likes on a launch post | Praise from a mentor | 30 paying users, 22 of whom renewed | A long feature list
+        answer: 2
+        why: Repeat paid behaviour is evidence of value. Likes and praise are not.
+    short_answers:
+      - q: Explain the problem-solution-evidence sequence in an investor pitch.
+        a: The pitch first establishes a specific, important customer problem, then presents the solution and its value to that customer, and then shows evidence such as pilots, paying users, letters of intent or trial results proving that the solution works and is wanted. Each step builds the listener's confidence before the market, model and ask.
+
+  - id: III.8
+    slug: investor-presentation
+    title: Preparing an investor presentation
+    outcome: Identify elements of an investor presentation.
+    page: 36
+    labs:
+      - title: Deck Doctor
+        href: modules/unit-3/lesson-08.html
+        note: Diagnose and fix weak slides
+    summary:
+      - An investor presentation (pitch deck) usually contains the problem, solution, product, market size, business model, competition, go-to-market strategy, traction, team, financials, the funding ask and the use of funds. **One slide carries one main idea.** Charts, screenshots, customer evidence and simple diagrams beat paragraphs.
+    key_points:
+      - Investors look for a meaningful problem, a differentiated solution, a capable team, market evidence, a scalable model, credible financial logic and honesty about risk.
+      - "A clear **ask** states the amount, the instrument where relevant, the use of funds, the milestone it reaches, the metric that proves it and the effect on runway."
+      - Never claim there is no competition. Show alternatives, including doing nothing, and why you are better for the first segment.
+      - Projections need visible assumptions and unit economics, not just a hockey-stick chart.
+      - Sector-specific items matter. For example, a medical device deck needs a regulatory pathway and a clinical validation plan.
+    framework:
+      title: A ten-slide deck
+      items:
+        - term: 1. Title
+          text: Venture name and a one-line value proposition.
+        - term: 2. Problem
+          text: Customer pain with evidence.
+        - term: 3. Solution
+          text: Product and demonstration.
+        - term: 4. Market
+          text: Target segment and TAM, SAM and SOM.
+        - term: 5. Business model
+          text: Pricing and revenue streams.
+        - term: 6. Traction
+          text: Validation and early customers.
+        - term: 7. Competition
+          text: Alternatives and your advantage.
+        - term: 8. Team
+          text: Why this team can execute.
+        - term: 9. Financials and milestones
+          text: Key numbers with assumptions.
+        - term: 10. Ask
+          text: Amount, use of funds, milestone and runway.
+    table:
+      caption: Mapping an ask to milestones
+      head: Use of funds | Amount | Milestone it buys
+      rows:
+        - Pilot production tooling | ₹12 lakh | 200 units built at target cost
+        - Field trials and certification | ₹8 lakh | Certification and 20 paid pilots
+        - Sales and onboarding | ₹10 lakh | 60 paying customers
+        - Total ask, runway 12 months | ₹30 lakh | Ready for seed round on repeat-order evidence
+    example: A medical device pitch must include its regulatory pathway and clinical validation plan, not only market size.
+    case:
+      name: Quixy
+      text: A Quixy deck would show screenshots of an app built in hours, a before-and-after time saving at a client, and the pricing model, rather than paragraphs about no-code technology.
+      prompt: Which single chart would most convince an investor about Quixy's traction?
+    mistakes:
+      - Claiming there is no competition.
+      - Showing hockey-stick projections without assumptions.
+      - Ignoring unit economics.
+    terms:
+      - term: Pitch deck
+        def: The set of slides that supports an investor presentation.
+      - term: Use of funds
+        def: The breakdown of how the requested money will be spent and which milestones it will achieve.
+      - term: Unit economics
+        def: Revenue and cost per unit or per customer, such as contribution, CAC and payback.
+    check:
+      - q: A credible investor ask should state
+        options: Only the highest valuation | The capital needed, use of funds and milestones | Only the market size | The founder's ambition
+        answer: 1
+        why: Investors fund milestones. The ask links money to measurable progress.
+      - q: A slide says 'We have no competition.' An investor is most likely to read this as
+        options: A strong advantage | A sign the founder has not studied the alternatives | Proof of a monopoly | Irrelevant
+        answer: 1
+        why: Customers always have alternatives, even if it is doing nothing.
+      - q: Each slide in a deck should carry
+        options: As much text as possible | One main idea | Every financial table | The full business plan
+        answer: 1
+        why: The deck supports the speaker. One idea per slide keeps it clear.
+    short_answers:
+      - q: Explain what a clear investor ask should contain.
+        a: The amount required, the instrument where relevant (equity, convertible note or debt), the use of funds broken into heads, the milestone each use will achieve, the metric that will prove it and the effect on runway, for example ₹30 lakh for 12 months to reach 60 paying customers.
+
+  - id: III.9
+    slug: investment-pitch-delivery
+    title: The investment pitch and its delivery
+    outcome: Explain pitch delivery to a panel of investors.
+    page: 37
+    labs:
+      - title: Investor Panel Simulation
+        href: modules/unit-3/lesson-09.html
+        note: Answer tough panel questions
+    summary:
+      - Pitch delivery is the oral and visual communication of the business case. A strong delivery is **clear, concise, confident and evidence-backed**, and shows command of the problem, customer, numbers and next steps. It is rehearsed but natural.
+    key_points:
+      - Open with a sharp problem or user story, and explain the solution in simple language.
+      - Show evidence such as a prototype, pilot, users, revenue, letters of intent or trials.
+      - Explain numbers with their assumptions, and present base, upside and downside cases honestly.
+      - "Prepare for questions on market size, customer acquisition, margins, technology risk, competition, founder commitment, use of funds and exit or sustainability. Panels judge the founder's thinking as much as the idea."
+      - "Close with a precise next step, for example 'We are raising ₹30 lakh to reach 60 customers. We would welcome a follow-up meeting and can share our pilot data.'"
+    framework:
+      title: Delivery checklist
+      items:
+        - term: Open
+          text: A sharp problem or user story.
+        - term: Explain
+          text: The solution in plain language.
+        - term: Prove
+          text: Prototype, pilot, users or revenue.
+        - term: Quantify
+          text: Numbers with assumptions.
+        - term: Ask
+          text: State it clearly.
+        - term: Answer
+          text: Handle questions respectfully and directly.
+    example: "When asked about competition, a good founder says: 'Existing solutions are expensive and city-focused. Our first target is tier-2 workshops that need a lower-cost service model.'"
+    case:
+      name: WONDRx
+      text: A panel will ask whether doctors will change their prescribing habit. A strong answer cites adoption data from a pilot rather than claiming that every doctor will use it.
+      prompt: Draft a two-sentence answer to 'Why will busy doctors adopt WONDRx?'
+    mistakes:
+      - Reading slides aloud.
+      - Overusing jargon.
+      - Attacking competitors unfairly or exaggerating claims.
+      - Presenting only an optimistic forecast.
+    terms:
+      - term: Pitch delivery
+        def: How the business case is spoken and shown to a panel, including the answers to questions.
+      - term: Downside scenario
+        def: A forecast using pessimistic but plausible assumptions, shown so that the panel can see the risk.
+    check:
+      - q: The most effective close to an investor pitch is
+        options: Repeating the venture name | A founder biography | A precise next step and an offer of information | A claim of future market leadership
+        answer: 2
+        why: A clear next step gives the panel something concrete to act on.
+      - q: Which forecasting practice is most ethical?
+        options: Omitting the downside case | Showing assumptions, scenarios and uncertainty | A single number without evidence | Presenting a target as confirmed
+        answer: 1
+        why: Honest disclosure lets investors judge the risk, and it builds trust.
+      - q: A panellist challenges your market size. The best response is to
+        options: Insist the number is correct | Explain the bottom-up assumptions and how you will test them | Change the subject | Criticise the panellist
+        answer: 1
+        why: Panels judge your reasoning. Showing assumptions answers the challenge respectfully.
+    short_answers:
+      - q: Explain why financial assumptions must be disclosed honestly in an investor pitch.
+        a: Investors price risk using the assumptions. Hidden or inflated assumptions mislead them, can create legal and reputational damage, and destroy trust when actual results diverge. Disclosing assumptions with base, upside and downside cases shows the founder understands the business and lets both sides agree milestones and terms realistically.
+
+quiz:
+  - answer: 2
+    why: The executive summary presents the whole venture case concisely so a reader can decide whether to read on.
+  - answer: 3
+    why: A decision-ready marketing plan names the segment, the value, the channel, the acquisition approach and the metrics to track.
+  - answer: 0
+    why: Profit and cash differ in timing. Late receipts or inventory build-up can cause a shortage even while profitable.
+  - answer: 1
+    why: At break-even, operating profit is zero, so total contribution exactly covers total fixed cost.
+  - answer: 0
+    why: Sensitivity analysis changes assumptions to see how much the result moves. It does not remove uncertainty.
+  - answer: 2
+    why: An organisational plan sets out roles, accountability and the capability gaps to be filled.
+  - answer: 1
+    why: A pitch should open with the customer problem and evidence that it is real.
+  - answer: 3
+    why: Investors fund milestones, so the ask states the capital, its use and the milestones it achieves.
+  - answer: 3
+    why: SOM is the realistic share the venture can win in a stated period.
+  - answer: 1
+    why: Gross margin is revenue minus the direct cost of sales, often expressed as a percentage of revenue.
+  - answer: 2
+    why: Simple payback ignores cash received after the cutoff and the time value of money.
+  - answer: 0
+    why: Repeated customer behaviour tied to value, such as repeat purchase or renewal, is the strongest traction.
+  - answer: 1
+    why: Implementation assigns owners, budgets and milestones, and reviews progress against them.
+  - answer: 0
+    why: A value proposition states the customer outcome and how it is meaningfully different.
+  - answer: 3
+    why: Sales growth needs capacity and working capital. Assuming growth without them is inconsistent.
+  - answer: 2
+    why: A demonstration tied to user evidence connects the solution to a verified problem.
+  - answer: 2
+    why: Credibility comes from clear ownership of the critical capabilities.
+  - answer: 0
+    why: A balanced evaluation covers desirability, feasibility, viability and responsibility.
+  - answer: 1
+    why: Showing assumptions, scenarios and uncertainty is the honest practice.
+  - answer: 3
+    why: A precise next step with an offer of information gives the panel something to act on.
+
+long_questions:
+  - q: Why is a business plan important to the entrepreneur, investor, customer and suppliers? Explain.
+    topics: [III.1]
+    points:
+      - Define a business plan as both a thinking tool and a communication tool.
+      - Entrepreneur — tests logic, exposes assumptions, coordinates decisions, allocates resources and sets milestones.
+      - Investor and lender — judge credibility, risk, resource need, return and repayment capacity.
+      - Customer — gains confidence in continuity, quality, service and support.
+      - Suppliers and key employees — judge order stability, payment reliability and whether to commit.
+      - It is a living document, revised as evidence arrives, with an example such as the assistive-device startup.
+  - q: Explain the sections of a complete business plan and the decision purpose of each section.
+    topics: [III.2]
+    points:
+      - Executive summary, written last and placed first, lets a reader decide whether to read on.
+      - Company description, problem, solution and market analysis show a real need and a reachable customer.
+      - Competitor analysis and the marketing plan show advantage and acquisition.
+      - Operations and organisation plans show delivery capacity and responsibility.
+      - The financial plan shows money needed, margin and cash timing.
+      - Implementation schedule, risk analysis and appendices show milestones, responses and supporting evidence.
+  - q: Analyse the consistency required among the marketing, operations, organisational and financial sections of a business plan.
+    topics: [III.2, III.4, III.5, III.6]
+    points:
+      - Consistency is the central quality test. Contradictions reveal more than polished prose.
+      - Marketing volume must be deliverable by operations capacity, suppliers and quality control.
+      - Capacity needs people (organisation plan) and working capital (financial plan).
+      - Hiring and equipment timing must appear in the cash flow, and credit terms in receivables.
+      - Growth must increase inventory, support and service capacity.
+      - Trace one unit of demand from lead to cash collection to test consistency.
+  - q: Analyse a business plan that projects rapid sales growth without customer evidence, capacity planning, working-capital estimates or risk disclosure.
+    topics: [III.3, III.5]
+    points:
+      - No customer evidence means demand is an aspiration, so it fails market feasibility.
+      - No capacity plan means sales cannot be delivered, so it fails operational feasibility.
+      - No working-capital estimate hides cash shortages, so a profitable plan may still become insolvent.
+      - No risk disclosure misleads readers and damages trust.
+      - The fix is pilot evidence, a capacity plan, a monthly cash flow, base, upside and downside scenarios and a risk register.
+      - Conclude that the plan should not be funded in its current form.
+  - q: Explain the contents of an organisational plan for a venture moving from prototype to pilot production.
+    topics: [III.6]
+    points:
+      - Founder roles, ownership and the founder agreement.
+      - Core-team owners for product, production, quality, sales, finance and compliance.
+      - Capability gaps at pilot stage, such as production, quality assurance, supply chain and regulatory skills.
+      - Advisors, mentors and external professionals such as a CA or legal adviser.
+      - A hiring roadmap by stage, linked to the cash flow.
+      - Policies for quality, safety, data, finance and ethics, with an example table.
+  - q: Explain a logical investor-pitch sequence from customer problem to funding ask.
+    topics: [III.7, III.8]
+    points:
+      - Problem → target segment → solution and value.
+      - Evidence or traction → market (TAM, SAM, SOM) → business model.
+      - Competition and advantage → go-to-market → team.
+      - Economics and projections with assumptions → risks and milestones.
+      - The ask covers the amount, instrument, use of funds, milestone, metric and runway effect.
+      - Each element should reduce an important uncertainty for the listener.
+  - q: Analyse the usefulness and limitations of break-even, payback, gross margin, cash runway and sensitivity analysis in an early-stage venture.
+    topics: [III.5]
+    points:
+      - Break-even (fixed cost ÷ contribution) gives the minimum volume, but assumes constant price and cost and says nothing about timing.
+      - Payback (outlay ÷ annual inflow) is simple, but ignores later cash and the time value of money.
+      - Gross margin shows pricing and production economics, but ignores fixed cost and cash timing.
+      - Runway (cash ÷ monthly burn) gives urgency, but practical runway is shorter with delayed receipts and one-time costs.
+      - Sensitivity analysis identifies the critical variables, but its value depends on honest assumptions.
+      - Use them together, with worked numbers such as the 2,000-unit break-even and the 6.67-month runway.
+  - q: Explain how milestones, budgets, owners, review routines and corrective action convert a business plan into implementation.
+    topics: [III.3]
+    points:
+      - Milestones are evidence-producing results, not activities.
+      - Budgets allocate money to each milestone.
+      - Owners make one person accountable for each result.
+      - Review routines check metrics against plan at a fixed rhythm.
+      - Corrective action follows a response rule when a metric slips.
+      - Give an example such as 20 paid pilots, under 2 percent failure, by 30 September, within ₹4 lakh.
+  - q:
+      - (i) Analyse the weakness in claiming a large market from evidence collected from only five users.
+      - (ii) Apply TAM-SAM-SOM terms to organise a more defensible market estimate.
+    topics: [III.4]
+    points:
+      - Five users is a tiny, probably friendly sample. It may improve the next assumption but cannot justify a national SOM.
+      - Define TAM with explicit customer, geography, need and price boundaries.
+      - Narrow to SAM by language, channel, regulation, technology and geography.
+      - Estimate SOM bottom-up from reachable customers, conversion, units, repeat rate and price.
+      - State the source and date for each input.
+      - Plan the next test to grow the evidence.
+  - q:
+      - (i) Use a base-case cash-flow format to organise monthly revenue, cost, working-capital and closing-cash assumptions.
+      - (ii) Apply lower-sales, higher-cost and delayed-payment changes to the same format.
+    topics: [III.5]
+    points:
+      - Lines are opening cash, customer receipts, variable and inventory payments, fixed payments, capital expenditure, finance movements and closing cash.
+      - Closing cash = opening cash + inflows − outflows, carried to the next month.
+      - Downside — lower conversion reduces receipts, and a payment delay shifts them later.
+      - Higher unit cost raises variable payments and the inventory requirement.
+      - Do not assume unapproved money. Flag the first negative month or breach of the cash buffer.
+      - Use the result to decide deposits, credit limits, inventory, finance timing and a safe growth rate.
+  - q:
+      - (i) Analyse an investor pitch that lists product features but omits the customer problem, traction, competition, business model and ask.
+      - (ii) Reorder the omitted elements into a logical pitch sequence.
+    topics: [III.7, III.8]
+    points:
+      - Features without a problem give the listener no reason to care.
+      - Without traction there is no evidence. Without competition the founder looks naive. Without a model there is no path to money. Without an ask there is no next step.
+      - Reordered, the sequence is problem → solution (features as benefits) → traction → market → business model → competition → team → financials → ask.
+      - Each element reduces an uncertainty for the investor.
+      - Translate features into customer outcomes.
+      - Close with a precise ask and next step.
+  - q:
+      - (i) Distinguish the purpose of a marketing, operations, organisational and financial plan.
+      - (ii) Analyse two assumptions that must remain consistent across the four plans.
+    topics: [III.2, III.4, III.5, III.6]
+    points:
+      - Marketing covers how customers are reached, acquired and kept.
+      - Operations covers how the offering is produced and delivered.
+      - Organisation covers who is responsible and which capabilities are needed.
+      - Finance covers money needed, margin and cash timing.
+      - Assumption 1 — sales volume drives capacity, staff, inventory and cash.
+      - Assumption 2 — customer credit terms drive receivables, working capital and runway.
+  - q:
+      - (i) Analyse how a venture showing accounting profit can still become insolvent.
+      - (ii) Apply working-capital and cash-control measures to the stated situation.
+    topics: [III.5]
+    points:
+      - Profit is recognised on sale, but cash arrives on collection.
+      - Late receivables, inventory build-up, equipment purchases, debt service and tax drain cash.
+      - Rapid growth makes the gap worse.
+      - Measures include advance deposits, shorter credit terms, collection follow-up, supplier credit and lean inventory.
+      - Keep a cash buffer, a monthly cash forecast and pre-arranged working-capital finance.
+      - Grow at a rate the cash can support.
+  - q:
+      - (i) Use an amount-purpose-milestone-metric format to state a pilot-production funding ask.
+      - (ii) Map each use of funds to its milestone and expected runway effect.
+    topics: [III.8, III.9]
+    points:
+      - The ask states an amount, for example ₹30 lakh, with the instrument.
+      - It states the purpose, such as tooling, certification and sales.
+      - It names the milestone, for example 200 units and 60 paying customers.
+      - It names the metric, for example unit cost, failure rate and repeat orders.
+      - Present a table of each use, its amount, its milestone and the months of runway it adds.
+      - Close with the next step and the information offered.
+  - q:
+      - (i) Analyse the ethical and strategic consequences of presenting only an optimistic financial forecast to investors.
+      - (ii) Present the same forecast as base, upside and downside scenarios with explicit assumptions.
+    topics: [III.5, III.9]
+    points:
+      - Ethically it misleads investors, and the founder risks legal and reputational damage.
+      - Strategically it builds unrealistic milestones, causes trust to collapse when results miss and leads to poor terms later.
+      - Base uses the most likely assumptions with their stated sources.
+      - Upside uses higher conversion or repeat purchase and is labelled as such.
+      - Downside uses lower volume, higher cost and delayed payment, with a cash-flow effect.
+      - Sensitivity analysis shows which variable matters most.

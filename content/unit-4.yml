@@ -1,0 +1,887 @@
+number: 4
+title: Startup Opportunities and Process
+tagline: Start it systematically
+co: CO4 · Explain the methodology to start an enterprise systematically
+co_short: CO4 · K2
+pages: 42–53
+overview:
+  - Starting a venture is a sequence of progressively larger commitments. This unit covers how to find and frame the problem (design thinking and brainstorming), where today's opportunities come from (the new industrial revolution), how to turn an idea into a venture and choose its route, and the policy, registration, ecosystem, approval and tax steps that make it legal.
+  - Remember two ideas. **Learn first, commit progressively**, so cheap and reversible tests come before leases, machines and large teams. **Each approval is a separate decision**, so incorporation, DPIIT recognition, Udyam, GST and sector licences never substitute for one another.
+cases:
+  - name: Axial Aero Pvt. Ltd.
+    what: An aerospace venture working on advanced control systems, propulsion, simulation, hybrid electric aircraft and motion-cueing simulators.
+    use: Industry 4.0 and deep-tech opportunity. It shows long development cycles, sector approvals and IP-heavy ventures (IV.3, IV.5, IV.9).
+  - name: Breathe Applied Sciences Pvt. Ltd.
+    what: A climate-tech venture linking carbon capture, hydrogen production, catalytic CO₂ reduction and chemical purification.
+    use: Opportunity from sustainability and the new industrial revolution, and the need for pilots and environmental approvals (IV.3, IV.4, IV.9).
+  - name: Vividminds Technologies (Quixy)
+    what: A no-code workflow-automation platform for enterprise process transformation.
+    use: A digital, scalable-startup route with low capital intensity and a software-specific compliance profile (IV.3, IV.5).
+  - name: Krishigati and Autocracy Machinery
+    what: Agricultural tool bars for marginal farmers, and construction-linked attachments such as trenchers and pole diggers.
+    use: Design thinking from field observation, and the approvals a machinery manufacturer must track (IV.1, IV.2, IV.4, IV.9).
+
+topics:
+  - id: IV.1
+    slug: design-thinking
+    title: Introduction to design thinking
+    outcome: Explain design thinking for startup opportunity discovery.
+    page: 42
+    labs:
+      - title: Customer Interview Simulator (Unit II)
+        href: modules/unit-2/05-customer-interview-simulator/index.html
+        note: Practise the empathise stage
+      - title: Creative Problem-Solving Sprint (Unit II)
+        href: modules/unit-2/06-creative-problem-solving-sprint/index.html
+        note: Run a define, ideate and test cycle
+    summary:
+      - Design thinking is a **human-centred** problem-solving approach that helps founders understand users deeply before fixing a solution. Its five stages are **empathise, define, ideate, prototype and test**. It is **iterative**, so evidence can send the team back to any earlier stage, and returning is learning, not failure.
+    key_points:
+      - It is most useful when the problem is complex, user behaviour matters or the first solution is uncertain.
+      - It corrects the **technology-first** error. Instead of 'What can we build?' it asks what users need, why the problem exists and what they will actually adopt.
+      - "A strong **problem statement** names the user, the situation, the barrier or unmet need, its consequence and the evidence, without naming a solution. 'Lab technicians need a reliable way to cut sample waiting time because manual hand-offs create queues and missed priority cases' is stronger than 'the lab needs an app'."
+      - "A **prototype** is the minimum representation needed to learn. A good early prototype tests the riskiest assumption cheaply."
+      - Human-centred does not mean technically weak. It means technical decisions are tied to real use, safety and value.
+    framework:
+      title: Five stages
+      items:
+        - term: Empathise
+          text: Observe and listen to users in their context.
+        - term: Define
+          text: Turn observations into a focused problem statement.
+        - term: Ideate
+          text: Generate many solutions, then select testable concepts.
+        - term: Prototype
+          text: Build a low-cost representation to learn from.
+        - term: Test
+          text: Compare results with criteria, then continue, change, pause or stop.
+    table:
+      caption: Each stage produces evidence, and each has a typical error
+      head: Stage | Evidence produced | Common error
+      rows:
+        - Empathise | Needs, workarounds and the user's language | Asking only whether users like the proposed solution
+        - Define | A focused problem statement | Writing the preferred technology into the problem
+        - Ideate | Alternative concepts and the reason for the selection | Criticising early or selecting by seniority
+        - Prototype | Visible behaviour or performance | Treating prototype polish as market evidence
+        - Test | A continue, change, pause or stop decision | Moving the threshold after seeing the result
+    example: Before designing a smart helmet, a team should observe riders, delivery workers, traffic conditions, comfort issues, charging behaviour and price sensitivity.
+    case:
+      name: Krishigati
+      text: Begin with farmer observation, define the operational pain points, prototype a field-usable tool and test for affordability and adoption.
+      prompt: What would Krishigati's team look for during the empathise stage on a small farm?
+    mistakes:
+      - Building an advanced product before understanding users.
+      - Treating the stages as a one-way sequence.
+      - Calling user praise for a concept 'validation'.
+    terms:
+      - term: Design thinking
+        def: A human-centred, iterative approach that moves through empathise, define, ideate, prototype and test.
+      - term: Empathy
+        def: Understanding users' tasks, constraints, workarounds and emotions through observation and listening.
+      - term: Prototype
+        def: A low-cost representation of an idea, built to test an assumption.
+      - term: Iteration
+        def: Repeating and revising stages based on evidence from testing.
+    check:
+      - q: Which activity belongs to the empathise stage?
+        options: Selecting the legal form | Observing and interviewing real users | Estimating valuation | Writing the pitch deck
+        answer: 1
+        why: Empathy builds an evidence-based understanding of users in their context.
+      - q: "'The hospital needs a mobile app' is a weak problem statement because it"
+        options: Is too short | Names a solution instead of the user's need | Mentions a hospital | Has no budget
+        answer: 1
+        why: A problem statement should frame user, need and consequence without fixing the solution.
+      - q: A test shows users cannot operate the prototype. In design thinking the team should
+        options: Launch anyway | Return to define or ideate using the evidence | Lower the threshold | Stop listening to users
+        answer: 1
+        why: The process is iterative. Evidence can send the team back to any stage.
+    short_answers:
+      - q: Define design thinking.
+        a: Design thinking is a human-centred, iterative problem-solving approach in which a team understands users deeply, defines the real problem, generates alternatives, prototypes and tests them before committing to a solution.
+      - q: List the five common stages of design thinking.
+        a: Empathise, define, ideate, prototype and test.
+      - q: State the meaning of empathy in design thinking.
+        a: Empathy means understanding users' tasks, context, constraints, workarounds and feelings by observing and listening to them, rather than assuming what they need.
+      - q: Define a problem statement.
+        a: A problem statement is a focused description of a target user, the situation, the unmet need or barrier, its consequence and the supporting evidence, written without assuming a solution.
+      - q: State the meaning of a prototype.
+        a: A prototype is a low-cost, early representation of a product or service, such as a sketch, mock-up, model or working rig, that makes an idea testable.
+      - q: State the purpose of prototype testing.
+        a: Prototype testing compares observed user behaviour and technical performance against decision criteria so the team can decide whether to continue, change, pause or stop before committing more resources.
+      - q: Define iteration in design thinking.
+        a: Iteration is repeating and refining the stages using evidence from tests. The team may return to empathise, define or ideate whenever results show a gap.
+
+  - id: IV.2
+    slug: brainstorming
+    title: Idea generation with brainstorming
+    outcome: Use brainstorming for startup idea generation.
+    page: 43
+    labs:
+      - title: Idea Generation Studio (Unit II)
+        href: modules/unit-2/02-idea-generation-studio/index.html
+        note: Try brainstorming and other methods
+      - title: SCAMPER Makeover Lab (Unit II)
+        href: modules/unit-2/03-scamper-makeover-lab/index.html
+        note: Generate variations of an existing product
+    summary:
+      - Brainstorming is a group method for generating many ideas quickly. Participants **postpone criticism**, build on each other's ideas and aim for **quantity and variety**. It needs structure, meaning a clear problem statement, a time limit, diverse participants, visible recording and a **separate screening stage**.
+    key_points:
+      - "**Ideation** is the stage in which the team generates and develops possible solutions."
+      - "**Divergent thinking** widens the options. **Convergent thinking** narrows them using criteria. Keep the two apart."
+      - Generating ideas silently first, then sharing, stops dominant voices from narrowing the range.
+      - After generating, cluster similar ideas and score them for desirability, feasibility, viability and impact.
+      - Other methods covered in Unit II, such as SCAMPER, mind mapping, interviews and observation, feed the same funnel.
+    framework:
+      title: A structured session
+      items:
+        - term: Frame
+          text: Write the challenge clearly as a 'How might we…' question.
+        - term: Silent start
+          text: Each person writes ideas alone first.
+        - term: Share and build
+          text: Read ideas out, build on others' ideas, and welcome wild ones.
+        - term: Cluster
+          text: Group similar ideas.
+        - term: Score
+          text: Rate on desirability, feasibility, viability and impact.
+    example: For reducing water wastage in hostels, brainstorming may produce sensor taps, leak detection, gamified dashboards, maintenance alerts and greywater reuse.
+    case:
+      name: Krishigati
+      text: A brainstorm on 'How might we cut weeding labour for a two-acre farmer?' could yield a tool-bar attachment, a shared-rental model, a manual push tool or a cooperative service. Only screening shows which is affordable and usable.
+      prompt: Add two more ideas to Krishigati's list, then pick a criterion to screen them.
+    mistakes:
+      - Letting dominant voices reduce idea diversity.
+      - Screening too early, which kills creativity.
+      - Treating a brainstormed idea as validated.
+    terms:
+      - term: Brainstorming
+        def: A group technique that generates many ideas quickly by deferring judgement.
+      - term: Ideation
+        def: The stage of generating and developing possible solutions.
+      - term: Divergent thinking
+        def: Thinking that widens the range of options.
+      - term: Convergent thinking
+        def: Thinking that narrows options using evidence and criteria.
+    check:
+      - q: Which rule supports divergent brainstorming?
+        options: Reject unfamiliar ideas at once | One idea per person | Separate idea generation from evaluation | Pick the cheapest idea first
+        answer: 2
+        why: Deferring judgement keeps the range of ideas wide.
+      - q: Why should participants write ideas silently first?
+        options: To save paper | To reduce the influence of dominant voices | Because talking is not allowed | To finish faster
+        answer: 1
+        why: Silent generation protects the diversity of ideas.
+      - q: Scoring ideas on feasibility and viability is an example of
+        options: Divergent thinking | Convergent thinking | Empathy | Prototyping
+        answer: 1
+        why: Scoring with criteria narrows the options, which is convergence.
+    short_answers:
+      - q: State the meaning of ideation.
+        a: Ideation is the stage of design thinking in which a team generates, combines and develops many possible solutions to a defined problem before selecting concepts to prototype.
+      - q: Define divergent thinking.
+        a: Divergent thinking widens the range of possibilities by producing many varied ideas without immediate judgement, as in brainstorming.
+      - q: Define convergent thinking.
+        a: Convergent thinking narrows many options to a few by applying criteria and evidence, such as must-have screens or weighted scoring.
+
+  - id: IV.3
+    slug: new-industrial-revolution
+    title: The new industrial revolution
+    outcome: Explain the new industrial revolution and startup opportunities.
+    page: 43
+    summary:
+      - The new industrial revolution (Industry 4.0) is the convergence of **cyber-physical systems**, AI, IoT, robotics, additive manufacturing, cloud and edge computing, data analytics, biotechnology, clean energy and advanced materials. Industries need smarter, faster, cleaner, safer and more customised solutions, which creates openings for startups.
+    key_points:
+      - "**The opportunity is not the technology label.** It is a measurable customer outcome, such as less downtime, faster changeover, lower scrap, safer work, viable small batches, lower energy use or better compliance."
+      - Opportunities are not limited to deep-tech products. Startups can also offer integration, retrofits, maintenance, training, data platforms and domain-specific applications.
+      - A viable industrial solution must fit legacy equipment, worker practices, data quality, cybersecurity, reliability and maintenance, and be adoptable without unacceptable disruption to production.
+      - Small industries need affordable and serviceable solutions, not the most advanced ones.
+      - Cybersecurity and data privacy are part of the design, not an afterthought.
+    framework:
+      title: Four opportunity areas
+      items:
+        - term: Industry 4.0
+          text: IoT, sensors, automation, data, cloud and AI.
+        - term: Sustainability
+          text: Energy efficiency, recycling, waste reduction and the circular economy.
+        - term: Human-centred technology
+          text: Assistive devices, safety, healthcare and education.
+        - term: Local manufacturing
+          text: Import substitution, low-cost equipment and the repair ecosystem.
+    table:
+      caption: From technology to customer outcome
+      head: Technology | Startup offering | Customer outcome
+      rows:
+        - IoT sensors and dashboards | Retrofit monitoring for small foundries | Lower furnace energy cost without replacing the plant
+        - Machine vision and AI | Textile defect detection | Lower rejection and fewer customer returns
+        - Additive manufacturing | On-demand spares and jigs | Shorter downtime and economic small batches
+        - Digital twin | Simulation of a production line | Faster changeover and fewer trial runs
+        - Robotics and cobots | Automated pick-and-place cell | Safer work and steady output
+    example: A startup can help small foundries monitor furnace energy consumption using low-cost sensors and dashboards, reducing cost without replacing the entire plant.
+    case:
+      name: Axial Aero, Breathe and Quixy
+      text: Together they show how engineering opportunities emerge from aerospace simulation, climate-tech processes and digital workflow automation. Each sells an outcome, not a buzzword.
+      prompt: State one measurable customer outcome for each of the three ventures.
+    mistakes:
+      - Treating a technology trend alone as a business opportunity.
+      - Offering small industries solutions they cannot afford or service.
+      - Ignoring cybersecurity and data privacy.
+    terms:
+      - term: Industry 4.0
+        def: The integration of sensing, connectivity, computation, automation and data into physical operations.
+      - term: Cyber-physical system
+        def: A system in which physical processes are monitored and controlled by connected computing.
+      - term: Digital twin
+        def: A virtual model of a physical asset or process that is updated with real data to simulate and optimise it.
+    check:
+      - q: Which feature characterises the new industrial revolution?
+        options: Separation of physical and digital work | Manual records replacing data | Mass production without customisation | Connected cyber-physical systems and automation
+        answer: 3
+        why: Industry 4.0 links physical operations with sensing, computing and automation.
+      - q: Which is a startup opportunity rather than a technology label?
+        options: A pitch line that says 'we do AI' | Cutting unplanned machine downtime by 30 percent for small machine shops | Blockchain | IoT
+        answer: 1
+        why: An opportunity is defined by a measurable customer outcome.
+      - q: Why must Industry 4.0 solutions for small units be serviceable?
+        options: Because they are cheap | Because small units lack in-house specialists and cannot afford long downtime | Because service is free | It is not necessary
+        answer: 1
+        why: Adoption depends on installation, training, service and lifecycle cost.
+    short_answers:
+      - q: List two features of Industry 4.0.
+        a: (1) Connected cyber-physical systems, in which machines with sensors communicate over networks. (2) Data-driven automation using AI and analytics, for example predictive maintenance. Robotics, additive manufacturing and digital twins are also valid answers.
+
+  - id: IV.4
+    slug: startup-ideation
+    title: Business startup and ideation
+    outcome: Describe startup ideation and venture initiation.
+    page: 44
+    labs:
+      - title: Idea Funnel Challenge (Unit II)
+        href: modules/unit-2/04-idea-funnel-challenge/index.html
+        note: Screen ideas before committing
+      - title: Product Development Roadmap (Unit II)
+        href: modules/unit-2/08-product-development-roadmap/index.html
+        note: Plan from prototype to pilot
+    summary:
+      - Startup ideation turns a problem into a venture concept by defining the customer, problem, solution, value proposition, business model, key assumptions and a validation plan. A startup **begins with hypotheses** and tests each one. **Venture initiation** begins when the team commits to systematic validation, resource planning, legal-form selection and customer discovery.
+    key_points:
+      - "Write hypotheses that can be tested, for example 'Small machine shops lose money due to unplanned breakdowns'. Test them through interviews, observation, prototype use or pilot orders."
+      - "A strong experiment states the context, method, sample, metric, threshold, resource cap and response rule **before** collecting evidence."
+      - "A **controlled pilot** has a defined customer and context, scope, duration, responsibilities, baseline, acceptance thresholds, safety controls, data plan, support path, commercial terms and a decision date."
+      - Pilot metrics cover technical performance, user adoption, customer outcome, business economics, delivery reliability, safety and learning.
+      - "**Progressive commitment.** Interviews, simulations and limited trials keep options open. Leases, special machinery and large teams are hard to reverse, so delay them until the evidence justifies them."
+    framework:
+      title: An ideation note
+      items:
+        - term: Problem hypothesis
+          text: The pain you believe exists.
+        - term: Customer segment
+          text: Who has it most.
+        - term: Proposed solution
+          text: What you will offer.
+        - term: Value proposition
+          text: The outcome the customer gets.
+        - term: Revenue model
+          text: How you will be paid.
+        - term: Assumptions and validation plan
+          text: What must be true, and how you will test it.
+    table:
+      caption: Pilot metrics for an industrial sensing product
+      head: Metric type | Example
+      rows:
+        - Technical | Sensor uptime of at least 98 percent and false-alarm rate below 5 percent
+        - User | Operators check the dashboard on at least 4 of 5 shifts
+        - Customer outcome | Unplanned downtime down 20 percent against baseline
+        - Business | Willingness to sign a paid contract at ₹3,000 per machine per month
+        - Safety | No unsafe interventions, and alarms acknowledged within 10 minutes
+        - Learning | List of failure modes and integration issues recorded for the next version
+    example: An ideation note for a campus laundry app should test demand, payment behaviour, delivery logistics, quality complaints and whether existing shops are willing to partner.
+    case:
+      name: Breathe Applied Sciences
+      text: A carbon-conversion process proven in the lab still needs a controlled industrial pilot with throughput, cost, safety and purity thresholds before any customer commits to a full plant.
+      prompt: Name two pilot metrics Breathe would need to show an industrial customer.
+    mistakes:
+      - Designing the logo and app before validating need.
+      - Confusing excitement about the idea with customer evidence.
+      - Ignoring operational complexity.
+      - Incorporating, renting and buying machinery before demand is validated.
+    terms:
+      - term: Hypothesis
+        def: A testable statement about a customer, problem or solution that the venture depends on.
+      - term: Venture initiation
+        def: The point at which a team commits to validation, resource planning, legal form and customer discovery.
+      - term: Controlled pilot
+        def: A limited, time-bound trial with a real customer, predefined metrics and thresholds, and a decision date.
+    check:
+      - q: Which belongs in a decision-ready pilot?
+        options: A launch event with no metrics | Predefined user, technical and business metrics | Unlimited duration | Founder impressions only
+        answer: 1
+        why: A pilot must be measured against thresholds set in advance.
+      - q: Which is a testable startup hypothesis?
+        options: Our app will be great | Civil contractors lose at least 2 hours a day tracking site materials | Technology is the future | Everyone needs our product
+        answer: 1
+        why: It names a segment and a measurable pain that interviews or observation can confirm or reject.
+      - q: Which commitment is hardest to reverse?
+        options: Customer interviews | A paper prototype | A five-year lease and special machinery | A simulation
+        answer: 2
+        why: Progressive commitment delays irreversible spending until evidence justifies it.
+    short_answers:
+      - q: State the meaning of a controlled market pilot.
+        a: A controlled market pilot is a limited, time-bound trial with a defined customer, scope, baseline, acceptance thresholds, safety controls, data plan and decision date, used to test the offering under real conditions before scaling.
+
+  - id: IV.5
+    slug: venture-choices
+    title: Venture choices
+    outcome: Compare venture choices available to entrepreneurs.
+    page: 45
+    labs:
+      - title: Business Forms Decision Matrix (Unit II)
+        href: modules/unit-2/10-business-forms-decision-matrix/index.html
+        note: Weigh routes against your goals
+    summary:
+      - Entrepreneurs can choose among a small business, scalable startup, social enterprise, family business, franchise, consulting practice, manufacturing unit, digital platform, technology licensing or intrapreneurship. The right choice depends on **founder goals, risk tolerance, capital need, growth ambition, technical complexity, legal exposure and market opportunity**.
+    key_points:
+      - Not only VC-funded startups are valuable. A profitable small manufacturing or service business is an excellent entrepreneurial outcome.
+      - "**Small business** — stable income and local customers. **Scalable startup** — searches for a repeatable model that can grow fast. **Social enterprise** — impact with sustainable revenue."
+      - "**Franchise** — a proven system with brand restrictions. **Technology licensing** — earns royalties from IP without building the full business. **Consulting** — sells expertise, with low capital needs but limited scalability."
+      - Choose the **model before the funding**. A model that cannot scale fast should not take VC money.
+      - Social ventures still need financial discipline.
+    framework:
+      title: Routes compared
+      items:
+        - term: Small business
+          text: Stable income and local customers.
+        - term: Scalable startup
+          text: Rapid growth and a repeatable model.
+        - term: Social enterprise
+          text: Impact with sustainable revenue.
+        - term: Franchise
+          text: A proven system with brand restrictions.
+        - term: Technology venture
+          text: Innovation-led, often needing IP and R&D.
+    table:
+      caption: Comparing venture routes
+      head: Route | Capital need | Growth logic | Typical funding
+      rows:
+        - Small business | Low to moderate | Steady, local | Own funds and bank loans
+        - Scalable startup | Moderate to high | Rapid, repeatable | Angels and VC
+        - Social enterprise | Varies | Impact plus sustainability | Grants, impact investors and revenue
+        - Franchise | Moderate | Replicates a proven model | Own funds and bank loans
+        - Consulting practice | Low | Grows with people | Bootstrapped
+        - Technology licensing | R&D-heavy | Royalties from licensees | Grants and IP-focused investors
+    example: A robotics student can choose a training service, a component manufacturing unit, a SaaS maintenance platform or a deep-tech product company, depending on resources and ambition.
+    case:
+      name: Quixy and Autocracy Machinery
+      text: Quixy is a scalable software startup with low capital intensity. Autocracy Machinery is a manufacturing venture with tooling, inventory and field service. Both are valid, but they need different capital, teams and funding.
+      prompt: Which of the two is better suited to bank term-loan finance, and why?
+    mistakes:
+      - Choosing the funding before choosing the model.
+      - Picking a high-growth model without the market and team capacity for it.
+      - Assuming social-impact ventures do not need financial discipline.
+    terms:
+      - term: Small business
+        def: An independently owned enterprise serving mainly local customers, aiming for stable income rather than rapid scale.
+      - term: Scalable startup
+        def: A young venture searching for a repeatable business model that can grow revenue much faster than cost.
+      - term: Social enterprise
+        def: A venture whose primary aim is social or environmental impact, financed sustainably through earned revenue.
+      - term: Technology licensing
+        def: Granting another firm the right to use your IP in exchange for fees or royalties.
+    check:
+      - q: Which factors distinguish a small business, scalable startup and social enterprise?
+        options: Name and logo | Founder goals, capital, impact and growth logic | Office location | Number of followers
+        answer: 1
+        why: The routes differ in purpose, capital need and how they grow.
+      - q: A CAD-drafting service with steady local clients wants to grow modestly. The most suitable funding is
+        options: Venture capital | Bootstrapping and bank finance | Equity crowdfunding | A deep-tech grant
+        answer: 1
+        why: A steady service business does not fit VC's high-growth expectations.
+      - q: A university lab has a patented sensor coating but no interest in manufacturing. A suitable route is
+        options: Franchise | Technology licensing | Social enterprise | Retail shop
+        answer: 1
+        why: Licensing earns from the IP without building production and sales.
+    short_answers:
+      - q: Define a small business.
+        a: A small business is an independently owned and managed enterprise of limited size, usually serving local customers, that aims for stable income and steady growth rather than rapid scaling.
+      - q: State the meaning of a scalable startup.
+        a: A scalable startup is a young venture searching for a repeatable, scalable business model whose revenue can grow much faster than its cost, often with equity funding.
+      - q: State the meaning of a social enterprise.
+        a: A social enterprise is a venture whose main aim is social or environmental impact, but which sustains itself through earned revenue rather than relying only on donations.
+
+  - id: IV.6
+    slug: startup-policy-opportunities
+    title: Startup policy and opportunities
+    outcome: Explain startup policies and opportunity areas.
+    page: 46
+    summary:
+      - Startup policy provides recognition, support, incentives and ecosystem infrastructure for eligible startups. These include tax benefits, procurement relaxation, incubation, seed funding, IP support and mentoring. **Policy is an enabler, not a substitute for customer value.**
+    key_points:
+      - "**DPIIT recognition** criteria cover age, eligible legal form, turnover, originality of the entity and innovation or scalability. As stated in the Course Reader (verified 2 August 2026), eligible forms are a private limited company, registered partnership, LLP or cooperative society. The limits are 10 years and turnover below ₹200 crore, or 20 years and ₹300 crore for DeepTech. Recheck these on the portal before applying."
+      - The entity must not be formed by splitting or reconstructing an existing business.
+      - "Screen any policy benefit by **eligibility, stage, need, obligations, timing and evidence**, not by the headline amount."
+      - Opportunity areas for engineering students include AI tools, manufacturing automation, green energy, agri-tech, drones, construction technology, assistive devices, water, waste, cybersecurity, embedded systems and skilling platforms.
+      - Match the opportunity area to local strengths and founder skills, and use incubators and mentors to interpret schemes correctly.
+    framework:
+      title: Using policy well
+      items:
+        - term: Enabler
+          text: Policy supports value. It does not create it.
+        - term: Match
+          text: Opportunity area, local strengths and founder skills.
+        - term: Check
+          text: Eligibility, documents, compliance and deadlines.
+        - term: Interpret
+          text: Use incubators and mentors to read schemes correctly.
+    table:
+      caption: Scheme-screening matrix
+      head: Heading | Question to answer
+      rows:
+        - Eligibility | Does our entity, age, turnover, sector and location qualify?
+        - Stage | Is the scheme meant for idea, prototype, pilot, MSME or scale-up?
+        - Need | Does it address our actual constraint?
+        - Obligation | What contribution, milestones, reporting, equity or repayment does it require?
+        - Timing | When does the window close, and when would money arrive?
+        - Evidence | What documents and proof must we submit, and what is the official source date?
+    example: A startup working on low-cost machine vision for textile defect detection can connect its technical capability with the industrial demand in Coimbatore and Tiruppur.
+    case:
+      name: National Startup Awards sector menu
+      text: NSA cases span agritech, machinery, climate tech, healthcare, no-code software, aerospace and sustainability, which gives an entry point for every engineering branch.
+      prompt: Pick the NSA sector closest to your branch and name one problem in it worth exploring.
+    mistakes:
+      - Building a venture only to obtain a grant.
+      - Relying on old rules, since policies change.
+      - Forgetting that scheme benefits require documentation and compliance.
+    terms:
+      - term: Startup policy
+        def: Government measures that recognise and support eligible startups through incentives, infrastructure and simplified compliance.
+      - term: DPIIT recognition
+        def: A startup status granted to an eligible entity under the Startup India framework. It is not incorporation, funding or a licence.
+    check:
+      - q: Which statement about DPIIT recognition is correct?
+        options: It is incorporation itself | It approves every sector licence | It is a status for eligible startups, not incorporation | It guarantees investment
+        answer: 2
+        why: Recognition is a separate status that requires an already-formed eligible entity.
+      - q: Which criteria should be used to screen a startup-policy benefit?
+        options: The largest headline amount | Eligibility, stage, need and obligations | Applying everywhere with one form | Assuming benefits are automatic
+        answer: 1
+        why: The right scheme fits your stage and need, and you can meet its obligations.
+      - q: Which of these would NOT qualify for DPIIT recognition?
+        options: A new private limited company developing a sensor | An LLP formed by splitting an existing business | A two-year-old registered partnership with an innovative service | A new LLP building agri-tech tools
+        answer: 1
+        why: Entities formed by splitting or reconstructing an existing business are excluded.
+    short_answers:
+      - q: State the purpose of DPIIT startup recognition.
+        a: DPIIT recognition gives an eligible entity startup status under the Startup India framework. Subject to separate conditions, this can open access to benefits such as self-certification, IPR fast-tracking, Section 80-IAC tax exemption, easier public procurement and easier winding up. It does not guarantee funding or customers.
+
+  - id: IV.7
+    slug: registration-legal-process
+    title: Registration and legal process of startups
+    outcome: Describe startup registration and legal procedures.
+    page: 46
+    labs:
+      - title: Partnership vs LLP (Unit II)
+        href: modules/unit-2/12-partnership-vs-llp/index.html
+        note: Compare two common legal forms
+      - title: MSME Registration Venture Architect (Unit II)
+        href: modules/unit-2/15-msme-registration-venture-architect/index.html
+        note: Sequence registrations for a new unit
+    summary:
+      - Registration starts with choosing a legal structure, usually a **private limited company or LLP** for scalable startups. After incorporation, an eligible startup may apply for **DPIIT recognition**. The legal process also covers PAN, a bank account, GST if applicable, labour and shop-and-establishment registration, IP protection, contracts, data protection and sector licences.
+    key_points:
+      - "**Incorporation** creates the legal entity and its governance. DPIIT recognition is a separate, later status."
+      - "A **private limited company** (Companies Act 2013) can issue shares, which suits equity investors. An **LLP** (LLP Act 2008) has lighter compliance but cannot issue equity shares, so VC investors usually prefer companies."
+      - "**Intellectual property** covers patents, industrial designs, copyright, trademarks and trade secrets, plus contracts that define ownership and use."
+      - "Practical IP sequence: confirm who owns the contributions (student, employee, institution, collaborator) → document the invention and prior art → do a preliminary search → use confidentiality controls → choose the protection route → **file before uncontrolled disclosure** → then pitch and run trials with proportionate protection."
+      - Prepare a founder agreement, customer and vendor contracts and IP ownership records. Copied contracts create serious risk.
+    framework:
+      title: Steps
+      items:
+        - term: Choose structure
+          text: Liability, investment and compliance differ by form.
+        - term: Incorporate
+          text: Register with the relevant authority.
+        - term: Bank and books
+          text: Open a bank account and maintain accounts.
+        - term: Recognition
+          text: Apply for DPIIT recognition if eligible.
+        - term: Approvals
+          text: GST, labour, local body, pollution, import-export and sector licences.
+        - term: Contracts and IP
+          text: Founder agreement, customer and vendor contracts, IP records.
+    table:
+      caption: IP protection routes
+      head: Route | Protects | Venture action
+      rows:
+        - Patent | A qualifying invention | Confirm ownership, search prior art, keep it confidential and seek professional filing advice
+        - Industrial design | The visual features of an article | Record creation and consider filing before publication
+        - Copyright | Original expression such as code, text and art | Record authorship, licences and contributor assignment
+        - Trademark | A name, logo or sign that identifies the source | Search for conflicts and protect the brand used in trade
+        - Trade secret | Valuable confidential know-how | Use access control, NDAs and exit procedures
+        - Contract | Use, transfer, confidentiality and ownership | Define background IP, new IP, permitted use and termination
+    example: A health-tech startup may need company incorporation, DPIIT recognition, clinical validation, data privacy safeguards, medical-device regulatory awareness and strong user-consent practices.
+    case:
+      name: Startup India Kit, TN Startup Policy and WIPO IP guide
+      text: Use them as a process trio. Register and get recognised, understand state support, and protect anything you will disclose publicly before you pitch.
+      prompt: Why should a team file or protect an invention before presenting it at a public pitch event?
+    mistakes:
+      - Assuming the legal form does not affect liability, investment or compliance.
+      - Treating DPIIT recognition as incorporation.
+      - Using copied contracts.
+      - Disclosing an invention publicly before deciding how to protect it.
+    terms:
+      - term: Incorporation
+        def: The legal process of forming a company or LLP as a separate legal entity.
+      - term: Intellectual property
+        def: Legally protectable creations of the mind, such as inventions, designs, creative works, brands and trade secrets.
+      - term: Freedom to operate
+        def: Confidence that making and selling a product will not infringe someone else's valid IP.
+    check:
+      - q: What must exist before an entity applies for startup recognition?
+        options: A government purchase order | An international patent | An eligible legal entity, formed and registered | VC investment
+        answer: 2
+        why: Recognition is applied for by an already-incorporated eligible entity.
+      - q: Before showing a potentially patentable prototype at a public expo, the team should
+        options: Post the full design online | Assess protection, ownership and disclosure timing | Transfer ownership informally | Avoid recording inventors
+        answer: 1
+        why: Uncontrolled disclosure can destroy novelty, so protection decisions come first.
+      - q: Investors wanting to buy equity shares usually prefer which form?
+        options: Sole proprietorship | Unregistered partnership | Private limited company | Hindu Undivided Family
+        answer: 2
+        why: A company can issue shares and has a governance structure that suits equity investment.
+    short_answers:
+      - q: Define incorporation.
+        a: Incorporation is the legal process of registering a company or LLP with the relevant authority (the Registrar of Companies through MCA in India), creating a separate legal entity with its own rights, liabilities and perpetual succession.
+      - q: Define intellectual property.
+        a: Intellectual property is a legally protectable creation of the mind, such as an invention (patent), the visual design of an article, original works including code (copyright), a brand (trademark) or confidential know-how (trade secret).
+
+  - id: IV.8
+    slug: startup-ecosystem
+    title: Startup ecosystem and legal environment
+    outcome: Explain the startup ecosystem and legal environment.
+    page: 48
+    summary:
+      - A **startup ecosystem** is the network of founders, customers, universities, incubators, accelerators, investors, mentors, government bodies, banks, industry associations, service providers and talent around a venture. A strong ecosystem reduces isolation and improves access to knowledge and resources. The **legal environment** covers formation, tax, labour, IP, contracts, consumer protection, environment, data, trade and sector regulation.
+    key_points:
+      - Use the ecosystem **by stage**. Match each stage-specific gap to the right resource rather than collecting contacts.
+      - "Typical match: lab and faculty for prototype testing → incubator for workspace, mentoring and seed → early customers for pilots → bank for asset and working-capital finance → angels or VC for scaling → public agencies for recognition, schemes and procurement."
+      - "A **business incubator** supports early ventures with workspace, mentoring, shared facilities, networks and sometimes seed funding."
+      - Ignoring legal basics can block funding. Verbal agreements are risky.
+      - Compliance should scale with the business stage, and decisions should be documented and recorded.
+    framework:
+      title: Ecosystem at a glance
+      items:
+        - term: Actors
+          text: Incubators, banks, mentors, investors, customers and suppliers.
+        - term: Support
+          text: Workspace, testing, grants, mentoring and market connections.
+        - term: Legal areas
+          text: Entity, tax, labour, contracts, IP, environment, data and sector licences.
+        - term: Good practice
+          text: Document decisions and keep records.
+    table:
+      caption: Stage-matched ecosystem use
+      head: Stage | Main gap | Right resource
+      rows:
+        - Idea and problem validation | Access to users and guidance | Faculty mentors, user communities, incubator pre-programmes
+        - Prototype | Equipment and testing | College labs, technical institutions, makerspaces
+        - Pilot | Real-world trial and seed money | Early customers, incubators, seed schemes
+        - Enterprise setup | Registration and asset finance | DIC, MSME bodies, banks
+        - Scale | Growth capital and markets | Angels, VC, industry associations, public procurement
+    example: A campus-incubated startup can use faculty mentors, prototype labs, alumni customers, MSME support, bank linkages and legal advisers to reduce early-stage risk.
+    case:
+      name: Krishigati
+      text: An agri-machinery startup might use a college lab for field-test rigs, an incubator for mentoring, farmer producer organisations as pilot customers and a bank for production finance, each at its own stage.
+      prompt: Which ecosystem actor would Krishigati need at the pilot stage?
+    mistakes:
+      - Ignoring legal basics, which can block funding.
+      - Relying on verbal agreements.
+      - Depending on one mentor for every decision.
+    terms:
+      - term: Startup ecosystem
+        def: The network of people, institutions and resources that support new ventures in a region or sector.
+      - term: Business incubator
+        def: An organisation that supports early ventures with workspace, mentoring, shared facilities, networks and sometimes seed funding.
+      - term: Legal environment
+        def: The laws and rules on formation, tax, labour, IP, contracts, consumers, environment, data and sectors that a venture must follow.
+    check:
+      - q: Which group consists entirely of ecosystem participants?
+        options: Competitors, rumours and slogans | Machines, patents and rent | Incubators, labs, mentors, customers and financiers | Invoices and ledgers
+        answer: 2
+        why: Ecosystem participants are actors and institutions that support the venture.
+      - q: Stage-matched use of the ecosystem means
+        options: Collecting every institution's name | Matching a stage-specific gap to the right resource | Relying on one mentor | Applying to every scheme
+        answer: 1
+        why: Each stage has a different constraint, and so needs a different resource.
+      - q: A startup agrees terms with a manufacturing partner only verbally. The main risk is
+        options: Too much paperwork | Disputes over IP, quality and payment with no written basis | Faster delivery | Lower cost
+        answer: 1
+        why: Written agreements define roles, IP and remedies, while verbal ones invite conflict.
+    short_answers:
+      - q: Define a business incubator.
+        a: A business incubator is an organisation, often hosted by a college or agency, that supports early-stage ventures with workspace, mentoring, shared facilities, networks, training and sometimes seed funding, to improve their chances of survival.
+
+  - id: IV.9
+    slug: approvals-taxes-duties
+    title: Approvals, taxes and duties for new ventures
+    outcome: Identify approvals, taxes and duties payable by new ventures.
+    page: 49
+    labs:
+      - title: Small Enterprise Launch Mission (Unit II)
+        href: modules/unit-2/14-small-enterprise-launch-mission/index.html
+        note: Walk through the setup sequence
+    summary:
+      - Approvals depend on the **nature, location, legal form and sector** of the business. A software firm needs different approvals from a food unit, drone company, factory or medical-device maker. The **National Single Window System (NSWS)** helps identify, apply for and track many central and state approvals. Taxes and duties may include GST, income tax, TDS or TCS, professional tax in some states, customs duty and sector fees.
+    key_points:
+      - "**Approval categories are separate decisions.** Incorporation does not authorise every product, workplace or transaction. Keep an applicability register covering entity, tax, premises, labour, fire and electrical safety, pollution, product standards, sector licences, import-export, consumer duties, data and IP."
+      - "A **sector-specific approval** is a licence or registration required because of the product or activity, such as FSSAI for food or medical-device rules for health products."
+      - Understand invoices, input tax credit, books of accounts and statutory filing dates. Plan tax compliance before sales scale.
+      - "Charantimath's setup sequence (Fig. 5.1): select the project → decide the constitution → registration → clearances → land or shed → project report → finance → plant and machinery → implement. Verify current registrations and clearances on official portals."
+      - Review compliance whenever the business expands or changes activity, and consult a qualified professional for filings.
+    framework:
+      title: How to work out approvals
+      items:
+        - term: Identify
+          text: The activity and the location.
+        - term: Check
+          text: Entity, local body, GST, labour, pollution, factory and sector licences.
+        - term: Use portals
+          text: NSWS and state portals to list approvals.
+        - term: Keep records
+          text: Tax records, with professional help for filings.
+        - term: Review
+          text: Whenever the business expands or changes.
+    table:
+      caption: Extra approval questions by venture type
+      head: Venture | Questions to investigate
+      rows:
+        - Food product | Food-business registration or licence, labelling, premises, testing, shelf life and local trade permission
+        - Medical or wellness product | Product classification, clinical claims, safety evidence, facility and data obligations
+        - Civil or environmental service | Local-body permissions, professional responsibility, environment and worker or site safety
+        - Software or AI service | Contracts, privacy, cybersecurity, consumer claims and third-party licences
+        - Manufacturing unit | Factory or premises, power, fire, pollution, labour, product standard, machinery and waste
+    example: A food-product startup may need FSSAI registration or licence, GST if applicable, packaging and labelling compliance, a local trade licence and quality records.
+    case:
+      name: Autocracy Machinery
+      text: A machinery maker needs more than incorporation and Udyam. It also needs factory and premises permissions, power, fire safety, pollution consent, labour registrations, product safety and GST, each checked for its own location and activity.
+      prompt: List three approval categories Autocracy must track that a software startup would not.
+    mistakes:
+      - Assuming one certificate covers everything, when approvals are activity-specific.
+      - Leaving tax compliance until after sales scale.
+      - Giving or following legal advice without verification.
+    terms:
+      - term: NSWS
+        def: National Single Window System, a portal to identify, apply for and track central and state approvals.
+      - term: GST
+        def: Goods and Services Tax, an indirect tax on supply of goods and services, with input tax credit.
+      - term: Sector-specific approval
+        def: A licence or registration required because of the product or activity, beyond general registration.
+      - term: Applicability register
+        def: A venture's own list of which registrations, approvals and duties apply to it, with status and renewal dates.
+    check:
+      - q: Which factors determine the sector approvals a venture needs?
+        options: Founder biography | Product, activity, location and user risk | Logo and colours | Competition awards
+        answer: 1
+        why: Approvals follow from what you make, where and how risky it is to users.
+      - q: Which practice belongs to basic tax and compliance planning?
+        options: Assuming all exemptions apply | Copying another firm's list | Checking applicability and keeping records | Delaying filings until scale-up
+        answer: 2
+        why: Compliance starts with what applies to you and good records.
+      - q: A licensed food startup has not yet sold anything. What does its operating licence NOT prove?
+        options: The entity is registered | Records are documented | The product can be made under the licence | Customers will adopt and pay
+        answer: 3
+        why: Licences are about legality, not demand. Customer evidence is separate.
+    short_answers:
+      - q: State the meaning of a sector-specific approval.
+        a: A sector-specific approval is a licence, registration or clearance required because of the particular product or activity, beyond general entity and tax registration. Examples are FSSAI for food businesses, drug or medical-device approvals for health products and pollution consent for certain manufacturing.
+
+quiz:
+  - answer: 3
+    why: The five stages are empathise, define, ideate, prototype and test.
+  - answer: 0
+    why: Empathy is built by observing and interviewing real users.
+  - answer: 1
+    why: A problem statement frames the user, need, insight and constraints, not a chosen technology.
+  - answer: 2
+    why: Separating generation from evaluation keeps brainstorming divergent.
+  - answer: 1
+    why: A good early prototype tests the riskiest assumption at low cost.
+  - answer: 3
+    why: Industry 4.0 is defined by connected cyber-physical systems and automation.
+  - answer: 2
+    why: Selecting a solution before validating the need is the technology-first error.
+  - answer: 0
+    why: Founder goals, capital, impact and growth logic distinguish the venture routes.
+  - answer: 0
+    why: DPIIT recognition is a status for eligible startups. It is not incorporation.
+  - answer: 2
+    why: Only an already-formed eligible legal entity can apply for recognition.
+  - answer: 3
+    why: Assess protection options, ownership and disclosure timing before going public.
+  - answer: 1
+    why: Approvals depend on the product, activity, location and risk to users.
+  - answer: 2
+    why: Basic compliance means checking what applies and keeping records.
+  - answer: 1
+    why: Use the ecosystem by matching each stage's gap to the right resource.
+  - answer: 0
+    why: A decision-ready pilot has predefined user, technical and business metrics.
+  - answer: 3
+    why: Iteration means updating the problem or solution from evidence.
+  - answer: 3
+    why: A licence shows legality, not that customers will adopt and pay.
+  - answer: 1
+    why: Screen benefits by eligibility, stage, need and obligations.
+  - answer: 2
+    why: Incubators, labs, mentors, customers and financiers are all ecosystem participants.
+  - answer: 0
+    why: Validate the problem, design the model, form the entity, comply, then pilot.
+
+long_questions:
+  - q: Using the textbook flowchart, explain the sequence for setting up a small enterprise. State which registrations and clearances require verification from current official sources.
+    topics: [IV.7, IV.9]
+    points:
+      - Charantimath Fig. 5.1 sequence is selection of project (product or service, location, feasibility, business plan, project profile) → decide the constitution → registration → clearances → land or shed → project report → finance → plant and machinery → implement.
+      - Explain the purpose of each step briefly.
+      - Constitution choices are proprietorship, partnership, LLP or company.
+      - Registrations to verify are incorporation, Udyam, GST, shop and establishment and labour.
+      - Clearances to verify are pollution consent, factory licence, fire, power and sector licences (via NSWS and state portals).
+      - Rules and thresholds change, so check them on official portals before acting.
+  - q: Explain the empathise, define, ideate, prototype and test stages of design thinking.
+    topics: [IV.1]
+    points:
+      - Design thinking is human-centred and iterative.
+      - Empathise — observe and interview users, and map the journey.
+      - Define — write a problem statement naming user, need, consequence and evidence.
+      - Ideate — diverge, then converge on testable concepts.
+      - Prototype — build the minimum representation needed to learn.
+      - Test — compare against thresholds and decide whether to continue, change, pause or stop, with an example such as the smart helmet or Krishigati.
+  - q: Describe brainstorming, SCAMPER, mind mapping, customer interviews and observation as methods for generating startup ideas.
+    topics: [IV.2]
+    points:
+      - Brainstorming is quantity before judgement, with a clear challenge, silent start, clustering and scoring.
+      - SCAMPER is substitute, combine, adapt, modify, put to another use, eliminate and reverse.
+      - Mind mapping visually links problems, users, causes and solutions.
+      - Customer interviews reveal motives, workarounds and priorities.
+      - Observation shows what users actually do.
+      - Separate generation from screening, with an example such as hostel water wastage.
+  - q: Explain startup opportunities associated with cyber-physical systems, robotics, additive manufacturing, AI and industrial data.
+    topics: [IV.3]
+    points:
+      - Industry 4.0 is the convergence of sensing, connectivity, computation and automation.
+      - Cyber-physical systems enable monitoring and control retrofits for legacy machines.
+      - Robotics brings safer work and cobot cells for SMEs.
+      - Additive manufacturing enables spares on demand, jigs and fixtures, and small batches.
+      - AI and industrial data enable predictive maintenance, defect detection and traceability.
+      - The opportunity is the measurable outcome, while affordability, service and cybersecurity decide adoption.
+  - q: Explain the features of a small business, scalable startup, social enterprise, franchise, consulting practice and technology-licensing venture.
+    topics: [IV.5]
+    points:
+      - Small business — local customers, stable income, low to moderate capital.
+      - Scalable startup — a repeatable model, rapid growth, equity funding.
+      - Social enterprise — impact plus sustainable revenue.
+      - Franchise — a proven system, fees and royalties, brand restrictions.
+      - Consulting — expertise-based, low capital, limited scalability.
+      - Technology licensing — earns royalties from IP, is R&D-heavy and needs strong IP protection. Choose the model before the funding.
+  - q: Describe the legal and compliance categories relevant to a technology startup.
+    topics: [IV.7, IV.8, IV.9]
+    points:
+      - Entity and governance — incorporation, founder agreement and board.
+      - Tax — PAN, GST, TDS and income tax filings.
+      - Labour and premises — shop and establishment, labour registrations, local body.
+      - IP — ownership, patents, copyright, trademarks and confidentiality.
+      - Contracts and data — customer and vendor contracts, privacy and cybersecurity.
+      - Sector, quality and trade — sector licences, standards and import-export. Keep an applicability register.
+  - q: Explain why startup recognition, MSME registration or incubator admission is not proof of customer demand.
+    topics: [IV.6]
+    points:
+      - Recognition and registration confirm eligibility and status, not demand.
+      - Incubator admission reflects a selection panel's view of potential, not customer behaviour.
+      - Demand is proved by customer behaviour such as paid pilots, repeat orders and retention.
+      - Policy is an enabler, not a substitute for customer value.
+      - Ventures built to collect grants fail when support ends.
+      - Pair recognition with validation evidence.
+  - q: Explain how incubators, laboratories, mentors, early customers, financiers and public agencies support a venture at different stages.
+    topics: [IV.8]
+    points:
+      - Idea stage — mentors and incubator pre-programmes.
+      - Prototype stage — laboratories and technical institutions for testing.
+      - Pilot stage — early customers and incubator seed support.
+      - Enterprise setup — DIC, MSME bodies and banks.
+      - Scale — angels, VC and public procurement.
+      - Match each stage's gap to the right resource, and know each actor's limitations.
+  - q:
+      - (i) Explain the weaknesses of building an advanced product before understanding users.
+      - (ii) Describe how the design-thinking stages correct this technology-first approach.
+    topics: [IV.1, IV.4]
+    points:
+      - The team risks solving the wrong problem or over-engineering, raising cost.
+      - Users may not adopt it, and money and time are spent on irreversible commitments.
+      - Empathise uncovers real needs and context.
+      - Define frames the problem without assuming a solution.
+      - Ideate and prototype explore alternatives cheaply.
+      - Test against thresholds and iterate on the evidence.
+  - q:
+      - (i) Explain the features of a private limited company and an LLP.
+      - (ii) Describe two financing contexts in which the suitability of these forms differs.
+    topics: [IV.7, IV.5]
+    points:
+      - Private limited company — Companies Act 2013, separate entity, limited liability, shares, 2 to 200 members, higher compliance.
+      - LLP — LLP Act 2008, separate entity, limited liability, partners and designated partners, lighter compliance, no equity shares.
+      - Context 1 — angel or VC equity, which favours a private limited company because shares can be issued.
+      - Context 2 — a bootstrapped professional or consulting firm, where an LLP offers flexibility with lower compliance.
+      - Both can apply for DPIIT recognition if eligible.
+      - Conclude by matching the form to the funding route.
+  - q:
+      - (i) Describe the categories of approvals that may apply to a food-product startup.
+      - (ii) Explain why entity registration does not replace sector, local, tax, labour and quality obligations.
+    topics: [IV.9]
+    points:
+      - Food-business registration or licence (FSSAI), labelling and packaging.
+      - Premises and local trade licence, plus testing and shelf-life records.
+      - GST, labour registrations and fire safety where applicable.
+      - Incorporation creates the entity but does not authorise the product, premises or activity.
+      - Each approval is a separate decision by a different authority.
+      - Keep an applicability register and verify on official portals.
+  - q:
+      - (i) Explain the purpose and components of a controlled pilot for an industrial sensing product.
+      - (ii) Describe suitable technical, user, business, safety and learning metrics.
+    topics: [IV.4]
+    points:
+      - The purpose is to test the offering under real conditions before scaling, with a clear decision date.
+      - Components are customer and context, scope, duration, responsibilities, baseline, thresholds, safety controls, data plan, support and commercial terms.
+      - Technical metrics — uptime and false-alarm rate.
+      - User metrics — dashboard use per shift.
+      - Business metrics — downtime saved and willingness to sign a paid contract.
+      - Safety and learning — no unsafe interventions, plus a recorded list of failure modes.
+  - q:
+      - (i) Explain the relationship among patent review, prototype disclosure, investor pitching and customer trials.
+      - (ii) Describe a practical IP and confidentiality sequence.
+    topics: [IV.7]
+    points:
+      - Public disclosure before filing can destroy novelty.
+      - Pitches and trials are disclosures, so protection decisions must come first.
+      - Sequence step 1 — confirm ownership of all contributions.
+      - Step 2 — document the invention and prior art, then run a preliminary search.
+      - Step 3 — use NDAs and access controls, and choose the route (patent, design, copyright, trademark, trade secret or contract).
+      - Step 4 — file before uncontrolled disclosure, then pitch and run trials with proportionate protection.
+  - q:
+      - (i) Explain how eligibility, stage, need, obligation, timing and evidence are used to screen a government-policy benefit.
+      - (ii) Describe a scheme-screening matrix using these headings.
+    topics: [IV.6]
+    points:
+      - Eligibility — entity, age, turnover, sector and location.
+      - Stage — idea, prototype, pilot, MSME or scale.
+      - Need — whether it addresses the actual constraint.
+      - Obligation — contribution, milestones, reporting, equity or repayment.
+      - Timing and evidence — window, disbursal timing, documents and official source date.
+      - Present a matrix with schemes as rows and headings as columns, marking any scheme with an unclear condition as unverified.
+  - q:
+      - (i) Explain the risks of incorporating, renting facilities and purchasing machinery before validating demand.
+      - (ii) Describe how staged commitments reduce these risks.
+    topics: [IV.4, IV.7]
+    points:
+      - Fixed costs and compliance start before revenue, so cash burns quickly.
+      - Leases and machinery are hard to reverse and may not fit the validated need.
+      - A pivot becomes expensive or impossible.
+      - Staging means interviews, prototypes and pilots come first because they are cheap and reversible.
+      - Incorporate when contracts, IP or funding require it, and buy machinery once orders justify it.
+      - Run legal, technical and commercial workstreams in parallel.

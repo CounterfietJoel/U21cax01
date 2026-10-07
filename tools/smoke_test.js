@@ -8,7 +8,7 @@ const baseUrl = process.env.COURSE_SITE_URL || "http://127.0.0.1:8765/";
 const chromePath = process.env.CHROME_PATH || "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe";
 const qaDirectory = path.resolve(__dirname, "..", "qa");
 const manifest = JSON.parse(fs.readFileSync(path.resolve(__dirname, "..", "site-manifest.json"), "utf8"));
-const topics = manifest.units.flatMap(unit => unit.topics.map(topic => ({ unit: unit.number, title: topic[0], url: topic[1] })));
+const topics = manifest.units.flatMap(unit => unit.topics.map(topic => ({ unit: unit.number, title: topic[1], url: topic[2] })));
 
 function assert(condition, message) {
   if (!condition) throw new Error(message);
@@ -32,12 +32,12 @@ async function run() {
 
   let response = await page.goto(baseUrl, { waitUntil: "domcontentloaded" });
   assert(response && response.ok(), "Course home did not load");
-  assert(await page.locator('[role="tab"]').count() === 3, "Course home must show three unit tabs");
-  assert(await page.locator(".topic-grid a").count() === 33, "Course home must contain 33 topic links");
+  assert(await page.locator('[role="tab"]').count() === 5, "Course home must show five unit tabs");
+  assert(await page.locator(".topic-grid a").count() === 45, "Course home must contain 45 topic links");
   await page.screenshot({ path: path.join(qaDirectory, "home-desktop.png"), fullPage: true });
 
   const tabs = page.locator('[role="tab"]');
-  for (let index = 0; index < 3; index += 1) {
+  for (let index = 0; index < 5; index += 1) {
     await tabs.nth(index).click();
     assert(await page.locator(`#panel-u${index + 1}`).isVisible(), `Unit ${index + 1} panel did not open`);
   }
@@ -48,7 +48,7 @@ async function run() {
     await response.dispose();
   }
 
-  const sampleUrls = [topics[0].url, topics[9].url, topics[24].url];
+  const sampleUrls = [...manifest.units.map(unit => unit.hub), topics[0].url, topics[22].url, topics[44].url];
   for (const url of sampleUrls) {
     await page.goto(new URL(url, baseUrl).toString(), { waitUntil: "domcontentloaded" });
     assert(await page.locator("h1").count() === 1, `${url} must have one h1`);
@@ -64,9 +64,9 @@ async function run() {
   assert(errors.length === 0, `Browser console errors:\n${errors.join("\n")}`);
   assert(failedResources.length === 0, `Failed browser resources:\n${failedResources.join("\n")}`);
   console.log("BROWSER SMOKE TEST PASSED");
-  console.log("- Three unit panels: passed");
-  console.log("- 33 topic URLs: HTTP 200");
-  console.log("- Unit I, II and III sample pages: rendered");
+  console.log("- Five unit panels: passed");
+  console.log("- 45 revision-topic URLs: HTTP 200");
+  console.log("- Five unit hubs and sample topic pages: rendered");
   console.log("- Desktop and mobile course home: passed");
   console.log("- Browser console errors: 0");
 }

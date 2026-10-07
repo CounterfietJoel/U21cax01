@@ -11,7 +11,7 @@ When a module is revised:
    `story_content`.
 4. Copy the complete publication into the matching `modules/<slug>/` folder.
    Preserve the existing `index.html` wrapper and `module.json`.
-5. Run `python tools\validate_site.py`.
+5. Run `python tools\build_learn.py`, then `python tools\validate_site.py`.
 6. Serve the repository over local HTTP and run the Chrome smoke test described
    in `qa/README.md`.
 

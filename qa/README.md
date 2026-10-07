@@ -9,11 +9,10 @@ Google Chrome:
 Latest checks:
 
 - Static bundle validator: passed
-- Five units plus MCQs in the course menu: passed
-- Nine Unit I cards: passed
-- Nine module wrappers: HTTP 200
-- Nine Storyline `story.html` launch files: HTTP 200
-- Mobile menu open, Escape close and ARIA state: passed
+- Five unit tabs and 45 topic links on the course home: passed
+- 45 revision-topic pages and 5 unit hubs: HTTP 200, one h1 each
+- All home, hub and topic pages at 1366 px and 390 px: no horizontal overflow, no console errors
+- All internal links from generated pages resolve
 - Browser console errors: 0
 
 Re-run locally after starting an HTTP server:
